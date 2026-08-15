@@ -1,0 +1,387 @@
+[
+  {
+    "level": "Postdoctoral Researcher",
+    "students": [
+      {
+        "level": "Postdoctoral Researcher",
+        "role": "Supervisor",
+        "names": "Rabab Abumalloh",
+        "title": "The Future of Digital Citizenship in Qatar: a Socio-Technical Approach — GESI by Design",
+        "university": "Qatar University",
+        "year": "2023-2026"
+      }
+    ]
+  },
+  {
+    "level": "PhD",
+    "students": [
+      {
+        "level": "PhD",
+        "role": "Co-Supervisor",
+        "names": "Afsaneh Shibani",
+        "title": "Game-Based Learning using Virtual Reality for “Sadu”: A Qatari Traditional Textile Sewing Design and Animation",
+        "university": "Other (Outside Qatar University)",
+        "year": "2020-2025"
+      },
+      {
+        "level": "PhD",
+        "role": "Co-Supervisor",
+        "names": "Purkhet Abderyim",
+        "title": "A Study on Accurate and Efficient Vector Drawing for Laser Graphics",
+        "university": "Iwate University",
+        "year": "2006-2008"
+      },
+      {
+        "level": "PhD",
+        "role": "Co-Supervisor",
+        "names": "Menendez Francisc",
+        "title": "Laser Projection System Composed of Multi-Projectors and Curved Screen",
+        "university": "Iwate University",
+        "year": "2006-2008"
+      }
+    ]
+  },
+  {
+    "level": "M.Sc.",
+    "students": [
+      {
+        "level": "M.Sc.",
+        "role": "Co-Supervisor",
+        "names": "Hala Aburajouh",
+        "title": "Mediated Reality-Based Directional Visual Guidance for 360° Immersive Robot Teleoperation in Search and Rescue Scenarios",
+        "university": "Qatar University (Computer Science & Engineering)",
+        "year": "2024-2025"
+      },
+      {
+        "level": "M.Sc.",
+        "role": "Supervisor",
+        "names": "Somaya Eltanbouly",
+        "title": "Towards a Safer Metaverse: Anomaly Detection in Avatar Actions using Human Action Transfer Learning",
+        "university": "Qatar University (Computer Science & Engineering)",
+        "year": "2022-2024"
+      },
+      {
+        "level": "M.Sc.",
+        "role": "Supervisor",
+        "names": "Abdulrahman Al-Khayarin",
+        "title": "Intelligent Agent-based 3D Simulation of COVID-19 for Analysis of Social Control Measures",
+        "university": "Qatar University",
+        "year": "2020-2021"
+      },
+      {
+        "level": "M.Sc.",
+        "role": "Co-Supervisor",
+        "names": "Wafaa Waheeda",
+        "title": "Evaluation of 2D and 3D Techniques for Sentiment Visualization",
+        "university": "Qatar University",
+        "year": "2017-2018"
+      },
+      {
+        "level": "M.Sc.",
+        "role": "Co-Supervisor",
+        "names": "Lubna Eliyan",
+        "title": "Modeling Family Behaviors in Crowd Simulation",
+        "university": "Qatar University",
+        "year": "2015-2016"
+      },
+      {
+        "level": "M.Sc.",
+        "role": "Supervisor",
+        "names": "Mariam Salim",
+        "title": "Virtual Interactive Imagery towards Achieving Self Efficacy for Obese Individuals",
+        "university": "Qatar University",
+        "year": "2015-2016"
+      },
+      {
+        "level": "M.Sc.",
+        "role": "Co-Supervisor",
+        "names": "Hassan Abdulahi",
+        "title": "A Comprehensive Framework for Design and Evaluation of m-Learning Application",
+        "university": "Qatar University",
+        "year": "2014-2015"
+      },
+      {
+        "level": "M.Sc.",
+        "role": "Supervisor",
+        "names": "Gulrukh Khattak",
+        "title": "Study on Haptic Texture Rendering",
+        "university": "Iwate University",
+        "year": "2009-2010"
+      }
+    ]
+  },
+  {
+    "level": "B.Sc.",
+    "students": [
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Fahrel Azki Hidayat, Syed Mohammed Hamza, Marcus Monteiro, Mohd Muhtasim Bashar",
+        "title": "Multimodal Diminished Reality-Assisted Teleoperation with 360° VR and Directional Haptics for Search and Rescue",
+        "university": "Qatar University",
+        "year": "2025-2026"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Abdallah Omar, Hisham Hammad, Mohammed Jamal Hadi",
+        "title": "V-LabSec: A Virtual Reality Laboratory for the Cybersecurity Fundamentals Course",
+        "university": "Qatar University",
+        "year": "2025-2026"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Islam Hamdi, Hanan Rashid, Rain Alkai, Israa Demdoum, Leina Elsheiri",
+        "title": "BabAIlon: An AI Language Learning Application with Personalized and Emotionally Intelligent 3D Avatars",
+        "university": "Qatar University",
+        "year": "2024-2025"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Lama Albanna, Ekram Omar, Ferial Marzouk, Fatma Elbadrawy, Noor Bahzad, Haya Al-Kaabi, Deema Al-Jabir, Asma Al-Sadi",
+        "title": "Transforming Hand Rehabilitation with Soft Actuators, Extended Reality, and a Doctor-Patient Interaction Platform",
+        "university": "Qatar University",
+        "year": "2024-2025"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Salem Al-Ansari, Mohammed Al-Obaidly, Murshed Al-Muhannadi, Mouadh Ben Abderrahim",
+        "title": "Creative Scape: A VR Game for Enhancing Creativity and Problem-Solving Skills",
+        "university": "Qatar University",
+        "year": "2023-2024"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Ahmed A. Ammar, Abdul Aziz Al Hams, Mohamed Al-Yazidi",
+        "title": "Design and Development of Virtual Reality Engineering Laboratory for Remote Education",
+        "university": "Qatar University",
+        "year": "2022-2023"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Marwa Malluhi, Meriem Boussaa, Razan Malluhi",
+        "title": "Emergency Evacuation Simulation Using Artificial Intelligence",
+        "university": "Qatar University",
+        "year": "2022-2023"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Ghazi Hassan Eladawi, Omar Khaled Amin, Karim Ahmed Zayed",
+        "title": "Virtual Reality Training for Improved Public Speaking Skills",
+        "university": "Qatar University",
+        "year": "2022-2023"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Hoda Helmy, Somaya Eltanbouly, Muraam Abdel-Ghani",
+        "title": "Assistive Telexistence System Using Motion Blending",
+        "university": "Qatar University",
+        "year": "2021-2022"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Reem Al-Remaihi, Aisha Al-Raeesi, Reem Al-Kubaisi",
+        "title": "Haptic Telexistence Robotic Arm using VR System",
+        "university": "Qatar University",
+        "year": "2020-2021"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Fatema Al-sahel, Marwa Mohamed, Noura Mohamed",
+        "title": "SLARG: Smart learning using Augment Reality and Gamification",
+        "university": "Qatar University",
+        "year": "2020-2021"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Nouf AlMuraikhi, Fatima AlMalki, Fadeela AlDahnim",
+        "title": "3D Digital Modeling and Virtual Reality for Rich Interaction with Cultural Heritage Sites",
+        "university": "Qatar University",
+        "year": "2019-2020"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Mohannad HajeOmar, Mostafa Diaa Elmasry, Nageh Elsayyad",
+        "title": "Augmented Reality Indoor and Outdoor Navigation",
+        "university": "Qatar University",
+        "year": "2019-2020"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Eshraq Saleh Alhazbi, Raghd Al-Qershi, Sara Ibrahim Al-Housani",
+        "title": "An Artificial intelligence Approach for Automated Health Coaching",
+        "university": "Qatar University",
+        "year": "2018-2019"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Eman Abdulrahman, Nayla Al-Zeyara, Wasmiya Al-Dosari",
+        "title": "i-Shoe: Smart insole for Gait Monitoring",
+        "university": "Qatar University",
+        "year": "2018-2019"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Co-Supervisor",
+        "names": "Allaa Al-Khalaf, Fatemah Al-Atom, Safa Ibrahim",
+        "title": "Firefighting VR Training and Assistant System",
+        "university": "Qatar University",
+        "year": "2018-2019"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Co-Supervisor",
+        "names": "Ahmed Samatti, Muath Mushtaha, Rayan El-Fidali",
+        "title": "VR Fire Fighting training simulation",
+        "university": "Qatar University",
+        "year": "2017-2018"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Faher Bakri, Khaled Rizk, Mohammad Khader",
+        "title": "Tactile Footwear Interface To Simulate The Illusion of Walking on Different Surfaces",
+        "university": "Qatar University",
+        "year": "2017-2018"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Adham, Mohammad",
+        "title": "Design and implementation of driver drowsiness detection and alerting system",
+        "university": "Qatar University",
+        "year": "2017-2018"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Co-Supervisor",
+        "names": "Ahmed Hamdy Ibrahim, Ali Hazi, Babikr Elnimah",
+        "title": "Development of Olfactory Display and AR Application to explore the Cross-modal Association Between Vision, Gustation, and Olfaction",
+        "university": "Qatar University",
+        "year": "2016-2017"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Mohsen Yousif Kanani, Salem Ghanim Al-Ghanim, Yousif Abdulla Al-Jabir",
+        "title": "An Enhanced Adaptive Steering Algorithm for Redirected Walking in Virtual Environment",
+        "university": "Qatar University",
+        "year": "2016-2017"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Sara Ibrahim Fawal, Lina Mohamad Al-Homsi, Eman Ayman Almughanni",
+        "title": "Driver Activity Recognition from Sitting Postures and Vibrotactile-based warnings system for making driving more safe",
+        "university": "Qatar University",
+        "year": "2015-2016"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Moza Al-Hemaidi, Dabia Mohammed Al-Hassan, Hena Alpona",
+        "title": "A Comprehensive Framework for Design and Communication Skills in Children with Autism",
+        "university": "Qatar University",
+        "year": "2014-2015"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Mariam Ali Ba Hameish, Latefa Talal Al-Naimi, Amna Khalid Al-Kaabi",
+        "title": "Investigation of Haptic Seat and High-FidelityDriving Simulator in Making Driving Safer",
+        "university": "Qatar University",
+        "year": "2013-2014"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Mariam Essa Al-Ansari, Roqaya Saed Al-Shaabi, Fatma Mohammad Al-Mesaifri",
+        "title": "Incorporating Olfactory and Haptic Sensation Into Surgical Simulation",
+        "university": "Qatar University",
+        "year": "2012-2013"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Supervisor",
+        "names": "Huda Abdullateef Abu Abdullah, Sumayia Salih Alkaladi",
+        "title": "Mobile augmented navigation for pedestrian",
+        "university": "Qatar University",
+        "year": "2011-2012"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Co-Supervisor",
+        "names": "Kanaya Sunya",
+        "title": "Method for drawing lines from polygon model with consideration of aspect",
+        "university": "Iwate University",
+        "year": "2008-2009"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Co-Supervisor",
+        "names": "Erokumae Katsushi",
+        "title": "A vector representation method for drawing polygon models using laser projector",
+        "university": "Iwate University",
+        "year": "2007-2008"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Co-Supervisor",
+        "names": "Hoshino Hirotaka",
+        "title": "Research on generation method of raster graphics drawing by laser pointer",
+        "university": "Iwate University",
+        "year": "2007-2008"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Co-Supervisor",
+        "names": "Sugawara Katsunori",
+        "title": "Fundamental study on raster & laser projection for hybrid graphics technology",
+        "university": "Iwate University",
+        "year": "2007-2008"
+      },
+      {
+        "level": "B.Sc.",
+        "role": "Co-Supervisor",
+        "names": "Ogawa Yuuki",
+        "title": "Method for Drawing Data From Raster Type Line Image for Laser Projectors",
+        "university": "Iwate University",
+        "year": "2006-2007"
+      }
+    ]
+  },
+  {
+    "level": "Internship Supervision",
+    "students": [
+      {
+        "level": "Internship Supervision",
+        "role": "Internship Advisor",
+        "names": "Fenaux, Leroux",
+        "title": "Intelligent Opposing and Allied Forces with VR and Haptic Simulation: The Future of Military Training",
+        "university": "Other (Outside Qatar University)",
+        "year": "2024"
+      },
+      {
+        "level": "Internship Supervision",
+        "role": "Internship Advisor",
+        "names": "Jean Pélissié du Rausas, Gauthier Bastiat",
+        "title": "Implementing a Tactical Simulation to Assess the Impact of Drones on the Military Maneuver",
+        "university": "Other (Outside Qatar University)",
+        "year": "2023"
+      }
+    ]
+  }
+]

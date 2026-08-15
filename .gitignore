@@ -1,0 +1,19 @@
+# Machine-local state -- not meant to be shared or committed
+.claude/settings.local.json
+.impeccable/
+
+# Raw content-harvest sources: already processed into Data/*.json by the
+# one-off scripts documented in PLAN.md/HANDOVER.md. Not read by build.py,
+# large (~55MB combined), and old Google Sites exports carry more than we've
+# audited -- kept locally as provenance, not published.
+Data/Osama Halabi - Research.html
+Data/Osama Halabi - Research_files/
+Data/Osama Halabi - Supervision.html
+Data/Osama Halabi - Supervision_files/
+Data/Doc. Osama_2.png
+Data/assignment_history.csv
+
+# CV PDF: still has a personal (non-work) email address in it as of
+# 2026-08-15 -- see scripts/check_cv_privacy.py. Excluded until a cleaned
+# version replaces it (About/Contact's CV link will 404 until then).
+Data/cv_Osama_Halabi.pdf

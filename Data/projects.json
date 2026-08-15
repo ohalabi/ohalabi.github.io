@@ -1,0 +1,550 @@
+{
+  "source_note": "List of my projects with details about each project can provide valuable insights into my work. Each project represents a unique opportunity to explore challenges, solutions, and outcomes across research, community outreach, and technological innovation, showcasing my dedication and expertise.",
+  "categories": [
+    {
+      "name": "Core Research Projects",
+      "projects": [
+        {
+          "title": "Tactile Footwear Interface to Create the Illusion of Walking on Different Surfaces",
+          "bullets": [
+            "This project designs and develops an integrated feet-haptic insole paired with a mixed-reality environment to create the illusion of walking on virtual textures, enhancing the realism of virtual and augmented reality experiences. Where most texture-simulation research targets the hand, this system adapts tactile-communication mechanisms to the sole of the foot, accounting for the distribution and sensitivity of its mechanoreceptors, and drives an array of vibrotactile motors using two controllable parameters, PWM frequency and motor activation time, to render distinct surfaces such as sand, sponge, and wood. An algorithm tracks and analyzes user movement to synchronize tactile feedback with gait, and the system was evaluated through several virtual and augmented scenarios combining visual, auditory, and tactile cues. Experiments measured texture recognition rates and user satisfaction across participants, with intended applications spanning rehabilitation, gamification, training, and entertainment."
+          ],
+          "images": [
+            "assets/img/projects/tactile-footwear-interface-to-create-the-illusion-of-walking-1.webp",
+            "assets/img/projects/tactile-footwear-interface-to-create-the-illusion-of-walking-2.webp",
+            "assets/img/projects/tactile-footwear-interface-to-create-the-illusion-of-walking-3.webp",
+            "assets/img/projects/tactile-footwear-interface-to-create-the-illusion-of-walking-4.webp",
+            "assets/img/projects/tactile-footwear-interface-to-create-the-illusion-of-walking-5.webp",
+            "assets/img/projects/tactile-footwear-interface-to-create-the-illusion-of-walking-6.webp"
+          ]
+        },
+        {
+          "title": "Self-Powered IoT-Enabled Water Monitoring System",
+          "bullets": [
+            "While usable water on earth is sparse and costly to treat, statistics show excessive use worldwide. Penalties are issued to limit the excessive consumption; however, their impact is marginal as they do not identify the reason for the exorbitant consumption. Therefore, giving users the full awareness about their water consumption will greatly help in minimizing the water waste. This article aims to present a smart self-powered water monitoring system that leverages IoT and cloud computing. The system consists of an IoT device that can be installed at any water source, a cloud application to receive the data from the devices, and a mobile app to visualize the water consumption at every monitored source. This system gives the user the ability to identify the location and time of the excessive usage and leaks on the mobile phone.Experimental results confirm the self-powered premise of the solution. A prototype of mobile application and backend have been developed and tested."
+          ],
+          "images": [
+            "assets/img/projects/self-powered-iot-enabled-water-monitoring-system-1.webp",
+            "assets/img/projects/self-powered-iot-enabled-water-monitoring-system-2.webp"
+          ]
+        },
+        {
+          "title": "Firefighting Simulation Training System Using Virtual Reality",
+          "bullets": [
+            "This project develops a multimodal virtual reality training and evaluation environment for firefighters, grounded in a study of firefighting standards, curricula, and existing training systems. Beyond visual immersion, the environment reproduces smell through microcontroller-driven air pumps releasing manufactured scents and heat through microcontroller-driven heat pads, alongside trackers and other sensory devices that heighten realism and support trainee assessment. A companion web application manages courses, evaluation, and training progress. At its core is a trainee-evaluation system that draws on standards-based criteria to score performance more accurately, built on elementary firefighting scenarios as proof-of-concept building blocks toward a fuller training environment. The resulting prototype is modifiable, usable, and accessible regardless of weather conditions, offering a safe, low-cost, and flexible alternative to physical fire training grounds."
+          ],
+          "images": [
+            "assets/img/projects/firefighting-simulation-training-system-using-virtual-realit-1.webp",
+            "assets/img/projects/firefighting-simulation-training-system-using-virtual-realit-2.webp"
+          ]
+        },
+        {
+          "title": "Haptic Virtual Fixtures for Preoperative Surgical Planning",
+          "bullets": [
+            "Haptic virtual fixtures (VFs) are force feedback mechanisms that enhance the human performance of tele-op- erative procedures where visual guidance suffers from many limitations. Many papers have explored the in- tegration of VFs with tele-robotic procedures. However, only a few studies have included preoperative planning to their assembly. We created a novel VF design using procedures that require navigation along a path. Our design is based on the assembly of VF elements that fit along the path. To improve the design, we performed experiments to define the optimal properties in terms of highest accuracy and shortest task completion times for path-following procedures. The feasibility of the proposed method was tested on a preoperative simulated surgical planning task. Results demonstrate that the integration of the proposed VFs, which combine haptic force-field guidance and forbidden-region constraints with visual cues, increases accuracy and reduces the time taken to perform tasks."
+          ],
+          "images": [
+            "assets/img/projects/haptic-virtual-fixtures-for-preoperative-tsurgical-planning-1.webp",
+            "assets/img/projects/haptic-virtual-fixtures-for-preoperative-tsurgical-planning-2.webp"
+          ]
+        },
+        {
+          "title": "Design of Immersive Virtual Reality System to Improve Communication Skills in Individuals with Autism",
+          "bullets": [
+            "Individuals with Autism Spectrum Disorder (ASD) regularly encounter situations where they must respond to questions they do not know how to answer, such as those posed by strangers about everyday tasks. This project develops an interactive, scenario-based virtual reality system that uses role-play and turn-taking to train social and communication skills in high-functioning autistic children aged 9-12, and compares its effectiveness across three display platforms: an immersive CAVE, a head-mounted display (Oculus Rift), and a conventional desktop screen. A virtual teacher character guides the child through a classroom greeting scenario, using auto-navigation, LEAP Motion gesture tracking, and speech recognition to interpret verbal and non-verbal responses, with positive reinforcement rewarding correct actions. Sensory parameters such as lighting, color, and sound were carefully tuned to keep the environment comfortable and non-intimidating. Testing found the CAVE the most favored display for its unrestricted field of view, and children who completed the training subsequently responded appropriately when greeted by a stranger outside the virtual environment, indicating that the learned behavior transferred to a real-world social interaction."
+          ],
+          "images": [
+            "assets/img/projects/design-of-immersive-virtual-reality-system-to-improve-commun-1.webp",
+            "assets/img/projects/design-of-immersive-virtual-reality-system-to-improve-commun-2.webp",
+            "assets/img/projects/design-of-immersive-virtual-reality-system-to-improve-commun-3.webp"
+          ]
+        },
+        {
+          "title": "Enhanced Redirected Walking Algorithm",
+          "bullets": [
+            "Redirected walking (RDW) lets a user perceive continuous, unbounded locomotion in a virtual environment while physically confined to a small tracking space, by subtly steering the real-world walking path away from the one seen in the head-mounted display. Established approaches such as Steer-to-Orbit (S2O) and Steer-to-Center (S2C) are effective but each demands a comparatively large tracking area. This project introduces a redirection algorithm built on Hypotrochoid curves, generating a family of distinct redirection paths, and a dynamic controller that switches between algorithms based on the current virtual environment. A guidance avatar was also implemented to lead the user along the redirected path and mask the applied distortions. In a presence questionnaire run on a 4x4 meter tracking area, the Hypotrochoid algorithm produced a stronger sense of presence and less dizziness than both S2O and S2C, with the guidance avatar giving a further, modest improvement."
+          ],
+          "images": [
+            "assets/img/projects/enhanced-redirected-walking-algorithm-1.webp",
+            "assets/img/projects/enhanced-redirected-walking-algorithm-2.webp"
+          ]
+        },
+        {
+          "title": "Response Times for Auditory and Vibrotactile Directional Cues in Different Immersive Displays",
+          "bullets": [
+            "Using multisensory signals in advanced driver assistance is continuously increasing as a way to increase the attention and reduce the reaction time. It is essential that driver assistance system is capable of providing directional cues to the driver to direct his attention to the sides of the car as usually the focus is in front of the car. These signals could be for blind spot information, navigation, lane departure warning, collision warning, etc. This study investigated the effect of auditory and vibrotactile on directional attention in driver assistance systems. Moreover, two types of immersive displays were used in the driving simulation, namely the Head Mounted Display (HMD) and CAVE display, to study the effect of the type of display on the human performance. Lane Chang Task was used to assess the attention by measuring the response time to directional information. Vibrotactile and Auditory cues induced equal response times, meanwhile, vibrotactile signal was significantly gained higher satisfaction than auditory."
+          ],
+          "images": [
+            "assets/img/projects/response-times-for-auditory-and-vibrotactile-directional-cue-1.webp",
+            "assets/img/projects/response-times-for-auditory-and-vibrotactile-directional-cue-2.webp"
+          ]
+        },
+        {
+          "title": "Driver Activity Recognition in Virtual Reality Driving Simulation",
+          "bullets": [
+            "This project designs a driver's seat with two complementary features: an activity-recognition system that infers sitting posture from two force-sensor arrays embedded in the seat and backrest, and a vibrotactile seat that alerts the driver whenever an unsafe posture or missed activity is detected. Sensor placement was iterated to identify the distribution that maximizes recognition accuracy across ten distinct driving postures. A Virtual Reality driving simulator, built around an Oculus head-mounted display, was developed to evaluate the system in an immersive setting, and recognition accuracy was compared between a realistic desktop setup and the VR environment; the VR condition improved accuracy for several postures. Additional trials measured driver response time to the vibrotactile alert, finding that success in responding correctly depended on the driver's familiarity with that warning modality."
+          ],
+          "images": [
+            "assets/img/projects/driver-activity-recognition-in-virtual-reality-driving-simul-1.webp",
+            "assets/img/projects/driver-activity-recognition-in-virtual-reality-driving-simul-2.webp",
+            "assets/img/projects/driver-activity-recognition-in-virtual-reality-driving-simul-3.webp"
+          ]
+        },
+        {
+          "title": "A Study on the Design and Effectiveness of Tactile Feedback in Driving Simulator",
+          "bullets": [
+            "This project investigates a high-fidelity driving simulator built around a haptic seat, addressing both its physical design and its effectiveness as a navigation and warning channel. The seat delivers vibrotactile cues through an array of vibration motors, with intensity, position, and rhythm parameters tuned through experiments to maximize driver satisfaction and comfort. To evaluate the seat against conventional feedback, an HMD-based driving simulation compared driver response time and preference for vibrotactile versus audio navigation cues. Results showed that users responded to the vibrotactile seat as quickly as to audio cues while reporting a stronger preference for it, supporting haptic seats as a viable, lower-distraction alternative to audio and visual warnings for in-vehicle navigation and safety systems."
+          ],
+          "images": [
+            "assets/img/projects/a-study-on-the-design-and-effectiveness-of-tactile-feedback--1.webp",
+            "assets/img/projects/a-study-on-the-design-and-effectiveness-of-tactile-feedback--2.webp",
+            "assets/img/projects/a-study-on-the-design-and-effectiveness-of-tactile-feedback--3.webp"
+          ]
+        },
+        {
+          "title": "Optimum Design of Haptic Seat for Driving Simulator",
+          "bullets": [
+            "Driving simulations are widely used to send navigational and warning information to help drivers navigate safely. Haptic-based information in vehicles has major safety implications on reducing visual and auditory overload in driving [Jeon et al. 2013]. Given that seats are interfaces that touch the largest area of the driver’s body, it is a sensible choice to consider as additional channel of information to the driver.",
+            "The aim of this work is to design and develop an optimal vibrotactile seat to provide a high level of satisfaction to the driver. Three main critical design parameters were considered: (1) proper intensity of vibration, (2) position of vibrators and minimum distance between distinguishable vibrations, (3) rhythm of vibration. Experiments were conducted to investigate the proper values of voltage, frequency, and amplitude that are specifically related to the developed haptic seat. A driving simulation was developed for Head-Mounted Display (HMD) to evaluate the haptic interface for the car’s seat in a realistic simulation"
+          ],
+          "images": [
+            "assets/img/projects/optimum-design-of-haptic-seat-for-driving-simulator-1.webp"
+          ]
+        },
+        {
+          "title": "Incorporating Olfactory into a Multi-Modal Surgical Simulation",
+          "bullets": [
+            "iHOSS is a multimodal surgical simulator that augments the standard visual channel of virtual-reality surgical training with haptic and olfactory feedback. A PHANToM haptic device renders the sense of touch as the trainee manipulates a virtual scalpel through a 3D anatomical model, while a custom-built scent diffuser releases an odor whenever the trainee cuts the wrong tissue region, giving an additional, non-visual error cue. In a comparative evaluation, three groups of testers repeated a virtual appendix-cutting task under smell-only, vision-only, and combined vision-and-smell error indication across two trials; the smell-cued group showed the largest reduction in cutting error, and testers who recalled the odor also recalled the location of their mistake more reliably. The findings indicate that incorporating additional sensory channels into surgical simulation improves memory retention of errors and reduces repeated mistakes, with the same approach applicable to other training domains such as firefighting."
+          ],
+          "images": [
+            "assets/img/projects/incorporating-olfactory-into-a-multi-modal-surgical-simulati-1.webp",
+            "assets/img/projects/incorporating-olfactory-into-a-multi-modal-surgical-simulati-2.webp"
+          ]
+        },
+        {
+          "title": "Mobile Augmented Reality for Pedestrian Navigation",
+          "bullets": [
+            "ARwalker is a mobile augmented reality navigation aid for pedestrians on Qatar University's outdoor campus, built to replace static campus maps with live, camera-based guidance. Pointing the phone's camera at the surroundings overlays 2D and 3D directional cues and point-of-interest information — building history and facilities — onto the real-time camera feed, while GPS localizes the user against a database of campus buildings to display current location and estimated time to destination. The prototype was developed with an open-source SDK on the iPhone platform."
+          ],
+          "images": [
+            "assets/img/projects/mobile-augmented-reality-for-pedestrian-navigation-1.webp",
+            "assets/img/projects/mobile-augmented-reality-for-pedestrian-navigation-2.webp"
+          ]
+        },
+        {
+          "title": "3D Crowd Simulation for Emergency Evacuation",
+          "bullets": [
+            "The main objective of this project is to create a crowd simulation that handles evacuation process. The simulation addresses the behaviors of crowd of agents in an emergency evacuation. We have used the crowd utility provided in Autodesk 3ds Max 2013 and MAXScript programming language to implement our crowd simulation. We believe that this project and its kind, is intended to be used by companies, schools, shopping malls, notional airports, and any other closed or open popular places here in Qatar or outside, to educate and aware people how to behave in serious situations."
+          ],
+          "images": [
+            "assets/img/projects/3d-crowd-simulation-for-emergency-evacuation-1.webp",
+            "assets/img/projects/3d-crowd-simulation-for-emergency-evacuation-2.webp"
+          ]
+        },
+        {
+          "title": "Navigation Aid for Blind People Using Depth Information and Augmented Reality Technology",
+          "bullets": [
+            "This project presents a new navigation aid hybrid system for blind people based on depth information, Augmented Reality (AR), and 3D sound. The system acquires depth data in real-time from Kinect depth sensor and detect the object, then generate 3D spatial sound to convey the direction and the distance of the nearest object. The RGB camera in the same Kinect sensor is used to recognize AR markers and provide adequate information about the surrounding environment using synthesized sound. The system architecture ensures satisfactory real-time performance, which contributed to the improvement achieved towards smooth and unhindered blind travel in indoor environment, and provided adequate help information about the surrounding environment as well."
+          ],
+          "images": [
+            "assets/img/projects/navigation-aid-for-blind-people-using-depth-information-and--1.webp",
+            "assets/img/projects/navigation-aid-for-blind-people-using-depth-information-and--2.webp"
+          ]
+        },
+        {
+          "title": "Multidimensional Visual Aid Enhances Haptic Training Simulations",
+          "bullets": [
+            "This research explores the use of hypotrochoidcurves as visual aids forhaptictraining systems that are used to teach motor skills that require recall of forces and positions at specific locations to replicate the expert touch.",
+            "The visual aid presented is a multidimensional feedback tool that can provide information on force, position, and velocity simultaneously.",
+            "The extent of learning is measured by the accuracy of the force recall.",
+            "Results suggest that multidimensional feedback is an effective way to promote learning of forces."
+          ],
+          "images": [
+            "assets/img/projects/multidimensional-visual-aid-enhances-haptic-training-simulat-1.webp"
+          ]
+        },
+        {
+          "title": "An Artificial Intelligence Approach for Automated Health Coaching",
+          "bullets": [
+            "This project proposes a healthy-lifestyle coaching system that uses machine learning to give personalized daily feedback through a virtual coach, targeting users who want to lose weight, build lean muscle, or maintain their current weight. Most existing fitness and health apps rely on self-reported biometric and activity data, which many users find tedious to enter and abandon over time. To remove this burden, the system pairs a wristband — built around a Bluno Beetle BLE microcontroller with a heart-rate sensor and a 6-axis accelerometer/gyroscope — with a companion mobile app, automatically streaming heart rate and physical-activity data over Bluetooth rather than requiring manual logging. A k-nearest-neighbors classifier recognizes the user's current activity from the sensor stream, and a decision-tree model combines that activity, heart rate, weather, and the user's stated goal to generate an instant, personalized coaching recommendation. A pilot study assessed the feasibility, effectiveness, and acceptability of the approach, testing the hypothesis that automated, AI-driven coaching paired with a wearable device improves physical activity levels and supports weight loss."
+          ],
+          "images": [
+            "assets/img/projects/an-artificial-intelligence-approach-for-automated-health-coaching-1.webp",
+            "assets/img/projects/an-artificial-intelligence-approach-for-automated-health-coaching-2.webp",
+            "assets/img/projects/an-artificial-intelligence-approach-for-automated-health-coaching-3.webp"
+          ]
+        },
+        {
+          "title": "Haptic Telexistence Robotic Arm Using VR System",
+          "bullets": [
+            "This project develops a telexistence system that lets an operator control a robotic arm at a remote site while perceiving its actions through a stereo camera streamed live to a VR headset. A force-feedback exoskeleton worn on the operator's hand captures finger motion via potentiometers and drives the remote gripper's servos, while force-sensitive resistors on the gripper's fingertips relay contact-force readings back to the exoskeleton as haptic feedback, giving the operator a felt sense of what the gripper touches. A WebRTC-based relay server synchronizes video, robot-angle, and haptic data wirelessly between the local and remote PCs. Operators using the system were able to perform basic manipulation tasks — holding and repositioning objects up to roughly 6 cm wide and 250 g — while receiving haptic feedback and maintaining a sense of presence, pointing toward applications in remote medical and industrial work that reduce direct physical contact and transportation constraints."
+          ],
+          "images": [
+            "assets/img/projects/haptic-telexistence-robotic-arm-using-vr-system-1.webp",
+            "assets/img/projects/haptic-telexistence-robotic-arm-using-vr-system-2.webp",
+            "assets/img/projects/haptic-telexistence-robotic-arm-using-vr-system-3.webp"
+          ]
+        },
+        {
+          "title": "Development of Olfactory Display and AR Application to Explore the Cross-Modal Association Between Vision, Gustation, and Olfaction",
+          "bullets": [
+            "This project investigates whether augmented reality and a custom-built olfactory display can be combined to convince users they are consuming a beverage they are not, in support of substance-abuse prevention research. An Oculus Rift headset fitted with a stereoscopic camera visually alters the appearance of a non-coffee beverage to resemble coffee, while an Arduino-driven olfactory display, worn on the body and connected via airline tubing to a delivery point near the nose, releases a matching coffee scent at the moment the drink approaches the user's mouth. The two channels are synchronized over Bluetooth so that visual and olfactory cues can be tested alone or together. Across a series of user studies, most participants judged the beverage to be coffee when both vision and smell were altered, with olfaction alone producing a similarly strong effect and vision alone a weaker one; participants also reported that scent was most convincing when paired with the corresponding visual change. The results demonstrate that an AR headset combined with an olfactory display can reliably manipulate perceived taste in the absence of its usual sensory catalysts."
+          ],
+          "images": [
+            "assets/img/projects/development-of-olfactory-display-and-ar-application-to-explore-the-cross-modal-association-between-vision-gustation-and-olfaction-1.webp",
+            "assets/img/projects/development-of-olfactory-display-and-ar-application-to-explore-the-cross-modal-association-between-vision-gustation-and-olfaction-2.webp",
+            "assets/img/projects/development-of-olfactory-display-and-ar-application-to-explore-the-cross-modal-association-between-vision-gustation-and-olfaction-3.webp"
+          ]
+        },
+        {
+          "title": "Virtual Reality Training for Improved Public Speaking Skills",
+          "bullets": [
+            "The fear of public speaking is a prevalent and often incapacitating anxiety that poses challenges for individuals, particularly students, when it comes to effectively delivering presentations in academic environments. To address this, a virtual reality (VR) training system was developed for presentation skills development, faithfully reproducing real-life presentation scenarios with a responsive virtual audience that reacts to the presentation in real time. By employing biometric measurements such as heart rate, together with analysis of eye movement and hand gestures, the system evaluates user performance and response during the presentation. Testing on a representative sample of users, tracking heart rate, eye-tracking scores, and hand-movement scores across three training sessions, showed notable improvements in scores and a reduction in heart rate over time. Users who engaged in the VR simulation training demonstrated enhanced confidence, diminished stress levels, and tangible advancement in their public speaking abilities, within a secure and controlled practice environment."
+          ],
+          "images": [
+            "assets/img/projects/virtual-reality-training-for-improved-public-speaking-skills-1.webp",
+            "assets/img/projects/virtual-reality-training-for-improved-public-speaking-skills-2.webp",
+            "assets/img/projects/virtual-reality-training-for-improved-public-speaking-skills-3.webp"
+          ]
+        },
+        {
+          "title": "i-Shoe: Smart Insole for Gait Monitoring",
+          "bullets": [
+            "i-Shoe is a smart insole system for unobtrusive gait monitoring, instrumenting each shoe with eight force-sensitive resistors to measure plantar pressure distribution and a low-power, wireless-enabled microcontroller to stream the readings in real time. A companion mobile application visualizes the incoming sensor data as live and averaged pressure heat maps of the foot, highlighting the regions of greatest load concentration. Machine learning classifiers are trained on the collected pressure data to extract gait features and flag abnormalities such as flatfoot and unbalanced gait. Tested on a group of participants with known gait abnormalities, the system successfully identified the affected cases, demonstrating the feasibility of low-cost wearable sensing for personal gait assessment outside the clinical setting, with potential extensions toward diabetic foot detection, rehabilitation tracking, and athletic gait monitoring."
+          ],
+          "images": [
+            "assets/img/projects/i-shoe-smart-insole-for-gait-monitoring-1.webp",
+            "assets/img/projects/i-shoe-smart-insole-for-gait-monitoring-2.webp",
+            "assets/img/projects/i-shoe-smart-insole-for-gait-monitoring-3.webp"
+          ]
+        },
+        {
+          "title": "Creative Scape: A VR Game for Enhancing Creativity and Problem-Solving Skills",
+          "bullets": [
+            "Creative Scape is a virtual reality game suite designed to enhance creativity, problem-solving, and physical activity through the gamification of established cognitive and motor exercises. The system comprises three interconnected VR experiences: an escape-room puzzle environment that trains problem-solving through pattern-matching and spatial-reasoning tasks, a block-building sandbox that encourages open-ended creative construction, and a saber-based block-cutting game that promotes physical activity through timed, precision movements. Developed using an interdisciplinary methodology combining cognitive psychology, game design, and software engineering, the project transforms proven cognitive and physical exercises into intuitive, engaging interactions rather than designing for entertainment alone. User testing sessions combining quantitative performance data with qualitative feedback showed measurable improvement in targeted cognitive and physical skills across pre- and post-test comparisons, demonstrating the potential of VR to deliver immersive, effective skill-building experiences beyond conventional educational methods."
+          ],
+          "images": [
+            "assets/img/projects/creative-scape-a-vr-game-for-enhancing-creativity-and-problem-solving-skills-1.webp",
+            "assets/img/projects/creative-scape-a-vr-game-for-enhancing-creativity-and-problem-solving-skills-2.webp",
+            "assets/img/projects/creative-scape-a-vr-game-for-enhancing-creativity-and-problem-solving-skills-3.webp"
+          ]
+        },
+        {
+          "title": "3D Digital Modeling and Virtual Reality for Rich Interaction with Cultural Heritage Sites",
+          "bullets": [
+            "This project documents a heritage building in Qatar as part of a broader effort to preserve the country's built heritage, using close-range photogrammetry to construct a detailed three-dimensional model from photographs captured on site. The resulting point cloud is cleaned and prepared in 3D modeling software before being imported into a game engine, where it is combined with period-appropriate avatars representing the people who once inhabited the space, reconstructing something of the site's historical life and atmosphere. The finished environment is deployed as an interactive, first-person virtual reality experience with collision handling and scripted events, allowing a user wearing a head-mounted display to walk through and interact with the reconstructed site. The work explores and compares techniques for 3D site capture, mesh cleanup, and VR deployment, aiming at an interface capable of presenting a fully rendered historical environment for immersive exploration."
+          ],
+          "images": [
+            "assets/img/projects/3d-digital-modeling-and-virtual-reality-for-rich-interaction-with-cultural-heritage-sites-1.webp",
+            "assets/img/projects/3d-digital-modeling-and-virtual-reality-for-rich-interaction-with-cultural-heritage-sites-2.webp",
+            "assets/img/projects/3d-digital-modeling-and-virtual-reality-for-rich-interaction-with-cultural-heritage-sites-3.webp"
+          ]
+        },
+        {
+          "title": "Design and Development of Virtual Reality Engineering Laboratory for Remote Education",
+          "bullets": [
+            "The COVID-19 pandemic underscored the limits of online learning for practical, hands-on subjects. This project addresses that gap with a Virtual Reality Laboratory (VRL), a networked multi-user virtual replica of a university engineering lab that lets students perform hands-on experiments and collaborate remotely from anywhere in the world. Within the VRL, students select and place components — wires, logic ICs, and breadboards — through a tablet-driven tool and catalog interface, wire up digital logic circuits by hand in VR, and observe live functional feedback such as an LED lighting when a circuit is completed correctly, while an instructor role can monitor progress, mute participants, and toggle exam or viewer modes. Built with a client-server networked architecture and voice communication, the system was evaluated against equivalent physical lab sessions across multiple student groups, with results showing that learning effectiveness in the virtual environment matched, and in some cases exceeded, that of traditional in-person laboratory instruction."
+          ],
+          "images": [
+            "assets/img/projects/design-and-development-of-virtual-reality-engineering-laboratory-for-remote-education-1.webp",
+            "assets/img/projects/design-and-development-of-virtual-reality-engineering-laboratory-for-remote-education-2.webp",
+            "assets/img/projects/design-and-development-of-virtual-reality-engineering-laboratory-for-remote-education-3.webp"
+          ]
+        },
+        {
+          "title": "Smart Learning Using Augmented Reality and Gamification",
+          "bullets": [
+            "This project presents SLARG, a mobile augmented reality system for primary-school science education paired with gamification to increase student engagement. Using marker-based AR tracking, the application overlays 2D and 3D models, video, and text onto printed textbook pages, letting students visualize course topics — such as heat sources and material properties — in an interactive, spatially anchored form. Three accompanying video games reinforce each topic, letting students test their understanding and encouraging independent practice. Leaderboards track individual performance and are visible to students, teachers, and parents, with privacy safeguards for other students sharing the same course. In a controlled evaluation comparing traditional instruction, gamified instruction, AR alone, and AR combined with gamification, the combined approach produced the highest student performance scores and the strongest ratings for satisfaction, learnability, and effectiveness."
+          ],
+          "images": [
+            "assets/img/projects/smart-learning-using-augmented-reality-and-gamification-1.webp",
+            "assets/img/projects/smart-learning-using-augmented-reality-and-gamification-2.webp"
+          ]
+        },
+        {
+          "title": "Assistive Telexistence System Using Motion Blending",
+          "bullets": [
+            "Telexistence systems allow a user to interact physically with a remote environment while feeling fully present in it, but current remote-working solutions fall short of this immersive standard. This project develops an assistive telexistence system built around a five-finger robotic hand on the remote side that maps the user's hand motion more closely than a conventional gripper, paired with a haptic feedback glove so the user feels the objects the hand touches. A stereoscopic camera stream, viewable from different angles via head tracking, supports visual immersion, while a motion-blending autonomy layer assists the user in reaching and grasping intended objects. In a user study across four conditions, 70% of participants preferred the system with both haptic feedback and assistance enabled; a repeated-measures ANOVA on sense-of-body-agency questionnaire responses showed the assistance module significantly improved participants' sense of control over the robotic arm, while haptic feedback increased their sense of assurance in completing tasks."
+          ],
+          "images": [
+            "assets/img/projects/assistive-telexistence-system-using-motion-blending-1.webp",
+            "assets/img/projects/assistive-telexistence-system-using-motion-blending-2.webp",
+            "assets/img/projects/assistive-telexistence-system-using-motion-blending-3.webp"
+          ]
+        },
+        {
+          "title": "Transforming Hand Rehabilitation with Soft Actuators, Extended Reality, and a Doctor-Patient Interaction Platform",
+          "bullets": [
+            "This project develops an integrated hand-rehabilitation system combining soft silicone actuators, an extended reality (XR) training environment, and a web-based doctor-patient interaction platform. Soft pneumatic actuators, fabricated using multi-material 3D-printed molds, are embedded with flex and pressure sensors and assembled into a lightweight, wearable glove that assists finger movement and monitors user progress during rehabilitation exercises. The glove interfaces with a Unity-based XR application in which patients perform gamified pinching and gripping tasks in an immersive environment, while an accompanying website allows doctors to remotely assign exercises, track patient performance, and view hand-motion visualizations synchronized with sensor data. The three subsystems are integrated end-to-end through a shared patient/doctor database, enabling real-time feedback between the physical device, the virtual training environment, and clinical monitoring. Safety, performance, and pose-accuracy testing validate the hand device, XR game, and website subsystems both individually and as an integrated platform, demonstrating a novel, more engaging and remotely supervised approach to hand rehabilitation."
+          ],
+          "images": [
+            "assets/img/projects/transforming-hand-rehabilitation-with-soft-actuators-extended-reality-and-a-doctor-patient-interaction-platform-1.webp",
+            "assets/img/projects/transforming-hand-rehabilitation-with-soft-actuators-extended-reality-and-a-doctor-patient-interaction-platform-2.webp",
+            "assets/img/projects/transforming-hand-rehabilitation-with-soft-actuators-extended-reality-and-a-doctor-patient-interaction-platform-3.webp",
+            "assets/img/projects/transforming-hand-rehabilitation-with-soft-actuators-extended-reality-and-a-doctor-patient-interaction-platform-4.webp",
+            "assets/img/projects/transforming-hand-rehabilitation-with-soft-actuators-extended-reality-and-a-doctor-patient-interaction-platform-5.webp"
+          ]
+        },
+        {
+          "title": "V-LabSec: A Virtual Reality Laboratory for the Cybersecurity Fundamentals Course",
+          "bullets": [
+            "This project addresses the lack of a hands-on laboratory component in the Cybersecurity Fundamentals course, where students learn theory but have limited opportunity to experience how cyberattacks unfold and defenses are implemented. V-LabSec introduces a Virtual Reality laboratory that extends the course syllabus with immersive, puzzle-based training, aligning each VR \"room\" with a specific topic, including the CIA triad, malware, authentication, access control, cryptography, penetration testing, and privacy. Students solve authentic scenario-based challenges, such as decrypting a key, identifying malicious processes, or configuring secure access policies, while the system logs performance and generates automated reports. Unlike general-purpose security VR games, V-LabSec is purpose-built as a structured academic lab, mapping every puzzle directly to course learning outcomes and giving instructors measurable, per-student progress indicators alongside the existing lecture-based instruction."
+          ],
+          "images": [
+            "assets/img/projects/v-labsec-a-virtual-reality-laboratory-for-the-cybersecurity-fundamentals-course-1.webp",
+            "assets/img/projects/v-labsec-a-virtual-reality-laboratory-for-the-cybersecurity-fundamentals-course-2.webp",
+            "assets/img/projects/v-labsec-a-virtual-reality-laboratory-for-the-cybersecurity-fundamentals-course-3.webp"
+          ]
+        },
+        {
+          "title": "BabAIlon: An AI Language Learning Application with Personalized and Emotionally Intelligent 3D Avatars",
+          "bullets": [
+            "This project presents BabAIlon, an AI-driven language-learning application that uses emotionally intelligent 3D avatars to provide realistic, immersive conversational practice. Addressing the gap between traditional language study and real-world fluency, the system pairs a character-selection frontend with a backend pipeline that generates character-specific dialogue via a large language model, detects emotion in the generated response, and produces synchronized lip-sync data to animate the avatar's facial expressions and speech in real time. The application integrates speech recognition and natural language processing to deliver nuanced feedback on pronunciation, grammar, word choice, and cultural context, adapting to each learner's proficiency level. Real-time and post-session feedback, together with a progress dashboard, support continuous skill development. By combining natural conversational interaction with emotional engagement, BabAIlon aims to make language learning more effective, personalized, and motivating than conventional platforms."
+          ],
+          "images": [
+            "assets/img/projects/babailon-an-ai-language-learning-application-with-personalized-and-emotionally-intelligent-3d-avatars-1.webp",
+            "assets/img/projects/babailon-an-ai-language-learning-application-with-personalized-and-emotionally-intelligent-3d-avatars-2.webp",
+            "assets/img/projects/babailon-an-ai-language-learning-application-with-personalized-and-emotionally-intelligent-3d-avatars-3.webp"
+          ]
+        },
+        {
+          "title": "Emergency Evacuation Simulation Using Artificial Intelligence",
+          "bullets": [
+            "This project simulates human behavior during building evacuations, combining classical and learning-based artificial intelligence to route crowds of agents toward safety. A NavMesh-based pathfinding system using the A* algorithm lets agents find and follow efficient paths to exits in buildings of any size or layout, while a separately developed agent uses deep reinforcement learning to train neural networks that navigate and exit small-scale environments. Both agent types avoid obstacles and other agents en route to their goal. Agents are rendered as animated 3D human characters rather than abstract markers, giving the simulation a more realistic sense of crowd movement. Evacuation times produced by the trained models are compared against recorded real-world evacuation footage to assess accuracy. The system is intended for use in schools, offices, malls, airports, and other public venues in Qatar and elsewhere, to plan evacuation routes and train occupants for emergency situations."
+          ],
+          "images": [
+            "assets/img/projects/emergency-evacuation-simulation-using-artificial-intelligence-1.webp",
+            "assets/img/projects/emergency-evacuation-simulation-using-artificial-intelligence-2.webp",
+            "assets/img/projects/emergency-evacuation-simulation-using-artificial-intelligence-3.webp"
+          ]
+        },
+        {
+          "title": "Multimodal Diminished Reality-Assisted Teleoperation with 360° VR and Directional Haptics for Search and Rescue",
+          "bullets": [
+            "Search and rescue operations often require robots to navigate dark, cluttered, and hazardous environments where human responders face significant risk, and conventional visual-only teleoperation interfaces are limited by occlusion, low-light conditions, and cognitive overload. This project presents an integrated teleoperation framework, SENTRY, that combines 360° VR streaming, diminished reality for visual clutter reduction, and multimodal sensing (thermal imaging, stereo audio, and a directional haptic belt) to guide operators toward task-relevant cues. A tracked mobile robot equipped with RGB and thermal cameras streams panoramic video to an HTC Vive Pro 2 headset, while DR-based background suppression highlights detected victims and the haptic belt conveys their direction. A 25-participant user study comparing visual-only, DR-only, haptic-only, and full multimodal conditions found the combined configuration produced the fastest time-to-victim, the lowest operator workload (NASA-TLX), and the highest system usability, while eliminating the mission failures observed in the baseline condition."
+          ],
+          "images": [
+            "assets/img/projects/multimodal-diminished-reality-assisted-teleoperation-with-360-vr-and-directional-haptics-for-search-and-rescue-1.webp",
+            "assets/img/projects/multimodal-diminished-reality-assisted-teleoperation-with-360-vr-and-directional-haptics-for-search-and-rescue-2.webp",
+            "assets/img/projects/multimodal-diminished-reality-assisted-teleoperation-with-360-vr-and-directional-haptics-for-search-and-rescue-3.webp"
+          ]
+        },
+        {
+          "title": "Virtual Interactive Imagery towards Achieving Self Efficacy for Obese Individuals",
+          "bullets": [
+            "This research introduces Virtual Interactive Imagery (VII), a framework for psychological treatment that applies guided-imagery techniques within virtual reality, immersing users in a predeveloped scenario so they can positively imagine and interact with a situation to build self-efficacy. Focused on obesity treatment, the framework is informed by a literature review and a field study of psychologists, nutritionists, and potential users, from which core system components and a system architecture are derived. A proof-of-concept prototype, VR4O, was built in Unity and implements three of the framework's stages: environment familiarization, a mirror stage in which users select and view a 3D avatar body shape morphed from thin to obese, and a food-selection stage using modeled 3D food items. The prototype's usability was tested with users, and the thesis concludes with a discussion of challenges and future work, noting that applying virtual reality to obese individuals' cognition through guided imagery had not previously been reported in the literature."
+          ],
+          "images": [
+            "assets/img/projects/virtual-interactive-imagery-towards-achieving-self-efficacy-for-obese-individuals-1.webp",
+            "assets/img/projects/virtual-interactive-imagery-towards-achieving-self-efficacy-for-obese-individuals-2.webp",
+            "assets/img/projects/virtual-interactive-imagery-towards-achieving-self-efficacy-for-obese-individuals-3.webp"
+          ]
+        },
+        {
+          "title": "Intelligent Agent-Based 3D Simulation of COVID-19 for Analysis of Social Control Measures",
+          "bullets": [
+            "This project models and simulates the propagation of COVID-19 within closed environments such as stores and schools, where infectious pathogens spread readily among mixed groups of patients, carriers, and unaffected individuals. Built in Unity 3D, the system trains intelligent human agents with reinforcement learning to mimic real shopper behavior — entering the space, picking up items, queuing at checkout counters, and exiting — while an underlying SEIP (Susceptible-Exposed-Infected-Protected) epidemiological model, calibrated against real transmission data from Qatar, governs how the virus spreads between agents based on proximity and exposure duration. A 3D visualization layer renders agents as color-coded avatars moving through a modeled store, letting users observe outbreak dynamics directly rather than through abstract plots alone. The resulting tool is customizable across shopper density, mask and hygiene compliance, and social-distancing adherence, letting authorities evaluate the effectiveness of different control measures and lockdown scenarios before deploying them in practice."
+          ],
+          "images": [
+            "assets/img/projects/intelligent-agent-based-3d-simulation-of-covid-19-for-analysis-of-social-control-measures-1.webp",
+            "assets/img/projects/intelligent-agent-based-3d-simulation-of-covid-19-for-analysis-of-social-control-measures-2.webp",
+            "assets/img/projects/intelligent-agent-based-3d-simulation-of-covid-19-for-analysis-of-social-control-measures-3.webp"
+          ]
+        },
+        {
+          "title": "Mediated Reality-Based Directional Visual Guidance for 360° Immersive Robot Teleoperation in Search and Rescue Scenarios",
+          "bullets": [
+            "Robot teleoperation in search and rescue requires operators to interpret cluttered, unpredictable environments under high cognitive load, and while 360° immersive interfaces improve spatial awareness, little is known about how mediated-reality visual guidance can further direct operator attention within that view. This project develops a framework for designing mediated-reality visual guidance (MeRVG) for 360° immersive robot teleoperation, implemented on a tracked mobile robot fitted with a 360° camera and evaluated through two controlled user studies. An exploratory study compared grayscale and zoom-flicker guidance techniques against a no-guidance baseline, showing faster object-location times and reduced cognitive load, alongside a tradeoff between improved performance and diminished sense of agency. A subsequent validation study introduced a dynamic mediated-reality visual guidance (DMeRVG) framework and compared static and dynamic directional darkening cues against non-directional guidance, finding that directional cues, particularly dynamic ones, further lowered mental and physical demand and increased perceived performance without added motion sickness."
+          ],
+          "images": [
+            "assets/img/projects/mediated-reality-based-directional-visual-guidance-for-360-immersive-robot-teleoperation-in-search-and-rescue-scenarios-1.webp",
+            "assets/img/projects/mediated-reality-based-directional-visual-guidance-for-360-immersive-robot-teleoperation-in-search-and-rescue-scenarios-2.webp"
+          ]
+        },
+        {
+          "title": "Towards a Safer Metaverse: Anomaly Detection in Avatar Actions using Human Action Transfer Learning",
+          "bullets": [
+            "This project addresses safety in the Metaverse by detecting abnormal avatar actions, such as those linked to cyberbullying or harmful interactions, from skeleton data extracted from virtual environments. A pose-estimation and action-recognition pipeline (OpenPose feeding MLP and TCN classifiers) identifies avatar activity, while an autoencoder — evaluated with LSTM, GRU, TCN, and CNN variants — flags anomalies by comparing reconstruction error against a baseline of normal actions. Because avatar representations vary widely across platforms, the system transfers knowledge learned from human action data (NTU RGB+D) rather than depending solely on avatar-specific training, allowing it to generalize across diverse avatar types. Evaluated on purpose-built datasets of normal and abnormal (fighting) actions across ReadyPlayerMe and other avatar styles, the models achieve recognition and anomaly-detection performance comparable to human action-recognition benchmarks, demonstrating the feasibility of automated behavioral monitoring toward a safer Metaverse."
+          ],
+          "images": [
+            "assets/img/projects/towards-a-safer-metaverse-anomaly-detection-in-avatar-actions-using-human-action-transfer-learning-1.webp",
+            "assets/img/projects/towards-a-safer-metaverse-anomaly-detection-in-avatar-actions-using-human-action-transfer-learning-2.webp",
+            "assets/img/projects/towards-a-safer-metaverse-anomaly-detection-in-avatar-actions-using-human-action-transfer-learning-3.webp"
+          ]
+        },
+        {
+          "title": "Leveraging Immersive Virtual Reality for Culturally Tuned Recycling Infrastructure: A Socio-Spatial Analysis in Qatar's Urban Environment",
+          "bullets": [
+            "This project addresses the persistent gap between recycling-infrastructure investment and actual recycling behavior in Qatar, where extreme heat (above 50°C), high humidity, and a highly multicultural population undermine standard waste-management designs. Using an integrated virtual reality platform with motion and eye tracking, the study exposes stratified groups of participants — Qatari, Arab expatriate, South Asian, and Western — to VR simulations of culturally tuned, climate-responsive recycling stations sited in leftover urban spaces identified across Doha. Behavioral data from the VR trials, including movement patterns, interaction frequency, and decision time, are statistically validated against a subsequent real-world pilot station to establish VR-to-reality correction factors. The research aims to produce a validated behavioral-prediction framework, an open-source VR design tool, and municipal implementation guidelines for climate-adaptive, culturally responsive recycling infrastructure across the GCC region."
+          ],
+          "images": [
+            "assets/img/projects/leveraging-immersive-virtual-reality-for-culturally-tuned-recycling-infrastructure-a-socio-spatial-analysis-in-qatar-s-urban-environment-1.webp"
+          ]
+        },
+        {
+          "title": "Wearable Telexistence Robot with Multimodal Interaction for Collaboration and Training",
+          "bullets": [
+            "This project develops Fluid-Telexistence (FTX), a wearable robotic platform that lets a remote expert physically collaborate with an on-site worker by combining telexistence and teleoperation. The surrogate unit is a vest-mounted anthropomorphic system with two robot arms mounted on the wearer's shoulders, a situational-awareness module carrying stereoscopic and thermal cameras, and a control and communication unit; distributing mounting points across the shoulders and waist improves load balance and comfort over prior backpack- or waist-mounted designs. The operator's unit pairs an immersive augmented-reality interface — overlaying meta-visualizations, zoomed camera feeds, and assistive motion-planning cues onto the live stereoscopic stream — with a haptic glove that tracks hand motion via inertial measurement units and delivers combined kinesthetic and tactile feedback through five vibrotactile actuators. The system targets industrial inspection and training and remote medical consultation as primary use cases."
+          ],
+          "images": [
+            "assets/img/projects/wearable-telexistence-robot-with-multimodal-interaction-for-collaboration-and-training-1.webp",
+            "assets/img/projects/wearable-telexistence-robot-with-multimodal-interaction-for-collaboration-and-training-2.webp",
+            "assets/img/projects/wearable-telexistence-robot-with-multimodal-interaction-for-collaboration-and-training-3.webp"
+          ]
+        },
+        {
+          "title": "Visual-Haptics for Remote Robot Operation, Inspection & Physical Intervention",
+          "bullets": [
+            "This joint Khalifa University-Qatar University project develops a unified visual-haptic teleoperation framework for remote robot operation, inspection, and physical intervention in unstructured environments such as underwater infrastructure and greenhouse agriculture. Multimodal sensing fuses IMU, camera, and LiDAR/sonar data through perception modules for localization, object detection, and tracking, feeding a high-level controller that arbitrates commands through a safe-maneuver check before actuation. A force-reflecting haptic interface paired with a real-time visualization GUI lets an operator perceive contact, resistance, and compliance while receiving mission-based guidance, enabling shared autonomy that filters unsafe inputs without overriding operator intent. The framework will be validated at TRL 4-6 across ROV-based subsea inspection and greenhouse robotic harvesting, comparing task accuracy, repeatability, operator workload, and safety margins to establish design guidelines for safe, intuitive multimodal teleoperation in extreme and semi-structured environments."
+          ],
+          "images": [
+            "assets/img/projects/visual-haptics-for-remote-robot-operation-inspection-physical-intervention-1.webp"
+          ],
+          "url": "https://visualhaptics-kuqu.github.io/"
+        },
+        {
+          "title": "VR Disaster_Ready: Virtual Reality Disaster Preparedness Educational Training Module for Healthcare Professional Students",
+          "bullets": [
+            "This project designs, develops, and evaluates VR Disaster_Ready, an immersive virtual reality training module delivering interprofessional, team-based disaster-preparedness education to third-year healthcare professional students across Qatar University's Health colleges (Pharmacy, Medicine, Dental Medicine, Nursing, and Health Sciences). Built using a hybrid ADDIE and Medical Research Council framework and informed by a systematic competencies review and a QU-Health needs assessment, the module spans the full disaster cycle — prevention/mitigation, preparedness, response, and recovery — through shared scenarios with profession-specific branching, PEARLS-style debriefs, calibrated observer ratings, and platform telemetry such as triage accuracy and time-to-critical-action. Delivered within QU-Health's interprofessional education blocks, the module is evaluated through a pre-post quasi-experimental, mixed-methods design measuring learners' knowledge, attitudes, self-reported readiness, and observed performance, with findings intended to support policy translation with national health stakeholders and scalability across the MENA region."
+          ],
+          "images": []
+        },
+        {
+          "title": "The Future of Digital Citizenship in Qatar: a Socio-Technical Approach — GESI by Design",
+          "bullets": [
+            "This project addresses Gender Equality and Social Inclusion (GESI) in online social media across Qatar and the wider Arab region, where existing forum designs treat all comments and reactions uniformly and offer little support for equitable, respectful dialogue. As sub-project 5 of a national digital-citizenship research cluster, it develops digital nudging techniques, including annotation-based flags for GESI compliance, an extended set of context-aware reactions and emojis, and empathy-oriented tone feedback, co-designed with Arab participants to ensure cultural and linguistic relevance. These nudges are implemented in a bespoke online forum and evaluated through controlled user studies combining self-report measures with objective physiological signals from EEG and eye-tracking. The work aims to demonstrate socio-technical interface designs that encourage more civilized, inclusive language and interaction in Arab online spaces."
+          ],
+          "images": [
+            "assets/img/projects/the-future-of-digital-citizenship-in-qatar-a-socio-technical-approach-gesi-by-design-1.webp",
+            "assets/img/projects/the-future-of-digital-citizenship-in-qatar-a-socio-technical-approach-gesi-by-design-2.webp",
+            "assets/img/projects/the-future-of-digital-citizenship-in-qatar-a-socio-technical-approach-gesi-by-design-3.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Laser Graphics & Visual Art",
+      "projects": [
+        {
+          "title": "Efficient Vector-Oriented Graphic Drawing Method for Laser-Scanned Display",
+          "bullets": [
+            "Laser projection, such as that used in laser light shows, usually uses computer-drawn graphics. However, some restrictions are imposed by laser-scanned displays on these vector-based drawings. This research presents a general vector-oriented drawing method to display computer vector graphics on different laser-scanned displays with optimization. The method considers how to solve the three fundamental problems inherent in laser projection: achieving constant beam intensity, blanking timing and corner overshooting. A velocity parameter has been used to achieve constant beam velocity for all strokes. Blanking timing which is related to turning on/off the laser beam has been examined and a simple test pattern is presented to estimate the total delay that exists in the laser-scanned display and compensate for it. In addition, an optimized approach to avoid corner overshooting and ringing is proposed: the dwelling time of the laser beam at a corner is set according to the corner angle. Moreover, a comparison between the proposed method and the point-oriented method in terms of speed has been presented."
+          ],
+          "images": [
+            "assets/img/projects/efficient-vector-oriented-graphic-drawing-method-for-laser-s-1.webp",
+            "assets/img/projects/efficient-vector-oriented-graphic-drawing-method-for-laser-s-2.webp"
+          ]
+        },
+        {
+          "title": "Spiroraslaser: An Interactive Visual Art System Using Hybrid Raster–Laser Projection",
+          "bullets": [
+            "This paper explores the possibility of generating visual imagery in a highly interactive environment on the basis of hand position and acceleration. We present a new display method called hybrid raster–laser projection for combining two projections to create a final visual image. A Wii Remote Controller tracks hand orientation, acceleration and movement, and the graphics are generated by using hypotrochoids. The raster and the laser images are carefully synchronised in order to ensure homogenously integrated visuals. The resultant images are unique and beautiful because of the higher degree of contrast of the laser projection compared to the raster projection. This contrast creates lively, floating images that can be achieved only by using the proposed system. The proposed system presents a new interactive approach to the real- time creation of visual art and a novel method for displaying these visuals."
+          ],
+          "images": [
+            "assets/img/projects/spiroraslaser-an-interactive-visual-art-system-using-1.webp",
+            "assets/img/projects/spiroraslaser-an-interactive-visual-art-system-using-2.webp",
+            "assets/img/projects/spiroraslaser-an-interactive-visual-art-system-using-3.webp",
+            "assets/img/projects/spiroraslaser-an-interactive-visual-art-system-using-4.webp",
+            "assets/img/projects/spiroraslaser-an-interactive-visual-art-system-using-5.webp"
+          ]
+        },
+        {
+          "title": "Laser VJ: Dream Machine (Planetarium VJ + Laser)",
+          "bullets": [
+            "This small project presents a new way of projection and interactive visual art expression. three main components were mixed together and projected on the planetarium. First is the lively mixed images from VJ, and second is the laser graphics projected in concert with the VJ images and sycnronized to the BGM of the VJ. Lastly, the planetarium original images and graphics with edited BGM. Putting all these peices toghether created a new piece of art work that many did enjoyed."
+          ],
+          "images": []
+        },
+        {
+          "title": "Enhancing 3D Scenes Using a Laser Projector in Real-Time",
+          "bullets": [
+            "We present an innovative way to combine a laser (vector) projector with a video (raster) projector, using the former to enhance or augment the 3D images projected with the latter. As we will show, two main problems arise from this setting. One is to find a relation between the video projector space and the laser projector space, so that we can transform pixels into laser coordinates. The second problem is related to hiding virtually occluded laser segments to create a seamless fusion of the two projected parts. Also, we apply a calibration technique to compensate visual deformations caused by projector placement and/or non-planar screens."
+          ],
+          "images": [
+            "assets/img/projects/enhancing-3d-scenes-using-a-laser-projector-in-real-time-1.webp"
+          ]
+        },
+        {
+          "title": "A Correction Algorithm for Distorted Laser Images",
+          "bullets": [
+            "In this paper, we demonstrate a simple, effective and robust method for accurately calibrating laser projectors.",
+            "The method relies on a digital camera placed at the location of the audience, and images are obtained in order to observe the deformations caused by the projection angle and surface deformations.",
+            "Once the deformations are detected, the necessary compensations are performed to obtain a correct projection of the desired imagery.",
+            "Furthermore, we extend this method to combine two or more projectors in order to create a single, overlapped projection area. We demonstrate that this method creates a collaborative effect between the projectors and allows the display of more complex images without increasing the scan rate."
+          ],
+          "images": [
+            "assets/img/projects/a-correction-algorithm-for-distorted-laser-images-1.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Foundational Projects",
+      "projects": [
+        {
+          "title": "Future Haptic Science Encyclopedia (WorldExpo 2005)",
+          "bullets": [
+            "Future Haptic Science Encyclopedia (FHSE) was developed and presented as a new potential application that benefit greatly from haptic to achieve a new level of realism. The FHSE enables the users to experience many different virtual worlds like scientific, historical, and astronomical worlds.",
+            "HIRO II and FHSE were demonstrated at World Expo 2005 as part of the Prototype Robot Exhibition supported by New Energy and Industrial Technology Development Organization (NEDO). Thousands of people had the chance to watch the demonstration of FHSE. Many of them could even have the opportunity to try it as well.",
+            "The interesting feature of FHSE is that it can be considered as a complete VR interface where the user only uses HIRO II to interact and move between and around the scenes. Controls are introduced in this system, such as virtual buttons, levers, and arrows without the need to use other devices like joystick or keyboard."
+          ],
+          "images": [
+            "assets/img/projects/future-haptic-science-encyclopedia-worldexpo-2005-1.webp",
+            "assets/img/projects/future-haptic-science-encyclopedia-worldexpo-2005-2.webp"
+          ]
+        },
+        {
+          "title": "Haptic Interaction Rendering Technique for HIRO",
+          "bullets": [
+            "Hand interaction with virtual object requires a more elaborated model than the Haptic Interaction Point (HIP) due to the complex shape of the virtual hand.",
+            "A general haptic rendering of 3D object for hand interaction that takes in consideration the real shape and the orientation of the hand as well as accounts for the shape of the interacting objects."
+          ],
+          "images": [
+            "assets/img/projects/haptic-interaction-rendering-technique-for-hiro-1.webp",
+            "assets/img/projects/haptic-interaction-rendering-technique-for-hiro-2.webp"
+          ]
+        },
+        {
+          "title": "Development of Five-Fingered Haptic Interface: HIRO-II",
+          "bullets": [
+            "A new developed five-fingered haptic interface robot named HIRO II. The haptic interface can present force and tactile feeling at the five fingertips of the human hand. It is designed to be completely safe and similar to the human upper limb both in shape and motion ability. Its mechanism consists of a 6 DOF arm and a 15 DOF hand. The interface is placed opposite to the human hand, which brings safety and no oppressive feeling, but this leads to difficulty in controlling the haptic interface because it should follow the hand poses of the operator. A redundant force control method in which all the joints of the mechanism were force controlled simultaneously to present the virtual force is studied. Experiments to show high potential as multi-fingered haptic interface are presented."
+          ],
+          "images": [
+            "assets/img/projects/development-of-five-fingered-haptic-interface-hiro-ii-1.webp"
+          ]
+        },
+        {
+          "title": "An Immersive Interactive VR-Based Training System",
+          "bullets": [
+            "This research described a study on the effect of the level of immersion on the collaborative task performance and sense of presence by demonstrating collaborative interactive fully immersive system that can be useful for applications in learning and training. A multiuser virtual environment with intuitive interaction interface was presented to the users using various displaying technology to examine different viewing conditions and the level of immersion. The subjects’ performance was assessed in terms of speed and accuracy of task performance for three different levels of immersion: a desktop, large-monoscopic screen, and immersive large-stereopscopic screen. Furthermore, another dimensions of performance such as level of presence, satisfaction and fatigue. Results indicated that performance in terms of the speed and accuracy increased for higher level of immersion."
+          ],
+          "images": [
+            "assets/img/projects/an-immersive-interactive-vr-based-training-system-1.webp",
+            "assets/img/projects/an-immersive-interactive-vr-based-training-system-2.webp"
+          ]
+        },
+        {
+          "title": "The Effect of Network Delay in Cooperative Shared Haptic Virtual Environment",
+          "bullets": [
+            "A cooperative shared haptic virtual environment (CSHVE), where the users can kinesthetically interact and simultaneously feel each other over the network, is beneficial for many distributed VR simulations. A little is known about the influences of the network delay on the quality of haptic sensation and the task performance in such environments. This research has addressed these issues by conducting a subjective evaluation to the force feedback and the task performance in a tele-handshake cooperative shared haptic system for different delay setting. Also, four subjective measures to evaluate the quality of haptic in CSHVEs have been proposed. These measures are the feeling of force, the consistency between the haptic-visual feedback, the vibration, and the rebound in the haptic device. In addition, a detailed description of the haptic sensation for different time delays is also described. A network emulator was utilized to simulate the real network cloud."
+          ],
+          "images": [
+            "assets/img/projects/the-effect-of-network-delay-in-cooperative-shared-haptic-vir-1.webp",
+            "assets/img/projects/the-effect-of-network-delay-in-cooperative-shared-haptic-vir-2.webp"
+          ]
+        },
+        {
+          "title": "Haptic Cooperative Virtual Workspace: Architecture and Evaluation",
+          "bullets": [
+            "The Haptic Cooperative Virtual Workspace (HCVW), where users can simultaneously manipulate and haptically feel the same object, is beneficial and in some cases indispensable for training a team of surgeons, or in application areas in telerobotics, and entertainment.",
+            "In this research we proposed an architecture for the haptic cooperative workspace where the participants can kinesthetically interact, feel and push each other simultaneously while moving in the simulation. This involves the ability to manipulate the same virtual object at the same time. A setup of experiments carried out to investigate the haptic cooperative workspace is reported. A new approach to quantitatively evaluate the cooperative haptic system is proposed, which can be extended to evaluate haptic systems in general."
+          ],
+          "images": [
+            "assets/img/projects/haptic-cooperative-virtual-workspace-architecture-and-evalua-1.webp",
+            "assets/img/projects/haptic-cooperative-virtual-workspace-architecture-and-evalua-2.webp"
+          ]
+        }
+      ]
+    }
+  ]
+}

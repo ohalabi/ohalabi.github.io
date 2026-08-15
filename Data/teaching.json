@@ -1,0 +1,29 @@
+[
+  { "university": "Qatar University", "category": "lecture", "code": "CMPT 622", "name": "Human-Computer Interaction", "times_taught": "F10, F12, F14, S18, F20, S23, F24, F26", "level": "Graduate" },
+  { "university": "Qatar University", "category": "lecture", "code": "CMPS 434", "name": "Game Design and Development", "times_taught": "S12, S16, S18, S20, S22, S24, S26", "level": "Undergraduate" },
+  { "university": "Qatar University", "category": "lecture", "code": "CMPT 581", "name": "Interactive 3D Graphics", "times_taught": "F11", "level": "Graduate" },
+  { "university": "Qatar University", "category": "lecture", "code": "CMPS 433", "name": "Multimedia Systems", "times_taught": "S11, S13, S15, S17, S19, S21", "level": "Undergraduate" },
+  { "university": "Qatar University", "category": "lecture", "code": "CMPS 373", "name": "Computer Graphics", "times_taught": "F19, F21, F23", "level": "Undergraduate" },
+  { "university": "Qatar University", "category": "lecture", "code": "CMPS 251", "name": "Object-Oriented Programming (Java)", "times_taught": "F20", "level": "Undergraduate" },
+  { "university": "Qatar University", "category": "lecture", "code": "CMPS 151", "name": "Programming Concepts (C++)", "times_taught": "F13, F14, F15, F17, F18, S20", "level": "Undergraduate" },
+  { "university": "Qatar University", "category": "lecture", "code": "CMPS 151", "name": "Programming Concepts (Python)", "times_taught": "F24, S25, F25, F26", "level": "Undergraduate" },
+  { "university": "Qatar University", "category": "lecture", "code": "CMPS 303", "name": "Data Structures (Java)", "times_taught": "S17, F17, F19, F22, S23", "level": "Undergraduate" },
+  { "university": "Qatar University", "category": "lecture", "code": "GENG 106", "name": "Computer Programming (C++)", "times_taught": "F10, F11, F12, S12, S14", "level": "Undergraduate" },
+  { "university": "Qatar University", "category": "lecture", "code": "GENG 107", "name": "Engineering Skills and Ethics", "times_taught": "S14, S15, F15, F16", "level": "Undergraduate" },
+  { "university": "Qatar University", "category": "lecture", "code": "HONS 202", "name": "Entrepreneurship: Launching an Innovative Business (Honors, Arabic)", "times_taught": "S23", "level": "Undergraduate" },
+
+  { "university": "Qatar University", "category": "supervision", "code": "CMPS 493", "name": "Senior Project I", "times_taught": "F13, F14, F16, F17, F18, F19, F20, F21, F22, F23, F24, F25", "level": "Undergraduate" },
+  { "university": "Qatar University", "category": "supervision", "code": "CMPS 499", "name": "Senior Project II", "times_taught": "S14, S15, S17, S18, S19, S20, S21, S22, S23, S24, S25, S26", "level": "Undergraduate" },
+  { "university": "Qatar University", "category": "supervision", "code": "CMPE 498", "name": "Design Project I", "times_taught": "F13, F15, F17, F18, F19, F20, F21, F23, F25", "level": "Undergraduate" },
+  { "university": "Qatar University", "category": "supervision", "code": "CMPE 499", "name": "Design Project II", "times_taught": "S14, S16, S18, S19, S20, S21, S22, S24, S26", "level": "Undergraduate" },
+  { "university": "Qatar University", "category": "supervision", "code": "GENG 498", "name": "Multidisciplinary Senior Design Project I", "times_taught": "F21, F24", "level": "Undergraduate" },
+  { "university": "Qatar University", "category": "supervision", "code": "GENG 499", "name": "Multidisciplinary Senior Design Project II", "times_taught": "S22, S25", "level": "Undergraduate" },
+  { "university": "Qatar University", "category": "supervision", "code": "CMPT 595 / 695", "name": "Master Thesis", "times_taught": "F14, S15, F15, S16, F16, S17, F17, S18, F20, S21, F21, F23, S24, F24, F25", "level": "Master" },
+  { "university": "Qatar University", "category": "supervision", "code": "CMPS/CMPE 399", "name": "Practical Training", "times_taught": "Su16, Su17", "level": "Undergraduate" },
+
+  { "university": "Iwate University", "category": "lecture", "code": "", "name": "Computer Animation", "times_taught": "2005", "level": "Graduate" },
+  { "university": "Iwate University", "category": "lecture", "code": "", "name": "Laser Graphics (intensive course, Japanese)", "times_taught": "2006", "level": "Undergraduate" },
+  { "university": "Iwate University", "category": "lecture", "code": "", "name": "Logical Circuits Programming Lab (Japanese)", "times_taught": "06, 07, 08, 09, 10", "level": "Undergraduate" },
+  { "university": "Iwate University", "category": "lecture", "code": "", "name": "Networks Lab (Japanese)", "times_taught": "07, 08, 09, 10", "level": "Undergraduate" },
+  { "university": "Iwate University", "category": "lecture", "code": "", "name": "C Programming & Exercise (Japanese)", "times_taught": "06, 07, 08, 09, 10", "level": "Undergraduate" }
+]

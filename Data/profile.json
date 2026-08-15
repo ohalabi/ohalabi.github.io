@@ -1,0 +1,78 @@
+{
+  "name": "Osama Halabi",
+  "title": "Associate Professor",
+  "department": "Department of Computer Science and Engineering",
+  "college": "College of Engineering",
+  "university": "Qatar University",
+  "location": "Doha, Qatar",
+  "lab_name": "XReality Lab",
+  "positioning_line": "Researching Virtual Reality, Haptics, and Human-Centered Computing at Qatar University.",
+  "professional_summary": "Academic and researcher with over 20 years of experience in Virtual Reality (VR), Human-Computer Interaction (HCI), Haptics, and Multimodal Interfaces. Currently an Associate Professor at Qatar University, with over 140 peer-reviewed publications, edited volumes, and a patent spanning extended reality (XR), telexistence systems, and human-centered interactive applications. Recognized among the Top 2% Scientists Worldwide for 2025 by Stanford University and Elsevier.",
+  "lab_description": "XReality Lab works across haptics, virtual and augmented reality, interactive media systems, human-computer interaction, computer graphics, laser projection, and robotics. Work spans Japan Advanced Institute of Science and Technology (2001-2003), the Virtual System Laboratory at Gifu University (2003-2006), and Iwate University, with a current focus on VR, gaming, and interactive media at Qatar University -- building systems that combine haptic feedback, immersive environments, and multimodal interaction for training, accessibility, healthcare, and creative applications.",
+  "research_interests": [
+    "Virtual Reality (VR) and Human-Computer Interaction (HCI)",
+    "Haptics and Multimodal Interaction",
+    "Augmented and Extended Reality Applications",
+    "Game Design and Development",
+    "Computer Graphics & Laser Graphics",
+    "Interdisciplinary Research and Collaboration",
+    "Academic Leadership and Curriculum Development"
+  ],
+  "education": [
+    {
+      "degree": "Ph.D., Information Science",
+      "institution": "Japan Advanced Institute of Science & Technology (JAIST)",
+      "location": "Nomi, Japan",
+      "year": "2001",
+      "detail": "Dissertation: An Architectural System Design for Cooperative Shared Haptic Virtual Environment. Advisor: Prof. Susumu Horiguchi"
+    },
+    {
+      "degree": "M.Sc., Computer Science & Application",
+      "institution": "Shanghai University",
+      "location": "Shanghai, China",
+      "year": "1998",
+      "detail": "Thesis: Simple Network Management Protocol (SNMPv3) Security and Administrative Framework. Advisor: Prof. Huang Ling Gong"
+    },
+    {
+      "degree": "B.Sc., Electronic Engineering",
+      "institution": "Damascus University",
+      "location": "Damascus, Syria",
+      "year": "1992",
+      "detail": "Thesis: Digital Impedance Measurement"
+    }
+  ],
+  "positions_held": [
+    { "title": "Associate Professor", "institution": "Qatar University", "department": "Department of Computer Science and Engineering, College of Engineering", "location": "Doha, Qatar", "dates": "Jan. 2020 - present" },
+    { "title": "Assistant Professor", "institution": "Qatar University", "department": "Department of Computer Science and Engineering, College of Engineering", "location": "Doha, Qatar", "dates": "Sept. 2010 - Jan. 2020" },
+    { "title": "Assistant Professor", "institution": "Iwate University", "department": "Department of Computer Science, Faculty of Engineering / Department of Design and Media Technology, Graduate School of Engineering", "location": "Morioka, Japan", "dates": "April 2006 - Sept. 2010" },
+    { "title": "Researcher", "institution": "Gifu University", "department": "Virtual System Laboratory (VSL)", "location": "Gifu, Japan", "dates": "April 2003 - March 2006" },
+    { "title": "Fujitsu Endowed Chair (Research and Educational Personnel)", "institution": "Japan Advanced Institute of Science and Technology", "department": "School of Knowledge Science, Fujitsu Endowed Chair for Sciences of Complex Systems", "location": "Nomi, Japan", "dates": "Jan. 2002 - March 2003" },
+    { "title": "Research Student", "institution": "Japan Advanced Institute of Science and Technology", "department": "School of Information Science", "location": "Nomi, Japan", "dates": "March 1998 - Sept. 1998" },
+    { "title": "Software Engineer", "institution": "National Scientific Studies and Research Center (SSRC)", "department": "Network security and system analysis; ciphering/key-exchange algorithms; RSA, DES implementations", "location": "Damascus, Syria", "dates": "Sept. 1992 - Sept. 1995" }
+  ],
+  "professional_memberships": [
+    "The Society for Art and Science",
+    "Virtual Reality Society of Japan (VRSJ)",
+    "ACM Professional Membership",
+    "IEEE Computer Society",
+    "IEEE Technical Committee on Haptics (TCH)"
+  ],
+  "languages": [
+    { "language": "Arabic", "level": "Native" },
+    { "language": "English", "level": "Fluent" },
+    { "language": "Japanese", "level": "Excellent conversation, good reading and writing" },
+    { "language": "Chinese", "level": "Simple conversation" }
+  ],
+  "contact": {
+    "email_work": "ohalabi@qu.edu.qa",
+    "note": "Home email/phone/DOB/marital status intentionally excluded from public data per standard professional-site privacy practice — confirm with Osama if any should be added back."
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/osamahalabi/",
+    "orcid": "https://orcid.org/0000-0002-2052-0500",
+    "google_scholar": "https://scholar.google.com/citations?user=jYUTRTcAAAAJ&hl=en",
+    "researchgate": "https://www.researchgate.net/profile/Osama-Halabi",
+    "qu_faculty_page": "http://qufaculty.qu.edu.qa/ohalabi/",
+    "_note": "google_scholar and researchgate URLs found via web search (not printed as text in the CV, only shown as icons) — worth a quick confirmation that these are the right profiles before publishing."
+  }
+}
