@@ -14,8 +14,11 @@ letterboxing), no gradient, no motifs -- just the subject.
 
 Not part of scripts/build.py (that script only handles JSON -> HTML).
 Run manually with: python scripts/build_headshot.py
-Outputs assets/img/headshot/osama-headshot-square.jpg (primary -- used for
-the home hero portrait) and osama-headshot-wide.jpg (og:image, landscape).
+Outputs assets/img/headshot/osama-headshot-square.jpg (primary, full-res
+source for the home hero portrait), three downscaled square widths for its
+srcset (osama-headshot-square-{500,800,1200}.jpg -- the hero box only ever
+renders around 260-500px wide, so the 2060px original is 4-8x more pixels
+than any screen uses), and osama-headshot-wide.jpg (og:image, landscape).
 """
 from pathlib import Path
 
@@ -27,6 +30,7 @@ OUT_DIR = ROOT / "assets" / "img" / "headshot"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 PAPER_SUNK = (243, 240, 234)  # --paper-sunk
+SQUARE_WIDTHS = (500, 800, 1200)
 
 
 def main():
@@ -49,6 +53,12 @@ def main():
     sq.paste(subject, ((sq_size - SUBJ_W) // 2, TOP), subject)
     sq.save(OUT_DIR / "osama-headshot-square.jpg", quality=92)
     print("saved square:", sq.size)
+
+    for w in SQUARE_WIDTHS:
+        sized = sq.resize((w, w), Image.LANCZOS)
+        out = OUT_DIR / f"osama-headshot-square-{w}.jpg"
+        sized.save(out, quality=85)
+        print(f"saved square-{w}:", sized.size, f"({out.stat().st_size/1024:.0f} KB)")
 
     # -- wide (og:image / twitter:card, conventional ~1.91:1 landscape) --
     WIDE_H = SUBJ_H + TOP + 40

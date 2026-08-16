@@ -13,6 +13,14 @@ ORCID_ID = "0000-0002-2052-0500"
 API_URL = f"https://pub.orcid.org/v3.0/{ORCID_ID}/works"
 OUT_PATH = Path(__file__).resolve().parent.parent / "Data" / "publications_orcid.json"
 
+# Malformed records that come back from ORCID's own feed, not something
+# a sync can filter by shape -- a publisher's placeholder/template
+# metadata leaked into Crossref and ORCID picked it up verbatim. Skip by
+# exact title so a routine re-sync doesn't silently reintroduce them.
+KNOWN_GARBAGE_TITLES = {
+    "Metadata of the chapter that will be visualized in Online",
+}
+
 
 def fetch_works():
     req = urllib.request.Request(API_URL, headers={"Accept": "application/json"})
@@ -47,7 +55,7 @@ def main():
             continue
         w = summaries[0]
         title = ((w.get("title") or {}).get("title") or {}).get("value")
-        if not title:
+        if not title or title in KNOWN_GARBAGE_TITLES:
             continue
         publications.append({
             "title": title,

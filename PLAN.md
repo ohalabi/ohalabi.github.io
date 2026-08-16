@@ -118,19 +118,23 @@ Your old sites (QU faculty page, Google Sites) were built in integrated editors 
 - [ ] All external links (Scholar, ORCID, LinkedIn, DOIs) verified — Scholar/ResearchGate profile URLs confirmed earlier (§3), but not every publication DOI or grant link
 - [x] 404 page — `404.html`, generated
 - [x] `sitemap.xml` + `robots.txt` for search indexing — generated
-- [x] Basic SEO: meta description per page and Open Graph tags generated per-page in `build.py`; favicon fixed (`assets/img/favicon.png`, sourced from `Logo/xreality-logo-card-512.png`) — the "still missing" note this bullet used to carry was stale, see `HANDOVER.md` §6
+- [x] Basic SEO: meta description per page and Open Graph tags generated per-page in `build.py`; favicon fixed (`assets/img/favicon.png`, sourced from `Logo/xreality-logo-clean-512.png`, transparent) — the "still missing" note this bullet used to carry was stale, see `HANDOVER.md` §6
 - [ ] Optional: `schema.org` JSON-LD `Person`/`ScholarlyArticle` structured data — helps academic search visibility, not done
 
-## 7. Deployment & domain (later phase — will confirm with you before any destructive/external step)
+## 7. Deployment & domain — LIVE as of 2026-08-16
 
-- [x] `v1-archive/`'s fate decided — deleted (2026-08-15, 15 MB). It's not tracked by git yet, so this is unrecoverable only in the sense that there's no commit history to revert to; the old navy/gold site's rationale and behavior are still fully documented in `HANDOVER.md` if it's ever needed for reference.
-- [ ] `git init` this repo, first commit
-- [ ] Create GitHub repo (public), push
-- [ ] Enable GitHub Pages (serve the generated static output — `build.py` output committed to the repo, no server-side build needed on GitHub's end)
-- [ ] Add custom domain `osamahalabi.com` in GitHub Pages settings + `CNAME` file
-- [ ] At your domain registrar/DNS: point `osamahalabi.com` (A records to GitHub Pages IPs or ALIAS/ANAME) and `www` (CNAME) — I'll give exact records when we get here
-- [ ] Enforce HTTPS once DNS propagates
-- [ ] Optional later: GitHub Action to run `build.py` (and `sync_orcid.py`) automatically on push/schedule instead of running locally each time
+**osamahalabi.com is live**, served by GitHub Pages with a valid Let's Encrypt certificate (`CN=osamahalabi.com`, issued via Let's Encrypt, expires 2026-11-13 — GitHub auto-renews before then). `http://` and `www.` both redirect to the canonical `https://osamahalabi.com`.
+
+- [x] `v1-archive/`'s fate decided — deleted (2026-08-15, 15 MB).
+- [x] `git init` this repo, first commit (2026-08-15) — 475 files, `.gitignore` excludes machine-local state, raw content-harvest sources (~55MB, not needed to build/serve), and (for now) the CV PDF, see below.
+- [x] GitHub repo created (public): `github.com/ohalabi/ohalabi.github.io` — named for GitHub's user-site convention, serves from `main` branch root automatically.
+- [x] GitHub Pages enabled, deploying from `main` / root.
+- [x] Custom domain `osamahalabi.com` added in Pages settings + `CNAME` file committed to the repo.
+- [x] GoDaddy DNS pointed: 4 `A` records (`@` → `185.199.108.153`/`.109`/`.110`/`.111`, GitHub Pages' fixed IPs) + `CNAME` (`www` → `ohalabi.github.io`).
+- [x] Account-level domain verification (`github.com/settings/pages` → Verified domains → TXT record) — this was the actual blocker holding up the certificate; not something the original checklist anticipated, worth remembering if the domain or account ever changes.
+- [x] HTTPS enforced — confirmed via `curl`: correct cert, HTTP→HTTPS redirect working, page loads with the right title.
+- [ ] **CV PDF is a 404 on the live site right now** — `Data/cv_Osama_Halabi.pdf` was deliberately excluded from the repo (see `.gitignore`) because it still had a personal Gmail address in it as of the last check. Both the home hero's "Curriculum vitae (PDF)" button and About's "Full CV (PDF)" button point at it. Send an updated export (Gmail line removed, ideally metadata stripped too — `scripts/check_cv_privacy.py` verifies both) and I'll add it back and push.
+- [ ] Optional later: GitHub Action to run `build.py` (and `sync_orcid.py`) automatically on push/schedule instead of running locally each time.
 
 ## 8. Post-launch / maintenance
 
@@ -157,15 +161,34 @@ Your old sites (QU faculty page, Google Sites) were built in integrated editors 
 - Cloudflare (optional) — if you want DNS/CDN/extra HTTPS options beyond GitHub Pages' built-in cert
 - `gh` CLI (you already have Bash access to it) — repo creation/push from here directly when ready
 
-## Immediate next step
+## Next steps (pick up here)
 
-**The v2 rebuild is now the live site**, promoted from `v2/` to the repo root (the old navy/gold site is archived in `v1-archive/`). All 10 generated pages (`index.html`, `research.html`, `publications.html`, `teaching.html`, `people.html`, `about.html`, `contact.html`, `404.html`, `sitemap.xml`, `robots.txt`) build from the same `Data/*.json` as before — no content was re-entered. Verified end-to-end (build → serve → click through Research filters and the project drawer → search Publications) via the `/run-site` skill. See `HANDOVER.md` for the full rebuild rationale and §6 there for the known-gaps list this next-steps section is drawn from. Recommended order:
+**osamahalabi.com is live** (§7) — the site itself is done and deployed. What's left is cleanup and polish, roughly in priority order:
+
+1. [ ] **Fix the live CV 404** — send an updated `cv_Osama_Halabi.pdf` export with the personal Gmail line removed (ideally metadata stripped too). Run `python scripts/check_cv_privacy.py` against it; once it passes, add it back to the repo and push. This is the only thing actually broken on the live site right now (§7).
+2. [ ] Cross-browser check — Chrome/Firefox/Safari; only Edge has been automated-verified so far, via `/run-site` (§6).
+3. [ ] Run an actual Lighthouse/PageSpeed pass — the WebP conversion (54MB→5.5MB) should move this a lot, but it's unverified (§6).
+4. [ ] Verify external links — every publication DOI and grant link, not just the Scholar/ORCID/ResearchGate profile URLs already confirmed (§6).
+5. [ ] Decide: office/lab location on the Contact page — the original open question from §3, still unanswered.
+6. [ ] Optional: `schema.org` JSON-LD structured data for academic search visibility (§6).
+7. [ ] Optional: work through the rest of `HANDOVER.md` §6 — project descriptions read as objective statements rather than outcome summaries, projects have no year field (more valuable now at 50 projects spanning 2001–2027 than when this was first noted), no project↔publication linking.
+8. [ ] Optional: GitHub Action to run `build.py` (and `sync_orcid.py`) automatically on push/schedule instead of running locally each time (§7).
+9. [ ] Ongoing habits once any of the above lands — see §8: routine content edits are `Data/*.json` → `build.py` → commit → push (Pages auto-redeploys), `sync_orcid.py` whenever publications need a refresh, periodic Lighthouse re-checks after big content additions.
+
+---
+
+<details>
+<summary>History: how the site got here (expand)</summary>
+
+**The v2 rebuild is now the live site**, promoted from `v2/` to the repo root (the old navy/gold site was archived in `v1-archive/`, since deleted — §7). All 10 generated pages (`index.html`, `research.html`, `publications.html`, `teaching.html`, `people.html`, `about.html`, `contact.html`, `404.html`, `sitemap.xml`, `robots.txt`) build from the same `Data/*.json` as before — no content was re-entered. Verified end-to-end (build → serve → click through Research filters and the project drawer → search Publications) via the `/run-site` skill. See `HANDOVER.md` for the full rebuild rationale and §6 there for the known-gaps list this next-steps section is drawn from. Order this actually happened in:
 
 1. [x] **Headshot fixed** — `scripts/build_headshot.py` rewritten to drop the old navy/gold/glow composite (which violated this site's own "no gradients, no glow" rule anyway) for a flat `--paper-sunk` fill, matching the rest of the site. `osama-headshot-square.jpg` (regenerated) is now what the home hero actually uses — the old script only ever produced `-wide.jpg` for that slot, an aspect-ratio mismatch against `.hero-portrait`'s 4:5 box.
 2. [x] **Logo added to the masthead** — `xreality-logo-clean-512.png` (the real-alpha lockup, not the white-badge card variant v1 needed for navy contrast — the light paper background doesn't need that crutch) now sits next to the text wordmark on every page.
-3. [x] **Favicon added** — `scripts/build_favicon.py` (new) crops an icon-only mark (no baked-in wordmark — illegible at the 16-32px a favicon actually renders at) into `assets/img/favicon.png`. Switched from the transparent `Logo/xreality-logo-clean-512.png` to the opaque-white `Logo/xreality-logo-card-512.png` after the transparent version proved invisible against a dark browser tab bar.
+3. [x] **Favicon added** — `scripts/build_favicon.py` (new) crops an icon-only mark (no baked-in wordmark — illegible at the 16-32px a favicon actually renders at) into `assets/img/favicon.png`. Switched from transparent (`Logo/xreality-logo-clean-512.png`) to opaque-white (`Logo/xreality-logo-card-512.png`) after the transparent version proved faint against a dark browser tab bar, then back to transparent (2026-08-16) as the better general default — see `HANDOVER.md` §6 item 6 for the current reasoning.
 4. [x] Google Scholar/ResearchGate URLs confirmed (§3). [x] Public contact **security** — `ohalabi@qu.edu.qa` on `contact.html` no longer sits in the page source as a scrapable plain address/`mailto:` link; it ships as split `data-user`/`data-domain` attributes and gets assembled client-side by `site.js` on load, with a `<noscript>` fallback. Also caught and flagged (not fixed — it's your file to re-export) a personal Gmail address sitting in plain text in `Data/cv_Osama_Halabi.pdf`; `scripts/check_cv_privacy.py` checks for that (and stray metadata) on every future CV update. **Still open**: whether to list an office/lab location (§3 original question, unrelated to the security work).
 5. [x] **WebP conversion done**: `assets/img/projects/` converted from PNG/JPG/GIF to WebP, 54 MB → 5.5 MB (89.8% smaller); originals deleted after verifying every `Data/projects.json` reference resolved. [ ] Still open from `HANDOVER.md` §6: project descriptions are objective statements rather than outcome summaries, projects have no year field (so no chronological sort/active-state — more valuable now than when this was written, since the project count has grown from 27 to 50, spanning 2001–2027), and there's still no project↔publication linking.
 6. [x] **Phase E polish pass done** — see §5 above: `/impeccable audit` (15/20, "Good") run and every finding fixed (image weight, generic copy, heading hierarchy, border contrast, touch targets, a link's accessible name); responsive-checked via `/run-site` and ad hoc Playwright screenshots at 390px/1400px.
 7. [x] `v1-archive/` deleted (15 MB) — was the one loose end blocking git init, since GitHub Pages would otherwise have served it publicly at `osamahalabi.com/v1-archive/...`.
-8. [ ] **This is the actual next step**: §7 deployment. Still not a git repo — everything so far, including the v1→v2 promotion and every content/polish pass since, has been plain-filesystem edits with no version history. `git init`, first commit, create the GitHub repo, enable GitHub Pages, point DNS for osamahalabi.com. See §7 below for the full checklist.
+8. [x] **§7 deployment done — osamahalabi.com is live** (2026-08-16). See §7 for the full record, including the account-level domain-verification step that wasn't in the original checklist and turned out to be the actual blocker on HTTPS.
+
+</details>

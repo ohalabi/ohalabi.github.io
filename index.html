@@ -12,7 +12,8 @@
 <meta property="og:url" content="https://osamahalabi.com/index.html">
 <meta property="og:image" content="https://osamahalabi.com/assets/img/headshot/osama-headshot-wide.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="assets/img/favicon.png">
+<link rel="icon" href="assets/img/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 <link rel="stylesheet" href="assets/css/style.css">
 <style>
 /* Detail sections are only hidden once research.js confirms the drawer works.
@@ -20,13 +21,14 @@
 .js-drawer #project-details{display:none}
 </style>
   <script src="assets/js/site.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Osama Halabi","jobTitle":"Associate Professor","description":"Academic and researcher with over 20 years of experience in Virtual Reality (VR), Human-Computer Interaction (HCI), Haptics, and Multimodal Interfaces. Currently an Associate Professor at Qatar University, with over 140 peer-reviewed publications, edited volumes, and a patent spanning extended reality (XR), telexistence systems, and human-centered interactive applications. Recognized among the Top 2% Scientists Worldwide for 2025 by Stanford University and Elsevier.","url":"https://osamahalabi.com/about.html","image":"https://osamahalabi.com/assets/img/headshot/osama-headshot-square.jpg","affiliation":{"@type":"CollegeOrUniversity","name":"Qatar University","department":"Department of Computer Science and Engineering"},"alumniOf":[{"@type":"EducationalOrganization","name":"Japan Advanced Institute of Science & Technology (JAIST)"},{"@type":"EducationalOrganization","name":"Shanghai University"},{"@type":"EducationalOrganization","name":"Damascus University"}],"knowsAbout":["Virtual Reality (VR) and Human-Computer Interaction (HCI)","Haptics and Multimodal Interaction","Augmented and Extended Reality Applications","Game Design and Development","Computer Graphics & Laser Graphics","Interdisciplinary Research and Collaboration","Academic Leadership and Curriculum Development"],"sameAs":["https://www.linkedin.com/in/osamahalabi/","https://orcid.org/0000-0002-2052-0500","https://scholar.google.com/citations?user=jYUTRTcAAAAJ&hl=en","https://www.researchgate.net/profile/Osama-Halabi"]}</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="masthead">
   <div class="masthead-inner">
     <a class="wordmark" href="index.html">
-      <img class="wordmark-logo" src="Logo/xreality-logo-clean-512.png" alt="">
+      <img class="wordmark-logo" src="Logo/xreality-logo-clean-512.png" alt="" width="512" height="512">
       <b>Osama Halabi</b><span>XReality Lab &middot; Qatar University</span>
     </a>
     <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
@@ -45,20 +47,24 @@
       Qatar University, Doha, Qatar</p>
       <div class="actions">
         <a class="btn btn-primary" href="research.html">Browse the research</a>
-        <a class="btn" href="Data/cv_Osama_Halabi.pdf">Curriculum vitae (PDF)</a>
+        <a class="btn" href="contact.html">Request CV</a>
       </div>
     </div>
-    <img class="hero-portrait" src="assets/img/headshot/osama-headshot-square.jpg"
+    <img class="hero-portrait" src="assets/img/headshot/osama-headshot-square-800.jpg"
+         srcset="assets/img/headshot/osama-headshot-square-500.jpg 500w,
+                 assets/img/headshot/osama-headshot-square-800.jpg 800w,
+                 assets/img/headshot/osama-headshot-square-1200.jpg 1200w"
+         sizes="(max-width: 860px) 260px, 34vw"
+         width="1200" height="1200"
          alt="Osama Halabi">
   </section>
 
   <section class="band mission-band">
     <a class="lab-mark-link" href="research.html" aria-label="XReality Lab — go to Research">
-      <img class="lab-mark" src="Logo/xreality-logo-clean-512.png" alt="" aria-hidden="true">
+      <img class="lab-mark" src="Logo/xreality-logo-clean-512.png" alt="" aria-hidden="true" width="512" height="512">
     </a>
     <div class="mission-band-text">
-      <h2 class="section-title">Haptics, VR, and human-centered interaction</h2>
-      <p class="section-note">XReality Lab builds haptic interfaces, virtual and augmented
+      <p class="mission-statement">XReality Lab builds haptic interfaces, virtual and augmented
         reality systems, and multimodal training and accessibility tools — plus a laser
         graphics and visual-art practice dating back to 2001.</p>
     </div>
@@ -66,7 +72,7 @@
 
   <section class="band">
     <div class="figures">
-      <div class="figure"><b>142</b><span>Publications</span></div>
+      <div class="figure"><b>153</b><span>Publications</span></div>
       <div class="figure"><b>50</b><span>Projects</span></div>
       <div class="figure"><b>$4.93M</b><span>Research funding</span></div>
       <div class="figure"><b>45</b><span>Students supervised</span></div>
@@ -81,38 +87,42 @@
     <div class="project-grid featured">
       <article class="pcard" data-theme="haptics">
         <div class="pcard-media">
-          <img src="assets/img/projects/tactile-footwear-interface-to-create-the-illusion-of-walking-1.webp" alt="" loading="lazy">
+          <img src="assets/img/projects/tactile-footwear-interface-to-create-the-illusion-of-walking-1.webp" alt="" loading="lazy" width="261" height="347">
         </div>
         <div class="pcard-body">
           <span class="tag">Haptics &amp; Touch</span>
           <h3><a href="research.html#tactile-footwear-interface-to-create-the-illusion-of-walking-on-different-surfaces">Tactile Footwear Interface to Create the Illusion of Walking on Different Surfaces</a></h3>
+          <p>This project designs and develops an integrated feet-haptic insole paired with a mixed-reality environment to create the illusion of walking on virtual textures, enhancing the realism of virtual and augmented reality experiences. Where most texture-simulation research targets the hand, this system adapts tactile-communication mechanisms to the sole of the foot, accounting for the distribution and sensitivity of its mechanoreceptors, and drives an array of vibrotactile motors using two controllable parameters, PWM frequency and motor activation time, to render distinct surfaces such as sand, sponge, and wood. An algorithm tracks and analyzes user movement to synchronize tactile feedback with gait, and the system was evaluated through several virtual and augmented scenarios combining visual, auditory, and tactile cues. Experiments measured texture recognition rates and user satisfaction across participants, with intended applications spanning rehabilitation, gamification, training, and entertainment.</p>
         </div>
       </article>
       <article class="pcard" data-theme="vr">
         <div class="pcard-media">
-          <img src="assets/img/projects/firefighting-simulation-training-system-using-virtual-realit-1.webp" alt="" loading="lazy">
+          <img src="assets/img/projects/firefighting-simulation-training-system-using-virtual-realit-1.webp" alt="" loading="lazy" width="676" height="380">
         </div>
         <div class="pcard-body">
           <span class="tag">Virtual Reality</span>
           <h3><a href="research.html#firefighting-simulation-training-system-using-virtual-reality">Firefighting Simulation Training System Using Virtual Reality</a></h3>
+          <p>This project develops a multimodal virtual reality training and evaluation environment for firefighters, grounded in a study of firefighting standards, curricula, and existing training systems. Beyond visual immersion, the environment reproduces smell through microcontroller-driven air pumps releasing manufactured scents and heat through microcontroller-driven heat pads, alongside trackers and other sensory devices that heighten realism and support trainee assessment. A companion web application manages courses, evaluation, and training progress. At its core is a trainee-evaluation system that draws on standards-based criteria to score performance more accurately, built on elementary firefighting scenarios as proof-of-concept building blocks toward a fuller training environment. The resulting prototype is modifiable, usable, and accessible regardless of weather conditions, offering a safe, low-cost, and flexible alternative to physical fire training grounds.</p>
         </div>
       </article>
       <article class="pcard" data-theme="mobility">
         <div class="pcard-media">
-          <img src="assets/img/projects/driver-activity-recognition-in-virtual-reality-driving-simul-1.webp" alt="" loading="lazy">
+          <img src="assets/img/projects/driver-activity-recognition-in-virtual-reality-driving-simul-1.webp" alt="" loading="lazy" width="1017" height="875">
         </div>
         <div class="pcard-body">
           <span class="tag">Driving &amp; Mobility</span>
           <h3><a href="research.html#driver-activity-recognition-in-virtual-reality-driving-simulation">Driver Activity Recognition in Virtual Reality Driving Simulation</a></h3>
+          <p>This project designs a driver&#x27;s seat with two complementary features: an activity-recognition system that infers sitting posture from two force-sensor arrays embedded in the seat and backrest, and a vibrotactile seat that alerts the driver whenever an unsafe posture or missed activity is detected. Sensor placement was iterated to identify the distribution that maximizes recognition accuracy across ten distinct driving postures. A Virtual Reality driving simulator, built around an Oculus head-mounted display, was developed to evaluate the system in an immersive setting, and recognition accuracy was compared between a realistic desktop setup and the VR environment; the VR condition improved accuracy for several postures. Additional trials measured driver response time to the vibrotactile alert, finding that success in responding correctly depended on the driver&#x27;s familiarity with that warning modality.</p>
         </div>
       </article>
       <article class="pcard" data-theme="ar">
         <div class="pcard-media">
-          <img src="assets/img/projects/navigation-aid-for-blind-people-using-depth-information-and--1.webp" alt="" loading="lazy">
+          <img src="assets/img/projects/navigation-aid-for-blind-people-using-depth-information-and--1.webp" alt="" loading="lazy" width="269" height="190">
         </div>
         <div class="pcard-body">
           <span class="tag">Augmented Reality</span>
           <h3><a href="research.html#navigation-aid-for-blind-people-using-depth-information-and-augmented-reality-technology">Navigation Aid for Blind People Using Depth Information and Augmented Reality Technology</a></h3>
+          <p>This project presents a new navigation aid hybrid system for blind people based on depth information, Augmented Reality (AR), and 3D sound. The system acquires depth data in real-time from Kinect depth sensor and detect the object, then generate 3D spatial sound to convey the direction and the distance of the nearest object. The RGB camera in the same Kinect sensor is used to recognize AR markers and provide adequate information about the surrounding environment using synthesized sound. The system architecture ensures satisfactory real-time performance, which contributed to the improvement achieved towards smooth and unhindered blind travel in indoor environment, and provided adequate help information about the surrounding environment as well.</p>
         </div>
       </article></div>
   </section>
@@ -172,7 +182,7 @@
     <div class="railed">
       <div class="rail">
         <h2>Recent publications</h2>
-        <p>142 works, synced from ORCID.</p>
+        <p>153 works, synced from ORCID.</p>
       </div>
       <div>
         <ul class="entries">
@@ -193,18 +203,18 @@
       </li>
       <li class="entry">
         <div class="k">2026</div>
+        <div class="t"><b>How do people typically respond to social exclusion on social media? Clustering and personas from UK and Arab samples</b>
+          <span class="m">Current Psychology</span></div>
+      </li>
+      <li class="entry">
+        <div class="k">2026</div>
         <div class="t"><b>Leveraging Biometric Measurements in Virtual Reality for Improving Public Speaking Skills</b>
           <span class="m"></span></div>
       </li>
       <li class="entry">
         <div class="k">2025</div>
-        <div class="t"><b>Enhancing Telexistence Control Through Assistive Manipulation and Haptic Feedback</b>
-          <span class="m">Applied Sciences</span></div>
-      </li>
-      <li class="entry">
-        <div class="k">2025</div>
-        <div class="t"><b>A Multipurpose VR-Based Skill-Transfer for Robotic Platform</b>
-          <span class="m">Lecture Notes in Computer Science</span></div>
+        <div class="t"><b>Avatar Privacy Challenges in the Metaverse: A Comprehensive Review and Future Directions</b>
+          <span class="m">International Journal of Human–Computer Interaction</span></div>
       </li></ul>
         <p style="margin-top:var(--s5)"><a href="publications.html">All publications &rarr;</a></p>
       </div>
@@ -220,7 +230,7 @@
         College of Engineering, Qatar University, Doha.
       </p>
       <p class="colophon">Built from a JSON dataset with a 400-line Python generator.
-      No framework, no CDN, no tracking. Updated 2026-08-15.</p>
+      No framework, no CDN, no tracking. Updated 2026-08-17.</p>
     </div>
     <div>
       <h3>Sections</h3>

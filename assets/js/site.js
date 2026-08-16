@@ -107,6 +107,70 @@
     apply();
   });
 
+  /* ------------------------------------------------------- year rail
+     Publications' sticky year list: highlights the year currently in
+     view via IntersectionObserver, and keeps links in sync with the
+     type/search filter above by watching for the [hidden] the filter
+     already sets on empty year headings -- no coupling to the filter
+     code itself, just a reactive MutationObserver. */
+  var yearRail = document.querySelector("[data-year-rail]");
+  if (yearRail) {
+    var yearLinks = {};
+    Array.prototype.slice.call(yearRail.querySelectorAll("[data-year-link]")).forEach(function (a) {
+      yearLinks[a.getAttribute("data-year-link")] = a;
+    });
+    var yearGroups = Array.prototype.slice.call(document.querySelectorAll(".year-head[data-group][id]"));
+
+    if ("IntersectionObserver" in window && yearGroups.length) {
+      var currentLink = null;
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          var link = yearLinks[entry.target.id];
+          if (!link) return;
+          if (currentLink) currentLink.removeAttribute("aria-current");
+          currentLink = link;
+          currentLink.setAttribute("aria-current", "true");
+        });
+        // top offset matches .year-head's scroll-margin-top (132px, the
+        // sticky masthead + toolbar's combined height) so the trigger
+        // zone starts exactly where a jumped-to heading actually lands
+      }, { rootMargin: "-132px 0px -70% 0px" });
+      yearGroups.forEach(function (g) { io.observe(g); });
+    }
+
+    var syncYearRail = function () {
+      yearGroups.forEach(function (g) {
+        var link = yearLinks[g.id];
+        if (link) link.parentElement.hidden = g.hidden;
+      });
+    };
+    var pubList = document.getElementById("pub-list");
+    if (pubList) {
+      new MutationObserver(syncYearRail).observe(pubList, {
+        attributes: true, attributeFilter: ["hidden"], subtree: true,
+      });
+    }
+    syncYearRail();
+  }
+
+  /* ------------------------------------------------------- citation copy
+     Each publication's Cite panel ships as plain, selectable text inside
+     <details> -- works with zero JS. This just adds a one-click shortcut
+     on top for browsers that support the Clipboard API. */
+  document.querySelectorAll(".copy-btn[data-copy-target]").forEach(function (btn) {
+    if (!(navigator.clipboard && navigator.clipboard.writeText)) return;
+    btn.addEventListener("click", function () {
+      var target = document.getElementById(btn.dataset.copyTarget);
+      if (!target) return;
+      navigator.clipboard.writeText(target.textContent).then(function () {
+        var original = btn.textContent;
+        btn.textContent = "Copied";
+        setTimeout(function () { btn.textContent = original; }, 1500);
+      });
+    });
+  });
+
   /* ------------------------------------------------------- email reveal
      Contact's address ships as data-user/data-domain, not a plain mailto:
      link -- most address-harvesting bots scrape static HTML and don't

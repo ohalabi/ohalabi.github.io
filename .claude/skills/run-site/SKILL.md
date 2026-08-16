@@ -107,15 +107,17 @@ python -m http.server 8000
   referenced in `build.py`'s `<head>` from the start but never generated.
   `scripts/build_favicon.py` now crops the icon-only mark (no "XREALITY
   LAB" wordmark — illegible at the 16-32px a favicon actually renders at)
-  out of `Logo/xreality-logo-card-512.png` and writes it. `driver.py`'s
+  out of `Logo/xreality-logo-clean-512.png` and writes it. `driver.py`'s
   `KNOWN_404S` allowlist is empty again (was a one-entry tuple for this) —
   if it ever needs an entry again, that's a deliberate decision each time,
   not a rubber stamp.
-- **The favicon uses the white-card logo variant, not the transparent one.**
-  It first shipped cropped from `xreality-logo-clean-512.png` (transparent
-  background), which disappeared against a dark browser tab bar. Switched
-  to `xreality-logo-card-512.png` (opaque white background) so the icon
-  keeps a visible edge in both light and dark tab UIs.
+- **The favicon has gone transparent → white-card → transparent.** It first
+  shipped cropped from `xreality-logo-clean-512.png` (transparent
+  background); switched to `xreality-logo-card-512.png` (opaque white)
+  because the transparent version was faint against a dark browser tab bar;
+  switched back to transparent (2026-08-16) as the better general default.
+  If tab-bar visibility comes up again, the card variant is the known
+  fallback — don't rediscover this from scratch.
 - **The drawer screenshot needs a post-transition wait.** `.drawer` is
   `position:fixed` with `transition:transform .38s`; `driver.py` waits for
   the `.open` class (added synchronously by `research.js`) but that fires

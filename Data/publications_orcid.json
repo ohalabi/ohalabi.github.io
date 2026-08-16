@@ -5,7 +5,29 @@
     "type": "journal-article",
     "journal": "Advanced Robotics",
     "url": "https://doi.org/10.1080/01691864.2026.2707060",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Arsalan",
+        "given": "Muhammad"
+      },
+      {
+        "family": "Al-Sada",
+        "given": "Mohammed"
+      },
+      {
+        "family": "Khan",
+        "given": "Muhammad Asif"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Aljaber",
+        "given": "Faisal"
+      }
+    ]
   },
   {
     "title": "Virtual Assistant Avatars to Nudge Pro-Social Behavior: Exploratory Insights from a Co-Design Study",
@@ -13,7 +35,21 @@
     "type": "journal-article",
     "journal": "International Journal of Human–Computer Interaction",
     "url": "https://doi.org/10.1080/10447318.2025.2589499",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Abumalloh",
+        "given": "Rabab Ali"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Ali",
+        "given": "Raian"
+      }
+    ]
   },
   {
     "title": "Anonymized data for vibrotactile cue complexity and target acquisition in immersive virtual reality",
@@ -24,12 +60,86 @@
     "source": "orcid"
   },
   {
+    "title": "How do people typically respond to social exclusion on social media? Clustering and personas from UK and Arab samples",
+    "year": "2026",
+    "type": "journal-article",
+    "journal": "Current Psychology",
+    "url": "https://doi.org/10.1007/s12144-026-09443-5",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Abumalloh",
+        "given": "Rabab Ali"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Babiker",
+        "given": "Areej"
+      },
+      {
+        "family": "Yankouskaya",
+        "given": "Ala"
+      },
+      {
+        "family": "Ali",
+        "given": "Raian"
+      }
+    ]
+  },
+  {
     "title": "Leveraging Biometric Measurements in Virtual Reality for Improving Public Speaking Skills",
     "year": "2026",
     "type": "book-chapter",
     "journal": null,
     "url": "https://doi.org/10.1007/978-3-031-97766-4_4",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Abumalloh",
+        "given": "Rabab Ali"
+      },
+      {
+        "family": "Eldawi",
+        "given": "Ghazi"
+      },
+      {
+        "family": "Amin",
+        "given": "Omar"
+      },
+      {
+        "family": "Zayed",
+        "given": "Karim"
+      }
+    ]
+  },
+  {
+    "title": "Avatar Privacy Challenges in the Metaverse: A Comprehensive Review and Future Directions",
+    "year": "2025",
+    "type": "journal-article",
+    "journal": "International Journal of Human–Computer Interaction",
+    "url": "https://doi.org/10.1080/10447318.2024.2374091",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Eltanbouly",
+        "given": "Somaya"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Qadir",
+        "given": "Junaid"
+      }
+    ]
   },
   {
     "title": "Enhancing Telexistence Control Through Assistive Manipulation and Haptic Feedback",
@@ -37,7 +147,33 @@
     "type": "journal-article",
     "journal": "Applied Sciences",
     "url": "https://doi.org/10.3390/app15031324",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Al-Sada",
+        "given": "Mohammed"
+      },
+      {
+        "family": "Abourajouh",
+        "given": "Hala"
+      },
+      {
+        "family": "Hoque",
+        "given": "Myesha"
+      },
+      {
+        "family": "Iskandar",
+        "given": "Abdullah"
+      },
+      {
+        "family": "Nakajima",
+        "given": "Tatsuo"
+      }
+    ]
   },
   {
     "title": "A Multipurpose VR-Based Skill-Transfer for Robotic Platform",
@@ -45,7 +181,37 @@
     "type": "conference-paper",
     "journal": "Lecture Notes in Computer Science",
     "url": "https://doi.org/10.1007/978-3-031-92980-9_12",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Aburajouh",
+        "given": "Hala Khazer Shebli"
+      },
+      {
+        "family": "Iskandar",
+        "given": "Abdullah"
+      },
+      {
+        "family": "Fuchino",
+        "given": "Kodai"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Al-Jaber",
+        "given": "Faisal"
+      },
+      {
+        "family": "Al-Sada",
+        "given": "Mohammed"
+      },
+      {
+        "family": "Nakajima",
+        "given": "Tatsuo"
+      }
+    ]
   },
   {
     "title": "Assessing Drone-Enabled Infantry Maneuvers Through Tactical Simulation",
@@ -53,7 +219,25 @@
     "type": "book-chapter",
     "journal": null,
     "url": "https://doi.org/10.1007/978-3-031-93429-2_7",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Bastiat",
+        "given": "Gauthier"
+      },
+      {
+        "family": "Pelissie Du Rausas",
+        "given": "Jean"
+      },
+      {
+        "family": "Cardon",
+        "given": "St\\'ephane"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      }
+    ]
   },
   {
     "title": "Development and Validation of a Class Imbalance-Resilient Cardiac Arrest Prediction Framework Incorporating Multiscale Aggregation, ICA and Explainability",
@@ -61,15 +245,113 @@
     "type": "journal-article",
     "journal": "IEEE Transactions on Biomedical Engineering",
     "url": "https://doi.org/10.1109/TBME.2024.3517635",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "M",
+        "given": "Iffa Afsa C"
+      },
+      {
+        "family": "Ansari",
+        "given": "Mohammed Yusuf"
+      },
+      {
+        "family": "Paul",
+        "given": "Santu"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Alataresh",
+        "given": "Ezzedin"
+      },
+      {
+        "family": "Shah",
+        "given": "Jassim"
+      },
+      {
+        "family": "Hamze",
+        "given": "Afaf"
+      },
+      {
+        "family": "Aboumarzouk",
+        "given": "Omar"
+      },
+      {
+        "family": "Al-Ansari",
+        "given": "Abdulla"
+      },
+      {
+        "family": "Dakua",
+        "given": "Sarada Prasad"
+      }
+    ]
   },
   {
     "title": "Embodying a Mixed-Reality Agent with a Wearable Snake-Shaped Robotic Appendage",
     "year": "2025",
-    "type": "conference-paper",
+    "type": "book-chapter",
     "journal": "Lecture Notes in Computer Science",
     "url": "https://doi.org/10.1007/978-3-031-93715-6_21",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Iskandar",
+        "given": "Abdullah"
+      },
+      {
+        "family": "Aburajouh",
+        "given": "Hala Khazer Shebli"
+      },
+      {
+        "family": "Abdullah",
+        "given": "Haya Al"
+      },
+      {
+        "family": "Yafei",
+        "given": "Roudha Al"
+      },
+      {
+        "family": "Wadaani",
+        "given": "Noor Al"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Al-Sada",
+        "given": "Mohammed"
+      },
+      {
+        "family": "Nakajima",
+        "given": "Tatsuo"
+      }
+    ]
+  },
+  {
+    "title": "Emotionally Intelligent MetaHuman-Based Framework for Language Learning through Conversational Simulation",
+    "year": "2025",
+    "type": "conference-paper",
+    "journal": "International Conference on Computer and Applications",
+    "url": "https://doi.org/10.1109/ICCA66035.2025.11431059",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Alkai",
+        "given": "Rain"
+      },
+      {
+        "family": "Hamdi",
+        "given": "Islam"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      }
+    ]
   },
   {
     "title": "Generative AI-Driven Metaverse: The Promises and Challenges of AI-Generated Content",
@@ -77,15 +359,37 @@
     "type": "journal-article",
     "journal": "IEEE Open Journal of the Computer Society",
     "url": "https://doi.org/10.1109/OJCS.2025.3616501",
-    "source": "orcid"
-  },
-  {
-    "title": "Generative AI-Driven Metaverse: The Promises and Challenges of AI-Generated Content",
-    "year": "2025",
-    "type": "other",
-    "journal": "Techrxiv",
-    "url": "https://doi.org/10.36227/techrxiv.174062953.37029023/v1",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Basyoni",
+        "given": "Lamiaa"
+      },
+      {
+        "family": "Qayyum",
+        "given": "Adnan"
+      },
+      {
+        "family": "Shaban",
+        "given": "Khaled"
+      },
+      {
+        "family": "Elmahjub",
+        "given": "Ezieddin"
+      },
+      {
+        "family": "Al-Ali",
+        "given": "Abdulaziz"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Qadir",
+        "given": "Junaid"
+      }
+    ]
   },
   {
     "title": "LinkForm: A Multipurpose VR-based Remote Skill-Transfer Robotic System",
@@ -93,7 +397,85 @@
     "type": "conference-paper",
     "journal": "Proceedings 2025 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops Vrw 2025",
     "url": "https://doi.org/10.1109/VRW66409.2025.00249",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Iskandar",
+        "given": "Abdullah"
+      },
+      {
+        "family": "Aburajouh",
+        "given": "Hala"
+      },
+      {
+        "family": "Fuchino",
+        "given": "Kodai"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Al-Jaber",
+        "given": "Faisal"
+      },
+      {
+        "family": "Sada",
+        "given": "Mohammed Al"
+      },
+      {
+        "family": "Nakajima",
+        "given": "Tatsuo"
+      }
+    ]
+  },
+  {
+    "title": "The relationship between technology trust and behavioral intention to use Metaverse in baby monitoring systems' design: Stimulus-Organism-Response (SOR) theory",
+    "year": "2025",
+    "type": "journal-article",
+    "journal": "Entertainment Computing",
+    "url": "https://doi.org/10.1016/j.entcom.2024.100833",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Ali Abumalloh",
+        "given": "Rabab"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Nilashi",
+        "given": "Mehrbakhsh"
+      }
+    ]
+  },
+  {
+    "title": "Does metaverse improve recommendations quality and customer trust? A user-centric evaluation framework based on the cognitive-affective-behavioural theory",
+    "year": "2024",
+    "type": "journal-article",
+    "journal": "Journal of Innovation & Knowledge",
+    "url": "https://doi.org/10.1016/j.jik.2024.100569",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Abumalloh",
+        "given": "Rabab Ali"
+      },
+      {
+        "family": "Nilashi",
+        "given": "Mehrbakhsh"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Ali",
+        "given": "Raian"
+      }
+    ]
   },
   {
     "title": "User correction against the violation of gender equality and social inclusion on social media? The role of the perceived sense of power, social inclusion, and social exclusion",
@@ -101,7 +483,51 @@
     "type": "conference-paper",
     "journal": null,
     "url": "https://doi.org/10.1145/3677525.3678674",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Abumalloh",
+        "given": "Rabab Ali"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Abu-Ras",
+        "given": "Wahiba"
+      },
+      {
+        "family": "Ali",
+        "given": "Raian"
+      }
+    ]
+  },
+  {
+    "title": "Nudging Techniques: Design, Theoretical Grounds, and Ethical View",
+    "year": "2024",
+    "type": "journal-article",
+    "journal": "Journal of the Knowledge Economy",
+    "url": "https://doi.org/10.1007/s13132-024-02219-x",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Abumalloh",
+        "given": "Rabab Ali"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Ali",
+        "given": "Raian"
+      },
+      {
+        "family": "Al-Thani",
+        "given": "Dena"
+      }
+    ]
   },
   {
     "title": "Secure and Trustworthy Artificial Intelligence-extended Reality (AI-XR) for Metaverses",
@@ -109,7 +535,97 @@
     "type": "journal-article",
     "journal": "ACM Computing Surveys",
     "url": "https://doi.org/10.1145/3614426",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Qayyum",
+        "given": "Adnan"
+      },
+      {
+        "family": "Butt",
+        "given": "Muhammad Atif"
+      },
+      {
+        "family": "Ali",
+        "given": "Hassan"
+      },
+      {
+        "family": "Usman",
+        "given": "Muhammad"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Al-Fuqaha",
+        "given": "Ala"
+      },
+      {
+        "family": "Abbasi",
+        "given": "Qammer H."
+      },
+      {
+        "family": "Imran",
+        "given": "Muhammad Ali"
+      },
+      {
+        "family": "Qadir",
+        "given": "Junaid"
+      }
+    ]
+  },
+  {
+    "title": "Navigating Privacy Challenges in the Metaverse: A Comprehensive Examination of Current Technologies and Platforms",
+    "year": "2024",
+    "type": "journal-article",
+    "journal": "IEEE Internet of Things Magazine",
+    "url": "https://doi.org/10.1109/IOTM.001.2300197",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Basyoni",
+        "given": "Lamiaa"
+      },
+      {
+        "family": "Tabassum",
+        "given": "Aliya"
+      },
+      {
+        "family": "Shaban",
+        "given": "Khaled"
+      },
+      {
+        "family": "Elmahjub",
+        "given": "Ezieddin"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Qadir",
+        "given": "Junaid"
+      }
+    ]
+  },
+  {
+    "title": "Few-Shot Learning Approach for Avatar Action Identification in the Metaverse",
+    "year": "2024",
+    "type": "conference-paper",
+    "journal": "2024 Nicograph International (NicoInt)",
+    "url": "https://doi.org/10.1109/NICOInt62634.2024.00023",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Eltanbouly",
+        "given": "Somaya"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      }
+    ]
   },
   {
     "title": "Advancements in Deep Learning for B-Mode Ultrasound Segmentation: A Comprehensive Review",
@@ -117,7 +633,183 @@
     "type": "journal-article",
     "journal": "IEEE Transactions on Emerging Topics in Computational Intelligence",
     "url": "https://doi.org/10.1109/TETCI.2024.3377676",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Ansari",
+        "given": "Mohammed Yusuf"
+      },
+      {
+        "family": "Changaai Mangalote",
+        "given": "Iffa Afsa"
+      },
+      {
+        "family": "Meher",
+        "given": "Pramod Kumar"
+      },
+      {
+        "family": "Aboumarzouk",
+        "given": "Omar"
+      },
+      {
+        "family": "Al-Ansari",
+        "given": "Abdulla"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Dakua",
+        "given": "Sarada Prasad"
+      }
+    ]
+  },
+  {
+    "title": "Empathy vs Reluctance to Challenge Misinformation: The Mediating Role of Relationship Costs, Perspective Taking, and Need for Cognition",
+    "year": "2024",
+    "type": "book-chapter",
+    "journal": "International Conference on Research Challenges in Information Science",
+    "url": "https://doi.org/10.1007/978-3-031-59465-6_23",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Abumalloh",
+        "given": "Rabab Ali"
+      },
+      {
+        "family": "Gurgun",
+        "given": "Selin"
+      },
+      {
+        "family": "Noman",
+        "given": "Muaadh"
+      },
+      {
+        "family": "Phalp",
+        "given": "Keith"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Katos",
+        "given": "Vasilis"
+      },
+      {
+        "family": "Ali",
+        "given": "Raian"
+      }
+    ]
+  },
+  {
+    "title": "Exploring the Intent-Behavior Gap in Social Media Advocacy for Gender Equality and Social Inclusion",
+    "year": "2024",
+    "type": "conference-paper",
+    "journal": "International Conference on Behavioural and Social Computing (BESC)",
+    "url": "https://doi.org/10.1109/BESC64747.2024.10780572",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Abumalloh",
+        "given": "Rabab Ali"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Alfadala",
+        "given": "Asmaa"
+      },
+      {
+        "family": "Ali",
+        "given": "Raian"
+      }
+    ]
+  },
+  {
+    "title": "I-Shoe: Smart Insole for Gait Monitoring",
+    "year": "2024",
+    "type": "book-chapter",
+    "journal": "International Conference on Human-Computer Interaction",
+    "url": "https://doi.org/10.1007/978-3-031-60012-8_20",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Aburajouh",
+        "given": "Hala"
+      },
+      {
+        "family": "Abdulrahman",
+        "given": "Eman"
+      },
+      {
+        "family": "Al-Zeyara",
+        "given": "Nayla"
+      },
+      {
+        "family": "Al-Dosari",
+        "given": "Wasmiya"
+      },
+      {
+        "family": "Al-Sada",
+        "given": "Mohammed"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      }
+    ]
+  },
+  {
+    "title": "Leveraging Human Data for Avatar Action Recognition in Virtual Environments",
+    "year": "2024",
+    "type": "conference-paper",
+    "journal": "Human Systems Engineering and Design (IHSED) Future Trends and Applications",
+    "url": "https://doi.org/10.54941/AHFE1004622",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Eltanbouly",
+        "given": "Somaya"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      }
+    ]
+  },
+  {
+    "title": "V-TX: A VR-Based Deployment and Evaluation System for Wearable Telexistence Robotic Systems",
+    "year": "2024",
+    "type": "journal-article",
+    "journal": "International Conference on Cyberworlds",
+    "url": "https://doi.org/10.1109/CW64301.2024.00053",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Iskandar",
+        "given": "Abdullah"
+      },
+      {
+        "family": "Khazer",
+        "given": "Hala"
+      },
+      {
+        "family": "Aburajouh",
+        "given": "Shebli"
+      },
+      {
+        "family": "Al-shaer",
+        "given": "Eman Hussain"
+      },
+      {
+        "family": "Al-yafei",
+        "given": "Fatima Thabit"
+      }
+    ]
   },
   {
     "title": "Exploring User Requirements and Expectations of Daily Used Wearable Telexistence Robotic Systems",
@@ -125,7 +817,25 @@
     "type": "conference-paper",
     "journal": null,
     "url": "https://doi.org/10.1145/3627050.3627051",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Iskandar",
+        "given": "Abdullah"
+      },
+      {
+        "family": "Al-Sada",
+        "given": "Mohammed"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Nakajima",
+        "given": "Tatsuo"
+      }
+    ]
   },
   {
     "title": "Augmented Reality in Surgical Navigation: A Review of Evaluation and Validation Metrics",
@@ -133,7 +843,59 @@
     "type": "journal-article",
     "journal": "Applied Sciences",
     "url": "https://doi.org/10.3390/app13031629",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Malhotra",
+        "given": "Shivali"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Dakua",
+        "given": "Sarada Prasad"
+      },
+      {
+        "family": "Padhan",
+        "given": "Jhasketan"
+      },
+      {
+        "family": "Paul",
+        "given": "Santu"
+      },
+      {
+        "family": "Palliyali",
+        "given": "Waseem"
+      }
+    ]
+  },
+  {
+    "title": "Investigating Requirements and Expectations of Wearable Telexistence Robotic Systems",
+    "year": "2023",
+    "type": "journal-article",
+    "journal": "2023 IEEE 29th International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA)",
+    "url": "https://doi.org/10.1109/rtcsa58653.2023.00040",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Iskandar",
+        "given": "Abdullah"
+      },
+      {
+        "family": "Al-Sada",
+        "given": "Mohammed"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Nakajima",
+        "given": "Tatsuo"
+      }
+    ]
   },
   {
     "title": "Piton: Investigating the Controllability of a Wearable Telexistence Robot",
@@ -141,7 +903,33 @@
     "type": "journal-article",
     "journal": "Sensors",
     "url": "https://doi.org/10.3390/s22218574",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Iskandar",
+        "given": "Abdullah"
+      },
+      {
+        "family": "Al-sada",
+        "given": "Mohammed"
+      },
+      {
+        "family": "Miyake",
+        "given": "Tamon"
+      },
+      {
+        "family": "Saraiji",
+        "given": "Yamen"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Nakajima",
+        "given": "Tatsuo"
+      }
+    ]
   },
   {
     "title": "Virtual reality for ambulance simulation environment",
@@ -149,7 +937,25 @@
     "type": "journal-article",
     "journal": "Multimedia Tools and Applications",
     "url": "https://doi.org/10.1007/s11042-022-12980-3",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Salahuddin",
+        "given": "Tooba"
+      },
+      {
+        "family": "Karkar",
+        "given": "Abdel Ghani"
+      },
+      {
+        "family": "Alinier",
+        "given": "Guillaume"
+      }
+    ]
   },
   {
     "title": "3D GIS Interactive Visualization of the Archaeological Sites in Qatar for Research and Learning",
@@ -157,7 +963,29 @@
     "type": "journal-article",
     "journal": "International Journal of Emerging Technologies in Learning (iJET)",
     "url": "https://doi.org/10.3991/ijet.v17i01.25933",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Al-Maadeed",
+        "given": "Somaya"
+      },
+      {
+        "family": "Puthern",
+        "given": "Mary"
+      },
+      {
+        "family": "Balakrishnan",
+        "given": "Perumal"
+      },
+      {
+        "family": "El-Menshawy",
+        "given": "Sherine"
+      }
+    ]
   },
   {
     "title": "A lightweight neural network with multiscale feature enhancement for liver CT segmentation",
@@ -165,7 +993,77 @@
     "type": "journal-article",
     "journal": "Scientific Reports",
     "url": "https://doi.org/10.1038/S41598-022-16828-6",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Ansari",
+        "given": "Mohammed Yusuf"
+      },
+      {
+        "family": "Yang",
+        "given": "Yin"
+      },
+      {
+        "family": "Balakrishnan",
+        "given": "Shidin"
+      },
+      {
+        "family": "Abinahed",
+        "given": "Julien"
+      },
+      {
+        "family": "Al-Ansari",
+        "given": "Abdulla"
+      },
+      {
+        "family": "Warfa",
+        "given": "Mohamed"
+      },
+      {
+        "family": "Almokdad",
+        "given": "Omran"
+      },
+      {
+        "family": "Barah",
+        "given": "Ali"
+      },
+      {
+        "family": "Omer",
+        "given": "Ahmed"
+      },
+      {
+        "family": "Singh",
+        "given": "Ajay Vikram"
+      },
+      {
+        "family": "Meher",
+        "given": "Pramod Kumar"
+      },
+      {
+        "family": "Bhadra",
+        "given": "Jolly"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Azampour",
+        "given": "Mohammad Farid"
+      },
+      {
+        "family": "Navab",
+        "given": "Nassir"
+      },
+      {
+        "family": "Wendler",
+        "given": "Thomas"
+      },
+      {
+        "family": "Dakua",
+        "given": "Sarada Prasad"
+      }
+    ]
   },
   {
     "title": "A lightweight neural network with multiscale feature enhancement for liver CT segmentation (vol 12, 14153, 2022)",
@@ -176,12 +1074,82 @@
     "source": "orcid"
   },
   {
+    "title": "Assistive Telexistence System Using Motion Blending",
+    "year": "2022",
+    "type": "conference-paper",
+    "journal": "International Conference on Cyberworlds",
+    "url": "https://doi.org/10.1109/CW55638.2022.00023",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Eltanbouly",
+        "given": "Somaya"
+      },
+      {
+        "family": "Abdel-Ghani",
+        "given": "Muraam"
+      },
+      {
+        "family": "Helmy",
+        "given": "Hoda"
+      },
+      {
+        "family": "Iskandar",
+        "given": "Abdullah"
+      },
+      {
+        "family": "Al-Sada",
+        "given": "Mohammed"
+      },
+      {
+        "family": "Nakajima",
+        "given": "Tatsuo"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      }
+    ]
+  },
+  {
+    "title": "Virtual Interactive Imagery: Virtual Reality in the Treatment of Obesity",
+    "year": "2022",
+    "type": "conference-paper",
+    "journal": "International Conference on Cyberworlds",
+    "url": "https://doi.org/10.1109/CW55638.2022.00042",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Salim",
+        "given": "Mariam"
+      },
+      {
+        "family": "Saleh",
+        "given": "Mohammad"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      }
+    ]
+  },
+  {
     "title": "Augmented reality flavor: cross-modal mapping across gustation, olfaction, and vision",
     "year": "2021",
     "type": "journal-article",
     "journal": "Multimedia Tools and Applications",
     "url": "https://doi.org/10.1007/s11042-021-11321-0",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Saleh",
+        "given": "Mohammad"
+      }
+    ]
   },
   {
     "title": "Generating haptic texture using solid noise",
@@ -189,7 +1157,17 @@
     "type": "journal-article",
     "journal": "Displays",
     "url": "https://doi.org/10.1016/j.displa.2021.102048",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Khattak",
+        "given": "Gulrukh"
+      }
+    ]
   },
   {
     "title": "A Posture Recognition System to Track Drivers’ Activities While Driving",
@@ -197,15 +1175,55 @@
     "type": "journal-article",
     "journal": "International Journal of Traffic and Transportation Management",
     "url": "https://doi.org/10.5383/jttm.03.02.004",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Shaaban",
+        "given": "Khaled"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Almughani",
+        "given": "Eman"
+      }
+    ]
   },
   {
     "title": "A Cost-Effective Immersive Telexistence Platform for Generic Telemanipulation Tasks",
     "year": "2021",
-    "type": "journal-article",
-    "journal": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "journal": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
     "url": "https://doi.org/10.1007/978-3-030-90963-5_16",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Al-Remaihi",
+        "given": "Reem"
+      },
+      {
+        "family": "Al-Raeesi",
+        "given": "Aisha"
+      },
+      {
+        "family": "Al-Kubaisi",
+        "given": "Reem"
+      },
+      {
+        "family": "Al-Sada",
+        "given": "Mohammed"
+      },
+      {
+        "family": "Nakajima",
+        "given": "Tatsuo"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      }
+    ]
   },
   {
     "title": "Emerging Technologies in Biomedical Engineering and Sustainable TeleMedicine",
@@ -221,7 +1239,51 @@
     "type": "book-chapter",
     "journal": null,
     "url": "https://doi.org/10.1007/978-3-030-77414-1_17",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Naseem",
+        "given": "Hira"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      }
+    ]
+  },
+  {
+    "title": "HCI International 2021 - Late Breaking Papers: Multimodality, eXtended Reality, and Artificial Intelligence",
+    "year": "2021",
+    "type": "book",
+    "journal": "HCI International 2021",
+    "url": "https://doi.org/10.1007/978-3-030-90963-5",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Al-remaihi",
+        "given": "Reem"
+      },
+      {
+        "family": "Al-Raeesi",
+        "given": "Aisha"
+      },
+      {
+        "family": "Al-kubaisi",
+        "given": "Reem"
+      },
+      {
+        "family": "Al-Sada",
+        "given": "Mohammed"
+      },
+      {
+        "family": "Nakajima",
+        "given": "Tatsuo"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      }
+    ]
   },
   {
     "title": "Smart 3D Simulation of Covid-19 for Evaluating the Social Distance Measures",
@@ -229,7 +1291,59 @@
     "type": "book-chapter",
     "journal": "HCI International 2021 - Posters",
     "url": "https://doi.org/10.1007/978-3-030-78645-8_69",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Al-Khayarin",
+        "given": "Abdulrahman"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      }
+    ]
+  },
+  {
+    "title": "Using virtual reality to allow paramedics to familiarise themselves with a new ambulance patient compartment design",
+    "year": "2021",
+    "type": "journal-article",
+    "journal": "Journal of Emergency Medicine, Trauma and Acute Care",
+    "url": "https://doi.org/10.5339/JEMTAC.2021.QHC.42",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Alinier",
+        "given": "Guillaume"
+      },
+      {
+        "family": "Salahuddin",
+        "given": "Tooba"
+      },
+      {
+        "family": "Karkar",
+        "given": "Abdelghani"
+      },
+      {
+        "family": "Gueddes",
+        "given": "Ahmed"
+      },
+      {
+        "family": "Devaraj",
+        "given": "Suresh"
+      },
+      {
+        "family": "Velayudhan",
+        "given": "Vimal Machampilly"
+      },
+      {
+        "family": "Sayed Mohammed",
+        "given": "Sulaiman Karickayil"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      }
+    ]
   },
   {
     "title": "Virtual Reality for Rich Interaction with Cultural Heritage Sites",
@@ -237,7 +1351,25 @@
     "type": "book-chapter",
     "journal": null,
     "url": "https://doi.org/10.1007/978-3-030-77414-1_23",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "AlMuraikhi",
+        "given": "Nouf"
+      },
+      {
+        "family": "AlMalki",
+        "given": "Fatima"
+      },
+      {
+        "family": "AlDahnim",
+        "given": "Fadeela"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      }
+    ]
   },
   {
     "title": "Virtual and Augmented Reality in Surgery",
@@ -245,7 +1377,29 @@
     "type": "book-chapter",
     "journal": "Lecture Notes in Electrical Engineering",
     "url": "https://doi.org/10.1007/978-3-030-48230-5_11",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Balakrishnan",
+        "given": "Shidin"
+      },
+      {
+        "family": "Dakua",
+        "given": "Sarada Prasad"
+      },
+      {
+        "family": "Navab",
+        "given": "Nassir"
+      },
+      {
+        "family": "Warfa",
+        "given": "Mohammed"
+      }
+    ]
   },
   {
     "title": "Immersive virtual reality to enforce teaching in engineering education",
@@ -253,7 +1407,13 @@
     "type": "journal-article",
     "journal": "Multimedia Tools and Applications",
     "url": "https://doi.org/10.1007/s11042-019-08214-8",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      }
+    ]
   },
   {
     "title": "Response Times for Auditory and Vibrotactile Directional Cues in Different Immersive Displays",
@@ -261,7 +1421,25 @@
     "type": "journal-article",
     "journal": "International Journal of Human–Computer Interaction",
     "url": "https://doi.org/10.1080/10447318.2018.1555743",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Bahameish",
+        "given": "Mariam A."
+      },
+      {
+        "family": "Al-Naimi",
+        "given": "Latefa T."
+      },
+      {
+        "family": "Al-Kaabi",
+        "given": "Amna K."
+      }
+    ]
   },
   {
     "title": "A Virtual Reality Nutrition Awareness Learning System for Children",
@@ -269,7 +1447,29 @@
     "type": "conference-paper",
     "journal": "2018 IEEE Conference on e-Learning, e-Management and e-Services, IC3e 2018",
     "url": "https://doi.org/10.1109/IC3e.2018.8632634",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Karkar",
+        "given": "Abdelghani"
+      },
+      {
+        "family": "Salahuddin",
+        "given": "Tooba"
+      },
+      {
+        "family": "Almaadeed",
+        "given": "Noor"
+      },
+      {
+        "family": "Aljaam",
+        "given": "Jihad Mohamad"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      }
+    ]
   },
   {
     "title": "Assisting individuals with autism and cognitive disorders: An augmented reality based framework",
@@ -277,15 +1477,43 @@
     "type": "journal-article",
     "journal": "International journal of online and biomedical engineering",
     "url": "https://doi.org/10.3991/ijoe.v15i04.9835",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Abou El-Seoud",
+        "given": "Samir"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Geroimenko",
+        "given": "Vladimir"
+      }
+    ]
   },
   {
     "title": "Students Perceptions in a Flipped Computer Programming Course",
     "year": "2019",
-    "type": "book",
+    "type": "book-chapter",
     "journal": "Advances in Intelligent Systems and Computing",
     "url": "https://doi.org/10.1007/978-3-030-11935-5_8",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Alhazbi",
+        "given": "Saleh"
+      },
+      {
+        "family": "El-Seoud",
+        "given": "Samir Abou"
+      }
+    ]
   },
   {
     "title": "An Augmented Reality-Based Framework for Assisting Individuals with Autism and Cognitive Disorders",
@@ -293,15 +1521,21 @@
     "type": "journal-article",
     "journal": "International Journal of Information and Education Technology",
     "url": "https://doi.org/10.18178/IJIET.2018.8.12.1160",
-    "source": "orcid"
-  },
-  {
-    "title": "An Augmented Reality-based Framework for Assisting Individuals with Autism and Cognitive Disorders",
-    "year": "2018",
-    "type": "journal-article",
-    "journal": "7th International Conference on Software and Information Engineering (ICSIE 2018)",
-    "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Geroimenko",
+        "given": "Vladimir"
+      },
+      {
+        "family": "El-Seoud",
+        "given": "Samir"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      }
+    ]
   },
   {
     "title": "Design and implementation of haptic virtual fixtures for preoperative surgical planning",
@@ -309,15 +1543,51 @@
     "type": "journal-article",
     "journal": "Displays",
     "url": "https://doi.org/10.1016/j.displa.2018.07.004",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Halwani",
+        "given": "Yasmin"
+      }
+    ]
   },
   {
     "title": "Driver Drowsiness Detection Study using Heart Rate Variability analysis in Virtual Reality Environment",
     "year": "2018",
-    "type": "journal-article",
-    "journal": "Qatar Foundation Annual Research Conference Proceedings",
-    "url": "https://doi.org/https://doi.org/10.5339/qfarc.2018.ICTPD1132",
-    "source": "orcid"
+    "type": "conference-paper",
+    "journal": "Qatar Foundation Annual Research Conference Proceedings Volume 2018 Issue 3",
+    "url": "https://doi.org/10.5339/qfarc.2018.ICTPD1132",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Chowdhury",
+        "given": "Muhammad EH"
+      },
+      {
+        "family": "El Beheri",
+        "given": "Samir Hussein"
+      },
+      {
+        "family": "Albardawil",
+        "given": "Mohammed Nabil"
+      },
+      {
+        "family": "Moustafa",
+        "given": "Ahmed Khaled Mohamed Nageb"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Kiranyaz",
+        "given": "Mustafa Serkan"
+      }
+    ]
   },
   {
     "title": "Flipping introductory programming class: Potentials, challenges, and research gaps",
@@ -325,7 +1595,17 @@
     "type": "conference-paper",
     "journal": "ACM International Conference Proceeding Series",
     "url": "https://doi.org/10.1145/3290511.3290552",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Alhazbi",
+        "given": "Saleh"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      }
+    ]
   },
   {
     "title": "Modeling Family Behavior in Crowd Simulation",
@@ -333,23 +1613,73 @@
     "type": "conference-paper",
     "journal": "2018 International Conference on Computer and Applications, ICCA 2018",
     "url": "https://doi.org/10.1109/COMAPP.2018.8460299",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Eliyan",
+        "given": "Lubna"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Saleh",
+        "given": "Mohammed"
+      }
+    ]
   },
   {
     "title": "Self-Powered IoT-Enabled Water Monitoring System",
     "year": "2018",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "The 3rd International Conference on Computer and Applications (ICCA’18)",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Mhaisen",
+        "given": "Naram"
+      },
+      {
+        "family": "Abazeed",
+        "given": "Omran"
+      },
+      {
+        "family": "Hariri",
+        "given": "Youssef Al"
+      },
+      {
+        "family": "Alsalemi",
+        "given": "Abdullah"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      }
+    ]
   },
   {
     "title": "Teaching design project in introductory engineering course using 3D modeling and immersive virtual reality",
     "year": "2018",
-    "type": "book",
+    "type": "book-chapter",
     "journal": "Advances in Intelligent Systems and Computing",
     "url": "https://doi.org/10.1007/978-3-319-73204-6_4",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Abou El-Seoud",
+        "given": "M.S. Samir"
+      },
+      {
+        "family": "Geroimenko",
+        "given": "Vladimir"
+      }
+    ]
   },
   {
     "title": "Enhanced redirected walking algorithm",
@@ -357,7 +1687,25 @@
     "type": "conference-paper",
     "journal": "2017 6th International Conference on Information and Communication Technology and Accessibility (ICTA)",
     "url": "https://doi.org/10.1109/ICTA.2017.8336063",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Kanani",
+        "given": "Mohsen"
+      },
+      {
+        "family": "Al-Jabir",
+        "given": "Yousif"
+      },
+      {
+        "family": "Al-Ghanim",
+        "given": "Salem"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      }
+    ]
   },
   {
     "title": "Immersive Virtual Reality in Improving Communication Skills in Children with Autism",
@@ -365,7 +1713,33 @@
     "type": "journal-article",
     "journal": "International Journal of Interactive Mobile Technologies (iJIM)",
     "url": "https://doi.org/10.3991/ijim.v11i2.6555",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Elseoud",
+        "given": "Samir A."
+      },
+      {
+        "family": "Alja'am",
+        "given": "Jihad M."
+      },
+      {
+        "family": "Alpona",
+        "given": "Hena"
+      },
+      {
+        "family": "Al-Hemadi",
+        "given": "Moza"
+      },
+      {
+        "family": "Al-Hassan",
+        "given": "Dabia"
+      }
+    ]
   },
   {
     "title": "Design of immersive virtual reality system to improve communication skills in individuals with autism",
@@ -373,7 +1747,33 @@
     "type": "journal-article",
     "journal": "International Journal of Emerging Technologies in Learning",
     "url": "https://doi.org/10.3991/ijet.v12i05.6766",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Abou El-Seoud",
+        "given": "Samir"
+      },
+      {
+        "family": "Alja'am",
+        "given": "Jihad"
+      },
+      {
+        "family": "Alpona",
+        "given": "Hena"
+      },
+      {
+        "family": "Al-Hemadi",
+        "given": "Moza"
+      },
+      {
+        "family": "Al-Hassan",
+        "given": "Dabia"
+      }
+    ]
   },
   {
     "title": "Driver activity recognition in virtual reality driving simulation",
@@ -381,31 +1781,95 @@
     "type": "conference-paper",
     "journal": "2017 8th International Conference on Information and Communication Systems, ICICS 2017",
     "url": "https://doi.org/10.1109/IACS.2017.7921955",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Fawal",
+        "given": "Sara"
+      },
+      {
+        "family": "Almughani",
+        "given": "Eman"
+      },
+      {
+        "family": "Al-Homsi",
+        "given": "Lina"
+      }
+    ]
+  },
+  {
+    "title": "3D GIS visualization of archaeological sites in Qatar",
+    "year": "2016",
+    "type": "conference-paper",
+    "journal": "Interdisciplinary Research Forum",
+    "url": null,
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Al-Maadeed",
+        "given": "Sumaya"
+      },
+      {
+        "family": "El-Menshawy",
+        "given": "Sherine"
+      },
+      {
+        "family": "Balakrishnan",
+        "given": "Perumal"
+      },
+      {
+        "family": "Puthren",
+        "given": "Mary"
+      }
+    ]
   },
   {
     "title": "A Whale Shark Virtual Reality Underwater Environment",
     "year": "2016",
-    "type": "journal-article",
-    "journal": "QScience Proceedings",
+    "type": "conference-paper",
+    "journal": "The 4th International Whale Shark Conference",
     "url": "https://doi.org/10.5339/qproc.2016.iwsc4.28",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Karkar",
+        "given": "AbdelGhani"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Jaam",
+        "given": "Jihad"
+      }
+    ]
   },
   {
     "title": "Haptic Virtual Fixtures for Surgical Simulation with Preoperative Planning",
     "year": "2016",
-    "type": "journal-article",
-    "journal": "The International Conference on Computer and Applications (ICCA’16)",
+    "type": "conference-paper",
+    "journal": "The International Conference on Computer and Applications (ICCA'16)",
     "url": null,
-    "source": "orcid"
-  },
-  {
-    "title": "Immersive Virtual Reality in Improving Communication Skills in Children with Autism",
-    "year": "2016",
-    "type": "journal-article",
-    "journal": "Sustainable Vital Technologies in Engineering and Information (BUEACE)",
-    "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Halwani",
+        "given": "Yasmin"
+      }
+    ]
   },
   {
     "title": "A study on the design and effectiveness of tactile feedback in sriving simulator",
@@ -413,7 +1877,25 @@
     "type": "conference-paper",
     "journal": "Proceedings of IEEE/ACS International Conference on Computer Systems and Applications, AICCSA",
     "url": "https://doi.org/10.1109/AICCSA.2014.7073274",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Ba Hameish",
+        "given": "Mariam"
+      },
+      {
+        "family": "Al-Naimi",
+        "given": "Latefa"
+      },
+      {
+        "family": "Al-Kaabi",
+        "given": "Amna"
+      }
+    ]
   },
   {
     "title": "Incorporating olfactory into a multi-modal surgical simulation",
@@ -421,7 +1903,29 @@
     "type": "journal-article",
     "journal": "IEICE Transactions on Information and Systems",
     "url": "https://doi.org/10.1587/transinf.E97.D.2048",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "HALABI",
+        "given": "Osama"
+      },
+      {
+        "family": "AL-MESAIFRI",
+        "given": "Fatma"
+      },
+      {
+        "family": "AL-ANSARI",
+        "given": "Mariam"
+      },
+      {
+        "family": "AL-SHAABI",
+        "given": "Roqaya"
+      },
+      {
+        "family": "MIYATA",
+        "given": "Kazunori"
+      }
+    ]
   },
   {
     "title": "Optimum design of haptic seat for driving simulator",
@@ -429,7 +1933,25 @@
     "type": "conference-paper",
     "journal": "Proceedings of the ACM Symposium on Virtual Reality Software and Technology, VRST",
     "url": "https://doi.org/10.1145/2671015.2671134",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Hameish",
+        "given": "Mariam Ba"
+      },
+      {
+        "family": "Al-Naimi",
+        "given": "Latefa"
+      },
+      {
+        "family": "Al-Kaabi",
+        "given": "Amna"
+      }
+    ]
   },
   {
     "title": "Incorporating Haptic and Olfactory into Surgical Simulation",
@@ -437,31 +1959,89 @@
     "type": "conference-paper",
     "journal": "2013 International Conference on Cyberworlds",
     "url": "https://doi.org/10.1109/cw.2013.38",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Al-Mesaifri",
+        "given": "Fatma"
+      },
+      {
+        "family": "Al-Ansari",
+        "given": "Mariam"
+      },
+      {
+        "family": "Al-Shaabi",
+        "given": "Roqaya"
+      },
+      {
+        "family": "Barki",
+        "given": "Hichem"
+      },
+      {
+        "family": "Foufou",
+        "given": "Sebti"
+      }
+    ]
   },
   {
     "title": "Mobile Augmented Reality for Pedestrian Navigation",
     "year": "2013",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "NICOGRAPH International 2013",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Abu Abdullah",
+        "given": "Huda"
+      },
+      {
+        "family": "Alkaladi",
+        "given": "Sumayia"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      }
+    ]
   },
   {
     "title": "Navigation Aid for Blind People Using Depth Information and Augmented Reality Technology",
     "year": "2012",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "NICOGRAPH International 2012",
     "url": null,
-    "source": "orcid"
-  },
-  {
-    "title": "Real-time Rendering of Virtual-viewpoint Images from Multi-view Camera Images Using Projection Mapping",
-    "year": "2011",
-    "type": "journal-article",
-    "journal": "The Journal of the Society for Art and Science",
-    "url": "https://doi.org/10.3756/artsci.10.263",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Al-Ansari",
+        "given": "Mariam"
+      },
+      {
+        "family": "Halwani",
+        "given": "Yasmin"
+      },
+      {
+        "family": "Fatma",
+        "given": "Al-Mesaifri"
+      },
+      {
+        "family": "Al-shaabi",
+        "given": "Roqaya"
+      },
+      {
+        "family": "Al-mesaifri",
+        "given": "Fatma"
+      }
+    ]
   },
   {
     "title": "Enhancing 3D Scenes Using a Laser Projector in Real-time",
@@ -469,15 +2049,51 @@
     "type": "journal-article",
     "journal": "The journal of the Society For Art and Science",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Menendez",
+        "given": "F J"
+      },
+      {
+        "family": "Halabi",
+        "given": "O"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "T"
+      },
+      {
+        "family": "Chiba",
+        "given": "N"
+      }
+    ]
   },
   {
     "title": "Examination of Cooperative System in Multiple Haptic Devices",
     "year": "2011",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "International Workshop on Advanced Image Technology",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Maesawa",
+        "given": "J"
+      },
+      {
+        "family": "Konno",
+        "given": "K"
+      },
+      {
+        "family": "Tokuyama",
+        "given": "Y"
+      },
+      {
+        "family": "Halabi",
+        "given": "O"
+      }
+    ]
   },
   {
     "title": "Real-time Rendering of Virtual-viewpoint Images from Multi-view Camera Images Using Projection Mapping",
@@ -485,7 +2101,25 @@
     "type": "journal-article",
     "journal": "The Journal of the Society for Art and Science",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "TAKENAKA",
+        "given": "Fumio"
+      },
+      {
+        "family": "FUJIMOTO",
+        "given": "Tadahiro"
+      },
+      {
+        "family": "HALABI",
+        "given": "Osama"
+      },
+      {
+        "family": "CHIBA",
+        "given": "Norishige"
+      }
+    ]
   },
   {
     "title": "Spiroraslaser: An interactive visual art system using hybrid raster-laser projection",
@@ -493,7 +2127,21 @@
     "type": "journal-article",
     "journal": "International Journal of Arts and Technology",
     "url": "https://doi.org/10.1504/IJART.2011.043442",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Motomura",
+        "given": "Kenta"
+      },
+      {
+        "family": "Chiba",
+        "given": "Norishige"
+      }
+    ]
   },
   {
     "title": "7-5 3 本指把持システム構築のための力覚提示デバイスの空間姿勢最適化に関する検討 (第 7 部門 コンピュータグラフィックス)",
@@ -512,28 +2160,74 @@
     "source": "orcid"
   },
   {
-    "title": "Advances in Haptics",
-    "year": "2010",
-    "type": "journal-article",
-    "journal": "Advances in Haptics",
-    "url": "https://doi.org/10.5772/195",
-    "source": "orcid"
-  },
-  {
     "title": "An Efficient Rendering Method for Semitransparent Point Sets Using Multiple Layered Depth Images",
     "year": "2010",
     "type": "journal-article",
     "journal": null,
     "url": "https://doi.org/10.3756/artsci.9.73",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Yoshida",
+        "given": "Katsuhisa"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "Tadahiro"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Chiba",
+        "given": "Norishige"
+      }
+    ]
+  },
+  {
+    "title": "An Optimization of Haptic Device Orientation to Construct a Three-Finger Grasp System",
+    "year": "2010",
+    "type": "conference-paper",
+    "journal": null,
+    "url": "https://doi.org/10.11485/ITEWAC.2010.0_7_5",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Yosuke Mikami",
+        "given": ""
+      },
+      {
+        "family": "Kouichi Konno",
+        "given": ""
+      },
+      {
+        "family": "Yoshimasa Tokuyama",
+        "given": ""
+      },
+      {
+        "family": "Osama Halabi",
+        "given": ""
+      }
+    ]
   },
   {
     "title": "Five Fingers Haptic Interface Robot HIRO: Design, Rendering, and Applications",
     "year": "2010",
-    "type": "other",
+    "type": "book-chapter",
     "journal": null,
     "url": "https://doi.org/10.5772/8691",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Kawasaki",
+        "given": "Haruhisa"
+      }
+    ]
   },
   {
     "title": "Haptic Interaction with Complex Objects Based on Local-domain Forces and Distributed Collision Detection Approach",
@@ -541,39 +2235,103 @@
     "type": "journal-article",
     "journal": null,
     "url": "https://doi.org/10.3756/artsci.9.38",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Takahashi",
+        "given": "Tetsuya"
+      },
+      {
+        "family": "Konno",
+        "given": "Kouichi"
+      },
+      {
+        "family": "Sone",
+        "given": "Junji"
+      },
+      {
+        "family": "Tokuyama",
+        "given": "Yoshimasa"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      }
+    ]
   },
   {
     "title": "Haptic Texture with Solid Noise",
     "year": "2010",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "26th NICOGRAPH Paper Contest",
     "url": null,
-    "source": "orcid"
-  },
-  {
-    "title": "Method and software of drawing vector-oriented graphic for laser projector, and a laser projector system",
-    "year": "2010",
-    "type": "other",
-    "journal": null,
-    "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Khattak",
+        "given": "Gulrukh"
+      },
+      {
+        "family": "Osama",
+        "given": "Halabi"
+      },
+      {
+        "family": "Chiba",
+        "given": "Norishige"
+      }
+    ]
   },
   {
     "title": "Real-time shape restoration method from multiple view camera image using texture projection",
     "year": "2010",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "26th NICOGRAPH Paper Contest",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "TAKENAKA",
+        "given": "Fumio"
+      },
+      {
+        "family": "FUJIMOTO",
+        "given": "Tadahiro"
+      },
+      {
+        "family": "HALABI",
+        "given": "Osama"
+      },
+      {
+        "family": "CHIBA",
+        "given": "Norishige"
+      }
+    ]
   },
   {
     "title": "Study on Force Feedback Rendering Technique for Local Domain Using Pressure-Sensor Device",
     "year": "2010",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "International Workshop on Advanced Image Technology",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Takahashi",
+        "given": "T"
+      },
+      {
+        "family": "Konno",
+        "given": "K"
+      },
+      {
+        "family": "Halabi",
+        "given": "O"
+      },
+      {
+        "family": "Tokuyama",
+        "given": "Y"
+      }
+    ]
   },
   {
     "title": "分散型衝突検出手法に基づく局所領域の力覚提示システム",
@@ -592,44 +2350,152 @@
     "source": "orcid"
   },
   {
+    "title": "Method and software of drawing vector-oriented graphic for laser projector, and a laser projector system",
+    "year": "2009",
+    "type": "patent",
+    "journal": null,
+    "url": null,
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Chiba",
+        "given": "Norishige"
+      }
+    ]
+  },
+  {
     "title": "A Correction Algorithm for Distorted Laser Images",
     "year": "2009",
     "type": "journal-article",
-    "journal": null,
+    "journal": "The Journal of the Society for Art and Science",
     "url": "https://doi.org/10.3756/artsci.8.1",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Francisco J",
+        "given": "Menendez"
+      },
+      {
+        "family": "Osama",
+        "given": "HALABI"
+      },
+      {
+        "family": "FUJIMOTO",
+        "given": "Tadahiro"
+      },
+      {
+        "family": "CHIBA",
+        "given": "Norishige"
+      }
+    ]
   },
   {
     "title": "A Hybrid Laser-Raster Projection System for Planar Screens",
     "year": "2009",
-    "type": "journal-article",
-    "journal": "Tohoku-Section Joint Convention Record of Institutes of Electrical and Information Engineers, Japan 平成 21 年度 電気関係学会東北支部連合大会 講演論文集",
+    "type": "conference-paper",
+    "journal": "Tohoku-Section Joint Convention Record of Institutes of Electrical and Information Engineers, Japan",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "MENENDEZ",
+        "given": "Francisco"
+      },
+      {
+        "family": "HALABI",
+        "given": "Osama"
+      },
+      {
+        "family": "FUJIMOTO",
+        "given": "Tadahiro"
+      },
+      {
+        "family": "CHIBA",
+        "given": "Norishige"
+      }
+    ]
   },
   {
     "title": "Automation of image matting using focal plane",
     "year": "2009",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "3rd Research Meeting of Tohoku-section of Information processing society",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "HOSAKA",
+        "given": "Yoshihiro"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "T"
+      },
+      {
+        "family": "Halabi",
+        "given": "O"
+      },
+      {
+        "family": "Chiba",
+        "given": "N"
+      }
+    ]
   },
   {
     "title": "Construction method of high-quality voxel model from two or more camera image that uses texture synthesis",
     "year": "2009",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "25th NICOGRAPH Paper Contest",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "TAKAHASHI",
+        "given": "Minoru"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "T"
+      },
+      {
+        "family": "Halabi",
+        "given": "O"
+      },
+      {
+        "family": "Chiba",
+        "given": "N"
+      }
+    ]
   },
   {
     "title": "Efficient display method of translucent points using two or more LDI",
     "year": "2009",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "25th NICOGRAPH Paper Contest",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "YOAHIDA",
+        "given": "Katsuhisa"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "T"
+      },
+      {
+        "family": "Halabi",
+        "given": "O"
+      },
+      {
+        "family": "Chiba",
+        "given": "N"
+      }
+    ]
   },
   {
     "title": "Efficient vector-oriented graphic drawing method for laser-scanned display",
@@ -637,79 +2503,205 @@
     "type": "journal-article",
     "journal": null,
     "url": "https://doi.org/10.1016/j.displa.2009.03.003",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "O."
+      },
+      {
+        "family": "Chiba",
+        "given": "N."
+      }
+    ]
   },
   {
     "title": "High-speed drawing method of translucent volume model using LDI",
     "year": "2009",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "Tohoku-Section Joint Convention of Institutes of Electrical and Information Engineers",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "YOAHIDA",
+        "given": "Katsuhisa"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "T"
+      },
+      {
+        "family": "Halabi",
+        "given": "O"
+      },
+      {
+        "family": "Chiba",
+        "given": "N"
+      }
+    ]
   },
   {
     "title": "Interactive High-contrast Hypotrochoid Generation Using Hybrid Raster-laser Projection",
     "year": "2009",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "NICOGRAPH International",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Chiba",
+        "given": "Norishige"
+      }
+    ]
   },
   {
     "title": "Multidimensional visual aid enhances haptic training simulations",
     "year": "2009",
-    "type": "other",
+    "type": "conference-paper",
     "journal": "EuroHaptics conference, 2009 and Symposium on Haptic Interfaces for Virtual Environment and Teleoperator Systems. World Haptics 2009. Third Joint",
     "url": "https://doi.org/10.1109/WHC.2009.4810826",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Chiba",
+        "given": "Norishige"
+      }
+    ]
   },
   {
     "title": "Shape restoration of translucent object by ray-base sampling",
     "year": "2009",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "25th NICOGRAPH Paper Contest",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "MIKUNI",
+        "given": "Disuseke"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "T"
+      },
+      {
+        "family": "Halabi",
+        "given": "O"
+      },
+      {
+        "family": "Chiba",
+        "given": "N"
+      }
+    ]
   },
   {
     "title": "Simple rendering method of leaf of tree by sunlight",
     "year": "2009",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "3rd Research Meeting of Tohoku-section of Information processing society",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "SATO",
+        "given": "Mamoru"
+      },
+      {
+        "family": "Halabi",
+        "given": "O"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "T"
+      },
+      {
+        "family": "Chiba",
+        "given": "N"
+      }
+    ]
   },
   {
-    "title": "Three dimension shape restoration by distribution of sampling point that depends on camera placement with α value",
+    "title": "Three dimension shape restoration by distribution of sampling point that depends on camera placement with $α$ value",
     "year": "2009",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "Tohoku-Section Joint Convention of Institutes of Electrical and Information Engineers",
     "url": null,
     "source": "orcid"
   },
   {
-    "title": "Volume intersection and restoration method of three coloring dimension shape using texture synthesis",
+    "title": "Volume intersection and restoration method of three coloring dimension shape by 3D texture",
     "year": "2009",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "Tohoku-Section Joint Convention of Institutes of Electrical and Information Engineers",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "TAKAHASHI",
+        "given": "Minoru"
+      },
+      {
+        "family": "Halabi",
+        "given": "O"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "T"
+      },
+      {
+        "family": "Chiba",
+        "given": "N"
+      },
+      {
+        "family": "T",
+        "given": ""
+      }
+    ]
   },
   {
     "title": "Wii Remote Applications (Interactive VJ)",
     "year": "2009",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "The 23rd Meeting of Art & Technology Society",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "O."
+      }
+    ]
   },
   {
     "title": "A vector representation method for drawing polygon models using laser projector",
     "year": "2008",
-    "type": "journal-article",
-    "journal": "Tohoku-Section Joint Convention Record of Institutes of Electrical and Information Engineers, Japan 平成 20 年度 電気関係学会東北支部連合大会 講演論文集",
+    "type": "conference-paper",
+    "journal": "Tohoku-Section Joint Convention Record of Institutes of Electrical and Information Engineers, Japan",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Erokumae",
+        "given": "K"
+      },
+      {
+        "family": "Halabi",
+        "given": "O"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "T"
+      }
+    ]
   },
   {
     "title": "Accurate and Efficient Drawing Method for Laser Projection",
@@ -717,68 +2709,212 @@
     "type": "journal-article",
     "journal": null,
     "url": "https://doi.org/10.3756/artsci.7.155",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Purkhet",
+        "given": "Abderyim"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "Tadahiro"
+      },
+      {
+        "family": "Chiba",
+        "given": "Norishige"
+      }
+    ]
   },
   {
     "title": "An Efficient Drawing Method for Laser Projector",
     "year": "2008",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "NICOGRAPH International",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Abderyim",
+        "given": "P"
+      },
+      {
+        "family": "Halabi",
+        "given": "O"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "T"
+      },
+      {
+        "family": "Chiba",
+        "given": "N"
+      }
+    ]
   },
   {
     "title": "Automatic Calibration of Laser Projector Arrays",
     "year": "2008",
-    "type": "journal-article",
-    "journal": "Tohoku-Section Joint Convention Record of Institutes of Electrical and Information Engineers, Japan 平成 20 年度 電気関係学会東北支部連合大会 講演論文集",
+    "type": "conference-paper",
+    "journal": "Tohoku-Section Joint Convention Record of Institutes of Electrical and Information Engineers, Japan",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "MENENDEZ",
+        "given": "Francisco"
+      },
+      {
+        "family": "HALABI",
+        "given": "Osama"
+      },
+      {
+        "family": "FUJIMOTO",
+        "given": "Tadahiro"
+      },
+      {
+        "family": "CHIBA",
+        "given": "Norishige"
+      }
+    ]
   },
   {
     "title": "Camera-based Calibration of Multiple Laser Projectors for Collaborative Projection",
     "year": "2008",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "NICOGRAPH International",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Menendez",
+        "given": "FJ"
+      },
+      {
+        "family": "Halabi",
+        "given": "O"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "T."
+      },
+      {
+        "family": "Chiba",
+        "given": "N"
+      }
+    ]
   },
   {
     "title": "Graphics library by using genetic algorithm fast search fractal graphics",
     "year": "2008",
-    "type": "journal-article",
-    "journal": "Tohoku-Section Joint Convention Record of Institutes of Electrical and Information Engineers, Japan 平成 20 年度 電気関係学会東北支部連合大会 講演論文集",
+    "type": "conference-paper",
+    "journal": "Tohoku-Section Joint Convention Record of Institutes of Electrical and Information Engineers, Japan",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Sakamoto",
+        "given": "K"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "T"
+      },
+      {
+        "family": "Halabi",
+        "given": "O"
+      },
+      {
+        "family": "Chiba",
+        "given": "N"
+      }
+    ]
   },
   {
     "title": "Implementing efficient sketch interface for creating vector image",
     "year": "2008",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "The Institute of Image Electronics Engineers of Japan",
-    "url": null,
-    "source": "orcid"
+    "url": "https://doi.org/https://doi.org/10.11485/itetr.32.34.0_21",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "RYU",
+        "given": "Unseon"
+      },
+      {
+        "family": "Halabi",
+        "given": "O"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "T"
+      },
+      {
+        "family": "Chiba",
+        "given": "N"
+      }
+    ]
   },
   {
     "title": "Laser Graphics Optimization for Laser Display",
     "year": "2008",
-    "type": "journal-article",
-    "journal": "Tohoku-Section Joint Convention Record of Institutes of Electrical and Information Engineers, Japan 平成 20 年度 電気関係学会東北支部連合大会 講演論文集",
+    "type": "conference-paper",
+    "journal": "Tohoku-Section Joint Convention Record of Institutes of Electrical and Information Engineers, Japan",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Abderyim",
+        "given": "Purkhet"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "Tadahiro"
+      },
+      {
+        "family": "Chiba",
+        "given": "Norishige"
+      }
+    ]
   },
   {
     "title": "Method of drawing arbitrary aspect of translucent depth image without using depth sorting algorithm",
     "year": "2008",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "Tohoku-Section Joint Convention of Institutes of Electrical and Information Engineers",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "YOAHIDA",
+        "given": "K"
+      },
+      {
+        "family": "Halabi",
+        "given": "O"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "T"
+      },
+      {
+        "family": "Chiba",
+        "given": "N"
+      }
+    ]
   },
   {
     "title": "Three dimension shape restoration that uses α mat image",
     "year": "2008",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "Tohoku-Section Joint Convention of Institutes of Electrical and Information Engineers",
     "url": null,
     "source": "orcid"
@@ -794,66 +2930,198 @@
   {
     "title": "An Efficient Drawing Algorithm for Laser Graphics",
     "year": "2007",
-    "type": "journal-article",
-    "journal": "Tohoku-Section Joint Convention Record of Institutes of Electrical and Information Engineers, Japan 平成 19 年度 電気関係学会東北支部連合大会 講演論文集",
+    "type": "conference-paper",
+    "journal": "Tohoku-Section Joint Convention Record of Institutes of Electrical and Information Engineers, Japan",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "ABDERYIM",
+        "given": "Purkhet"
+      },
+      {
+        "family": "HALABI",
+        "given": "Osama"
+      },
+      {
+        "family": "CHIBA",
+        "given": "Norishige"
+      }
+    ]
   },
   {
     "title": "An efficient image-based rendering method for visual hull using LDI",
     "year": "2007",
-    "type": "journal-article",
-    "journal": "NICOGRAPH",
+    "type": "conference-paper",
+    "journal": "NICOGRAPH International",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Sasaki",
+        "given": "K"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "T"
+      },
+      {
+        "family": "Halabi",
+        "given": "O"
+      },
+      {
+        "family": "Chiba",
+        "given": "N"
+      }
+    ]
   },
   {
     "title": "Camera-Based Calibration for Laser Projectors",
     "year": "2007",
-    "type": "journal-article",
-    "journal": "Tohoku-Section Joint Convention Record of Institutes of Electrical and Information Engineers, Japan 平成 19 年度 電気関係学会東北支部連合大会 講演論文集",
+    "type": "conference-paper",
+    "journal": "Tohoku-Section Joint Convention Record of Institutes of Electrical and Information Engineers, Japan",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "MENENDEZ",
+        "given": "Francisco"
+      },
+      {
+        "family": "HALABI",
+        "given": "Osama"
+      },
+      {
+        "family": "CHIBA",
+        "given": "Norishige"
+      }
+    ]
   },
   {
     "title": "MORPHING-BASED VECTORIZED CANDLE ANIMATION FOR LASER GRAPHICS (International Workshop on Advanced Image Technology 2007)",
     "year": "2007",
-    "type": "journal-article",
-    "journal": "電子情報通信学会技術研究報告. IE, 画像工学",
+    "type": "conference-paper",
+    "journal": "International Workshop on Advanced Image Technology",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "PURKHET",
+        "given": "Abderyim"
+      },
+      {
+        "family": "MENENDEZ",
+        "given": "Francisco J"
+      },
+      {
+        "family": "HALABI",
+        "given": "Osama"
+      },
+      {
+        "family": "CHIBA",
+        "given": "Norishige"
+      }
+    ]
   },
   {
     "title": "Noise-based method for simulating wind wavering of flat objects",
     "year": "2007",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "ohoku-Section Joint Convention Record of Institutes of Electrical and Information Engineers, Japan 平成 19 年度 電気関係学会東北支部連合大会 講演論文集",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Kodama",
+        "given": "H"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "T"
+      },
+      {
+        "family": "Halabi",
+        "given": "O"
+      },
+      {
+        "family": "Chiba",
+        "given": "N"
+      }
+    ]
   },
   {
     "title": "Restoring 3D model object by using voxel coloring method",
     "year": "2007",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "ohoku-Section Joint Convention Record of Institutes of Electrical and Information Engineers, Japan 平成 19 年度 電気関係学会東北支部連合大会 講演論文集",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Akimoto",
+        "given": "K"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "T"
+      },
+      {
+        "family": "Halabi",
+        "given": "O"
+      },
+      {
+        "family": "Chiba",
+        "given": "N"
+      }
+    ]
   },
   {
     "title": "Timing Tuning Method for Laser Projectors",
     "year": "2007",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "NICOGRAPH",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "O"
+      },
+      {
+        "family": "Abderyim",
+        "given": "P"
+      },
+      {
+        "family": "Menendez",
+        "given": "F"
+      },
+      {
+        "family": "Chiba",
+        "given": "N."
+      }
+    ]
   },
   {
     "title": "VECTOR-BASED LIBRARY FOR DISPLAYING BEZIER CURVES USING A LASER PROJECTOR",
     "year": "2007",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "International Workshop on Advanced Image Technology",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "MENENDEZ",
+        "given": "Francisco J"
+      },
+      {
+        "family": "HALABI",
+        "given": "Osama"
+      },
+      {
+        "family": "CHIBA",
+        "given": "Norishige"
+      }
+    ]
   },
   {
     "title": "Special Issue on Haptics: Interfaces, Applications, and Perception",
@@ -882,34 +3150,134 @@
   {
     "title": "A Hybrid Method for Large-Scale Animation of Cloud Growth",
     "year": "2006",
-    "type": "journal-article",
-    "journal": "Tohoku-Section Joint Convention Record on Institutes of Electrical and Information Engineers, Japan",
+    "type": "conference-paper",
+    "journal": "Tohoku-Section Joint Convention Record of Institutes of Electrical and Information Engineers, Japan",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Abdukadir",
+        "given": "Mamat"
+      },
+      {
+        "family": "Geni",
+        "given": "Mamtimin"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "Tadahiro"
+      },
+      {
+        "family": "Chiba",
+        "given": "Norishige"
+      }
+    ]
   },
   {
     "title": "Building Laser Projector for Research",
     "year": "2006",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "Tohoku-Section Joint Convention of Institutes of Electrical and Information Engineers",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Nasukawa",
+        "given": "T"
+      },
+      {
+        "family": "Abderyim",
+        "given": "P"
+      },
+      {
+        "family": "Menendez",
+        "given": "F"
+      },
+      {
+        "family": "Halabi",
+        "given": "O"
+      },
+      {
+        "family": "Chiba",
+        "given": "N"
+      }
+    ]
   },
   {
     "title": "Display of object grasping friction forces using multi-fingered haptic interface",
     "year": "2006",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "Transactions of the Virtual Reality Society of Japan",
     "url": "https://doi.org/https://doi.org/10.18974/tvrsj.11.1_39",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Kawasaki",
+        "given": "H"
+      },
+      {
+        "family": "Ohtuka",
+        "given": "Y"
+      },
+      {
+        "family": "Alhalabi M",
+        "given": "O"
+      },
+      {
+        "family": "Mouri",
+        "given": "T"
+      },
+      {
+        "family": "Alhalabi",
+        "given": "M O"
+      }
+    ]
   },
   {
-    "title": "Five-fingered haptic interface robot and its application for future science encyclopedia",
+    "title": "Five-fingered Haptic Interface Robot and Its Application for Future Science Encyclopedia",
     "year": "2006",
     "type": "journal-article",
-    "journal": "Transactions of the Virtual Reality Society of Japan",
-    "url": "https://doi.org/https://doi.org/10.18974/tvrsj.11.2_29",
-    "source": "orcid"
+    "journal": null,
+    "url": "https://doi.org/10.18974/TVRSJ.11.2_293",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Haruhisa KAWASAKI",
+        "given": ""
+      },
+      {
+        "family": "Tetsuya MOURI",
+        "given": ""
+      },
+      {
+        "family": "M. Osama Alhalabi",
+        "given": ""
+      },
+      {
+        "family": "Vytautas Daniulatis",
+        "given": ""
+      },
+      {
+        "family": "Yasutaka Sugihashi",
+        "given": ""
+      },
+      {
+        "family": "Yoshio Ohtuka",
+        "given": ""
+      },
+      {
+        "family": "Ikenohata",
+        "given": "Sho"
+      },
+      {
+        "family": "Kigaku",
+        "given": "Kazushige"
+      }
+    ]
   },
   {
     "title": "Future Haptic Science Encyclopedia: Realistic Stable Haptic Interaction with Highly Deformable Objects Using HIRO-II",
@@ -917,7 +3285,29 @@
     "type": "journal-article",
     "journal": "Journal of Robotics and Mechatronics",
     "url": "https://doi.org/10.20965/jrm.2006.p0409",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Daniulaitis",
+        "given": "Vytautas"
+      },
+      {
+        "family": "Kawasaki",
+        "given": "Haruhisa"
+      },
+      {
+        "family": "Mouri",
+        "given": "Tetsuya"
+      },
+      {
+        "family": "Ohtuka",
+        "given": "Yoshio"
+      }
+    ]
   },
   {
     "title": "Future haptic science encyclopedia: An experimental implementation of networked multi-threaded haptic virtual environment",
@@ -925,47 +3315,137 @@
     "type": "conference-paper",
     "journal": "14th Symposium onHaptics Interfaces for Virtual Environment andTeleoperator Systems 2006 - Proceedings",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Alhalabi",
+        "given": "M.O."
+      },
+      {
+        "family": "Daniulaitis",
+        "given": "Vytautas"
+      },
+      {
+        "family": "Kawasaki",
+        "given": "Haruhisa"
+      },
+      {
+        "family": "Tetsuya",
+        "given": "Mouri"
+      },
+      {
+        "family": "Ohtuka",
+        "given": "Yoshio"
+      }
+    ]
   },
   {
-    "title": "Future haptic science encyclopedia: An experimental implementation of networked multi-threaded haptic virtual environment",
+    "title": "Haptic Breast Palpation Using Five-Fingers Haptic Interface HIRO-II",
     "year": "2006",
-    "type": "conference-paper",
-    "journal": "Symposium on Haptic Interfaces for Virtual Environment and Teleoperator Systems",
-    "url": "https://doi.org/10.1109/HAPTIC.2006.1627093",
-    "source": "orcid"
+    "type": "journal-article",
+    "journal": "The Japanese Journal for Medical Virtual Reality",
+    "url": "https://doi.org/10.7876/JMVR.4.4",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Alhalabi",
+        "given": "M.Osama"
+      },
+      {
+        "family": "Daniulatis",
+        "given": "Vytautas"
+      },
+      {
+        "family": "Kawasaki",
+        "given": "Haruhisa"
+      },
+      {
+        "family": "Mouri",
+        "given": "Tetsuya"
+      }
+    ]
   },
   {
     "title": "Haptic rendering and perception of frictional moment",
     "year": "2006",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "Proc. EuroHaptics",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Kawasaki",
+        "given": "Haruhisa"
+      },
+      {
+        "family": "Ohtuka",
+        "given": "Yoshio"
+      },
+      {
+        "family": "Alhalabi",
+        "given": "M O"
+      },
+      {
+        "family": "Mouri",
+        "given": "T"
+      }
+    ]
   },
   {
     "title": "Research Towards Laser Graphics and Related Problems",
     "year": "2006",
-    "type": "journal-article",
-    "journal": "Tohoku-Section Joint Convention Record of Institutes of Electrical and Information Engineers, Japan 平成 18 年度 電気関係学会東北支部連合大会 講演論文集",
+    "type": "conference-paper",
+    "journal": "Tohoku-Section Joint Convention Record of Institutes of Electrical and Information Engineers, Japan",
     "url": null,
-    "source": "orcid"
-  },
-  {
-    "title": "Special Issue on Haptics: Interfaces, Applications, and Perception",
-    "year": "2006",
-    "type": "journal-article",
-    "journal": "JOURNAL OF ROBOTICS AND MECHATRONICS",
-    "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "MENENDEZ",
+        "given": "Francisco"
+      },
+      {
+        "family": "ABDERYIM",
+        "given": "Purkhat"
+      },
+      {
+        "family": "NASUKAWA",
+        "given": "Norihiro"
+      },
+      {
+        "family": "HALABI",
+        "given": "Osama"
+      },
+      {
+        "family": "CHIBA",
+        "given": "Norishige"
+      }
+    ]
   },
   {
     "title": "Visual Simulation of Periodic Rock Scenery",
     "year": "2006",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "Tohoku-Section Joint Convention Record of Institutes of Electrical and Information Engineers, Japan 平成 18 年度 電気関係学会東北支部連合大会 講演論文集",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Maes",
+        "given": "Marcelo"
+      },
+      {
+        "family": "Halabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Fujimoto",
+        "given": "Tadahiro"
+      },
+      {
+        "family": "Chiba",
+        "given": "Norishige"
+      }
+    ]
   },
   {
     "title": "多指ハプティックインターフェイスを用いた物体把持における摩擦力の提示",
@@ -978,10 +3458,36 @@
   {
     "title": "Development of Multi-Fingered Haptic Interface Robota and Future Science Encyclopedia",
     "year": "2005",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "Proceedings of Robotics and Mechatronics Conference ROBOMEC",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Kawasaki",
+        "given": "H"
+      },
+      {
+        "family": "Mouri",
+        "given": "T"
+      },
+      {
+        "family": "Alhalabi M",
+        "given": "O"
+      },
+      {
+        "family": "Daniulatis",
+        "given": "V"
+      },
+      {
+        "family": "Hori",
+        "given": "T"
+      },
+      {
+        "family": "Sugihashi",
+        "given": "Y"
+      }
+    ]
   },
   {
     "title": "Development of five-fingered haptic interface: HIRO-II",
@@ -989,63 +3495,213 @@
     "type": "conference-paper",
     "journal": "ACM International Conference Proceeding Series",
     "url": "https://doi.org/10.1145/1152399.1152437",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Kawasaki",
+        "given": "Haruhisa"
+      },
+      {
+        "family": "Suzuki",
+        "given": "Tatsuo"
+      },
+      {
+        "family": "Mouri",
+        "given": "Tetsuya"
+      },
+      {
+        "family": "Alhalabi",
+        "given": "M.O. Osama"
+      },
+      {
+        "family": "Sugihashi",
+        "given": "Yasutaka"
+      },
+      {
+        "family": "Ohtuka",
+        "given": "Yoshio"
+      },
+      {
+        "family": "Ikenohata",
+        "given": "Sho"
+      },
+      {
+        "family": "Kigaku",
+        "given": "Kazushige"
+      },
+      {
+        "family": "Daniulaitis",
+        "given": "Vytautas"
+      },
+      {
+        "family": "Hamada",
+        "given": "Kazuyasu"
+      }
+    ]
   },
   {
-    "title": "Display of Object Grasping Friction Forces Using Multi-Fingered Haptic Interface",
-    "year": "2005",
-    "type": "journal-article",
-    "journal": "Proceedings of the 10th Virtual Reality Society of Japan annual conference",
-    "url": null,
-    "source": "orcid"
-  },
-  {
-    "title": "Medical training simulation for palpation of subsurface tumor using HIRO",
+    "title": "Medical Training Simulation for Palpation of Subsurface Tumor Using HIRO",
     "year": "2005",
     "type": "conference-paper",
-    "journal": "Proceedings - 1st Joint Eurohaptics Conference and Symposium on Haptic Interfaces for Virtual Environment and Teleoperator Systems; World Haptics Conference, WHC 2005",
+    "journal": "First Joint Eurohaptics Conference and Symposium on Haptic Interfaces for Virtual Environment and Teleoperator Systems",
     "url": "https://doi.org/10.1109/WHC.2005.89",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Alhalabi",
+        "given": "M.O."
+      },
+      {
+        "family": "Daniulaitis",
+        "given": "Vytautas"
+      },
+      {
+        "family": "Kawasaki",
+        "given": "Haruhisa"
+      },
+      {
+        "family": "Hori",
+        "given": "Takumi"
+      }
+    ]
   },
   {
     "title": "Research on skill transmission using Multi-Fingered Haptic Interface Robot",
     "year": "2005",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "Proceedings of the 10th Virtual Reality Society of Japan annual conference",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Kigaku",
+        "given": "K."
+      },
+      {
+        "family": "Kawasaki",
+        "given": "H."
+      },
+      {
+        "family": "Alhalabi",
+        "given": "M. O."
+      },
+      {
+        "family": "Mouri",
+        "given": "T."
+      }
+    ]
   },
   {
-    "title": "Haptic Interaction Rendering Technique for HIRO: an Opposite Human Hand Haptic Interface",
+    "title": "Haptic interaction rendering technique for HIRO: An opposite human hand haptic interface robot",
     "year": "2004",
-    "type": "journal-article",
-    "journal": "Proceedings of the EuroHaptics Conference (2004)",
+    "type": "conference-paper",
+    "journal": "Proceedings of EuroHaptics",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Alhalabi",
+        "given": "Osama"
+      },
+      {
+        "family": "Daniulaitis",
+        "given": "Vytautas"
+      },
+      {
+        "family": "Kawasaki",
+        "given": "Haruhisa"
+      },
+      {
+        "family": "Tanaka",
+        "given": "Yuji"
+      },
+      {
+        "family": "Hori",
+        "given": "Takumi"
+      }
+    ]
   },
   {
     "title": "Medical haptic palpation simulation of deformable breast using Haptic Interface Robot (HIRO)",
     "year": "2004",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "Proceedings of the 9th Virtual Reality Society of Japan annual conference",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Alhalabi",
+        "given": "M.Osama"
+      },
+      {
+        "family": "Daniulaitis",
+        "given": "Vytautas"
+      },
+      {
+        "family": "Kawasaki",
+        "given": "Haruhisa"
+      },
+      {
+        "family": "Hori",
+        "given": "Takumi"
+      }
+    ]
   },
   {
     "title": "Medical palpation of deformable tissue using physics-based model for haptic interface RObot (HIRO)",
     "year": "2004",
     "type": "conference-paper",
     "journal": "2004 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
-    "url": null,
-    "source": "orcid"
+    "url": "https://doi.org/10.1109/IROS.2004.1390024",
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Daniulaitis",
+        "given": "Vytautas"
+      },
+      {
+        "family": "Alhalabi",
+        "given": "M.O."
+      },
+      {
+        "family": "Kawasaki",
+        "given": "Haruhisa"
+      },
+      {
+        "family": "Tanaka",
+        "given": "Yuji"
+      },
+      {
+        "family": "Hori",
+        "given": "T."
+      }
+    ]
   },
   {
     "title": "Tele-stiffness feeling in networked virtual environment by using multi-fingered haptic interface",
     "year": "2004",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "Proceedings of the 9th Virtual Reality Society of Japan annual conference",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Sugihashi",
+        "given": "Y"
+      },
+      {
+        "family": "Kawasaki",
+        "given": "H"
+      },
+      {
+        "family": "Alhalabi",
+        "given": "M O"
+      },
+      {
+        "family": "Mouri",
+        "given": "T"
+      }
+    ]
   },
   {
     "title": "An experimental study on the effects of network delay in cooperative shared haptic virtual environment",
@@ -1053,23 +3709,61 @@
     "type": "journal-article",
     "journal": "Computers and Graphics (Pergamon)",
     "url": "https://doi.org/10.1016/S0097-8493(02)00277-7",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Alhalabi",
+        "given": "M.Osama"
+      },
+      {
+        "family": "Horiguchi",
+        "given": "Susumu"
+      },
+      {
+        "family": "Kunifuji",
+        "given": "Susumu"
+      }
+    ]
   },
   {
     "title": "Network latency issue in cooperative shared haptic virtual environment",
     "year": "2003",
-    "type": "book-chapter",
+    "type": "conference-paper",
     "journal": "Third International Conference on Virtual Reality and Its Application in Industry",
     "url": "https://doi.org/10.1117/12.497790",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Alhalabi",
+        "given": "M.O. Osama"
+      },
+      {
+        "family": "Horiguchi",
+        "given": "Susumu"
+      }
+    ]
   },
   {
-    "title": "An immersive interactive VR-based training environment: collaborative task performance for different levels of immersion ",
+    "title": "An Immersive Interactive VR-based Training Environment : Collaborative Task Performance for Different Levels of Immersion",
     "year": "2002",
-    "type": "other",
-    "journal": "The International Conference on Virtual Systems and MultiMedia (VSMM’2002)",
+    "type": "conference-paper",
+    "journal": "The International Conference on Virtual Systems and MultiMedia (VSMM'2002",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Alhalabi",
+        "given": "M. Osama"
+      },
+      {
+        "family": "Horiguchi",
+        "given": "Susumu"
+      },
+      {
+        "family": "Kunifuji",
+        "given": "Susumu"
+      }
+    ]
   },
   {
     "title": "Network latency issue in cooperative shared haptic virtual environment [4756-27]",
@@ -1082,50 +3776,82 @@
   {
     "title": "THE ROLE OF NETWORK DELAY ON TELE-TRAINING IN SHARED HAPTIC VIRTUAL ENVIRONMENT Graduate School of Knowledge Science",
     "year": "2002",
-    "type": "journal-article",
-    "journal": "International Arab Conference on Information Technology (ACIT’2002)",
+    "type": "conference-paper",
+    "journal": "International Arab Conference on Information Technology (ACIT'2002)",
     "url": null,
-    "source": "orcid"
-  },
-  {
-    "title": "Magnetic Experimental Data Analyzing Program",
-    "year": "2001",
-    "type": "journal-article",
-    "journal": "Research report",
-    "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Alhalabi",
+        "given": "M Osama"
+      },
+      {
+        "family": "S",
+        "given": "Horiguchi"
+      }
+    ]
   },
   {
     "title": "Tele-handshake: a cooperative shared haptic virtual environment",
     "year": "2001",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "Proc. EuroHaptics",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Alhalabi",
+        "given": "M Osama"
+      },
+      {
+        "family": "Horiguchi",
+        "given": "Susumu"
+      },
+      {
+        "family": "Osama",
+        "given": "M"
+      },
+      {
+        "family": "Horiguchi",
+        "given": "Alhalabi Susumu"
+      }
+    ]
   },
   {
     "title": "Cooperative Interaction in Haptic Shared Virtual Environment Using",
     "year": "2000",
-    "type": "journal-article",
-    "journal": "World Multiconference on Systemics, Cybernetics and Informatics (SCI’2000)",
+    "type": "conference-paper",
+    "journal": "World Multiconference on Systemics, Cybernetics and Informatics (SCI'2000)",
     "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Alhalabi",
+        "given": "M Osama"
+      },
+      {
+        "family": "Horiguchi",
+        "given": "Susumu"
+      }
+    ]
   },
   {
     "title": "Effect of Haptic Properties on Human performance in Haptic Virtual Environment",
     "year": "2000",
-    "type": "journal-article",
+    "type": "conference-paper",
     "journal": "Proceeding of VSMM 2000",
     "url": null,
-    "source": "orcid"
-  },
-  {
-    "title": "Effect of haptic properties on human performance in haptic virtual environment",
-    "year": "2000",
-    "type": "journal-article",
-    "journal": "Vsmm 2000: 6th International Conference on Virtual Systems and Multimedia",
-    "url": null,
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Alhalabi",
+        "given": "M Osama"
+      },
+      {
+        "family": "HORIGUCHI",
+        "given": "Susumu"
+      }
+    ]
   },
   {
     "title": "Haptic cooperative virtual workspace: Architecture and evaluation",
@@ -1133,6 +3859,16 @@
     "type": "journal-article",
     "journal": "Virtual Reality",
     "url": "https://doi.org/10.1007/BF01409421",
-    "source": "orcid"
+    "source": "orcid",
+    "authors": [
+      {
+        "family": "Alhalabi",
+        "given": "M. O."
+      },
+      {
+        "family": "Horiguchi",
+        "given": "S."
+      }
+    ]
   }
 ]

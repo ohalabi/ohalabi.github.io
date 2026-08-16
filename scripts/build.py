@@ -24,6 +24,7 @@ import json
 import os
 import re
 import shutil
+import struct
 import sys
 from datetime import date
 
@@ -77,6 +78,68 @@ pubs     = load("publications_orcid.json")
 # ------------------------------------------------------------- utilities ---
 def e(s):
     return html.escape(str(s if s is not None else ""), quote=True)
+
+
+_DIM_CACHE = {}
+
+
+def image_size(path):
+    """Read (width, height) from an image's own header bytes -- PNG, JPEG
+    and WebP (all three sub-formats: lossy VP8, lossless VP8L, extended
+    VP8X). No Pillow dependency here: build.py stays stdlib-only even
+    though the one-off scripts/*.py asset pipelines use Pillow freely."""
+    with open(path, "rb") as fh:
+        head = fh.read(32)
+
+    if head[:8] == b"\x89PNG\r\n\x1a\n":
+        return struct.unpack(">II", head[16:24])
+
+    if head[:2] == b"\xff\xd8":
+        with open(path, "rb") as fh:
+            fh.seek(2)
+            while True:
+                marker = fh.read(2)
+                if len(marker) < 2 or marker[0] != 0xFF:
+                    break
+                if marker[1] in (0xC0, 0xC1, 0xC2, 0xC3, 0xC5, 0xC6, 0xC7,
+                                  0xC9, 0xCA, 0xCB, 0xCD, 0xCE, 0xCF):
+                    fh.read(3)
+                    h, w = struct.unpack(">HH", fh.read(4))
+                    return w, h
+                seg_len = struct.unpack(">H", fh.read(2))[0]
+                fh.seek(seg_len - 2, 1)
+
+    if head[:4] == b"RIFF" and head[8:12] == b"WEBP":
+        chunk = head[12:16]
+        if chunk == b"VP8X":
+            with open(path, "rb") as fh:
+                fh.seek(24)
+                d = fh.read(6)
+            return 1 + (d[0] | d[1] << 8 | d[2] << 16), 1 + (d[3] | d[4] << 8 | d[5] << 16)
+        if chunk == b"VP8L":
+            with open(path, "rb") as fh:
+                fh.seek(21)
+                val = struct.unpack("<I", fh.read(4))[0]
+            return (val & 0x3FFF) + 1, ((val >> 14) & 0x3FFF) + 1
+        if chunk == b"VP8 ":
+            with open(path, "rb") as fh:
+                fh.seek(26)
+                d = fh.read(4)
+            w = struct.unpack("<H", d[0:2])[0] & 0x3FFF
+            h = struct.unpack("<H", d[2:4])[0] & 0x3FFF
+            return w, h
+
+    raise ValueError(f"image_size: unrecognized image format: {path}")
+
+
+def img_attrs(rel_path):
+    """`width="W" height="H"` sourced from the real file at build time, so
+    the browser reserves layout space before the image downloads -- the
+    fix for image-load layout shift (CLS)."""
+    if rel_path not in _DIM_CACHE:
+        _DIM_CACHE[rel_path] = image_size(os.path.join(REPO_ROOT, rel_path))
+    w, h = _DIM_CACHE[rel_path]
+    return f'width="{w}" height="{h}"'
 
 
 def prose(s):
@@ -294,10 +357,19 @@ NAV = [
 ]
 
 
-def head(title, desc, page, extra_css="", scripts=()):
+def jsonld_script(data):
+    """Serialize a JSON-LD dict into a <script> tag. `</` is escaped so a
+    title or journal name containing it can't prematurely close the tag."""
+    raw = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
+    raw = raw.replace("</", "<\\/")
+    return f'<script type="application/ld+json">{raw}</script>\n'
+
+
+def head(title, desc, page, extra_css="", scripts=(), jsonld=None):
     js = "\n  ".join(
         '<script src="assets/js/%s" defer></script>' % s for s in ("site.js",) + tuple(scripts)
     )
+    ld = jsonld_script(jsonld) if jsonld else ""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -312,7 +384,8 @@ def head(title, desc, page, extra_css="", scripts=()):
 <meta property="og:url" content="{SITE_URL}/{page}">
 <meta property="og:image" content="{SITE_URL}/assets/img/headshot/osama-headshot-wide.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="assets/img/favicon.png">
+<link rel="icon" href="assets/img/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 <link rel="stylesheet" href="assets/css/style.css">
 {extra_css}<style>
 /* Detail sections are only hidden once research.js confirms the drawer works.
@@ -320,12 +393,40 @@ def head(title, desc, page, extra_css="", scripts=()):
 .js-drawer #project-details{{display:none}}
 </style>
   {js}
-</head>
+{ld}</head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 {masthead(page)}
 <main id="main">
 """
+
+
+def person_jsonld():
+    """schema.org Person, for Home and About -- feeds Google's knowledge
+    panel and academic search surfaces. Built straight from profile.json;
+    nothing here duplicates content, it's a serialization of data already
+    on the page."""
+    return {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": profile["name"],
+        "jobTitle": profile["title"],
+        "description": profile["professional_summary"],
+        "url": f"{SITE_URL}/about.html",
+        "image": f"{SITE_URL}/assets/img/headshot/osama-headshot-square.jpg",
+        "affiliation": {
+            "@type": "CollegeOrUniversity",
+            "name": profile["university"],
+            "department": profile["department"],
+        },
+        "alumniOf": [
+            {"@type": "EducationalOrganization", "name": ed["institution"]}
+            for ed in profile["education"]
+        ],
+        "knowsAbout": profile["research_interests"],
+        "sameAs": [v for k, v in profile["social"].items() if k in
+                   ("orcid", "google_scholar", "researchgate", "linkedin") and v],
+    }
 
 
 def masthead(page):
@@ -337,7 +438,7 @@ def masthead(page):
     return f"""<header class="masthead">
   <div class="masthead-inner">
     <a class="wordmark" href="index.html">
-      <img class="wordmark-logo" src="Logo/xreality-logo-clean-512.png" alt="">
+      <img class="wordmark-logo" src="Logo/xreality-logo-clean-512.png" alt="" {img_attrs("Logo/xreality-logo-clean-512.png")}>
       <b>Osama Halabi</b><span>XReality Lab &middot; Qatar University</span>
     </a>
     <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
@@ -441,11 +542,12 @@ def build_home():
     feat_html = "".join(f"""
       <article class="pcard" data-theme="{p['theme']}">
         <div class="pcard-media{'' if p['images'] else ' empty'}">
-          {'<img src="%s" alt="" loading="lazy">' % e(p["images"][0]) if p["images"] else placeholder_svg()}
+          {'<img src="%s" alt="" loading="lazy" %s>' % (e(p["images"][0]), img_attrs(p["images"][0])) if p["images"] else placeholder_svg()}
         </div>
         <div class="pcard-body">
           <span class="tag">{e(p['theme_label'])}</span>
           <h3><a href="research.html#{p['id']}">{e(p['title'])}</a></h3>
+          <p>{prose(p['bullets'][0]) if p['bullets'] else ''}</p>
         </div>
       </article>""" for p in feat)
 
@@ -461,6 +563,7 @@ def build_home():
         "Osama Halabi is an Associate Professor at Qatar University working on virtual "
         "reality, haptics and multimodal interaction. XReality Lab.",
         "index.html",
+        jsonld=person_jsonld(),
     )
 
     body += f"""<div class="wrap">
@@ -474,20 +577,24 @@ def build_home():
       {e(profile['university'])}, {e(profile['location'])}</p>
       <div class="actions">
         <a class="btn btn-primary" href="research.html">Browse the research</a>
-        <a class="btn" href="Data/cv_Osama_Halabi.pdf">Curriculum vitae (PDF)</a>
+        <a class="btn" href="contact.html">Request CV</a>
       </div>
     </div>
-    <img class="hero-portrait" src="assets/img/headshot/osama-headshot-square.jpg"
+    <img class="hero-portrait" src="assets/img/headshot/osama-headshot-square-800.jpg"
+         srcset="assets/img/headshot/osama-headshot-square-500.jpg 500w,
+                 assets/img/headshot/osama-headshot-square-800.jpg 800w,
+                 assets/img/headshot/osama-headshot-square-1200.jpg 1200w"
+         sizes="(max-width: 860px) 260px, 34vw"
+         {img_attrs("assets/img/headshot/osama-headshot-square-1200.jpg")}
          alt="Osama Halabi">
   </section>
 
   <section class="band mission-band">
     <a class="lab-mark-link" href="research.html" aria-label="XReality Lab — go to Research">
-      <img class="lab-mark" src="Logo/xreality-logo-clean-512.png" alt="" aria-hidden="true">
+      <img class="lab-mark" src="Logo/xreality-logo-clean-512.png" alt="" aria-hidden="true" {img_attrs("Logo/xreality-logo-clean-512.png")}>
     </a>
     <div class="mission-band-text">
-      <h2 class="section-title">Haptics, VR, and human-centered interaction</h2>
-      <p class="section-note">XReality Lab builds haptic interfaces, virtual and augmented
+      <p class="mission-statement">XReality Lab builds haptic interfaces, virtual and augmented
         reality systems, and multimodal training and accessibility tools — plus a laser
         graphics and visual-art practice dating back to 2001.</p>
     </div>
@@ -592,7 +699,7 @@ def build_research():
       <article class="pcard" data-id="{p['id']}" data-theme="{p['theme']}" data-cat="{p['cat']}"
                data-search="{e(haystack)}">
         <div class="pcard-media{'' if lead else ' empty'}">
-          {'<img src="%s" alt="" loading="lazy">' % e(lead) if lead else placeholder_svg()}
+          {'<img src="%s" alt="" loading="lazy" %s>' % (e(lead), img_attrs(lead)) if lead else placeholder_svg()}
         </div>
         <div class="pcard-body">
           <span class="tag">{e(p['theme_label'])}</span>
@@ -606,7 +713,7 @@ def build_research():
       </article>""")
 
         plates = "".join(f"""
-          <figure class="plate"><img src="{e(src)}" alt="{e(p['title'])} — figure {i+1}" loading="lazy">
+          <figure class="plate"><img src="{e(src)}" alt="{e(p['title'])} — figure {i+1}" loading="lazy" {img_attrs(src)}>
             <figcaption>Fig. {i+1}</figcaption></figure>""" for i, src in enumerate(p["images"]))
 
         details.append(f"""
@@ -648,7 +755,7 @@ def build_research():
         <a href="#research-interests">Research interests</a>
       </nav>
     </div>
-    <img class="lab-mark" src="Logo/xreality-logo-clean-512.png" alt="XReality Lab">
+    <img class="lab-mark" src="Logo/xreality-logo-clean-512.png" alt="XReality Lab" {img_attrs("Logo/xreality-logo-clean-512.png")}>
   </div>
 </div>"""
 
@@ -733,8 +840,150 @@ PUB_TYPES = {
     "book-chapter":     "Chapter",
     "book":             "Book",
     "data-set":         "Dataset",
+    "patent":           "Patent",
     "other":            "Other",
 }
+
+# ORCID's own feed gives us title/year/journal/type/url and nothing else --
+# no co-author list, no volume/issue/pages. scripts/enrich_from_mendeley.py
+# backfills a real "authors" list (and corrects ORCID's type-guessing) from
+# a personal Mendeley export, matched in by DOI/title. Citation helpers
+# below use that "authors" field when present and fall back to "Halabi,
+# Osama" alone only for the handful of entries it couldn't match.
+BIBTEX_TYPE = {
+    "journal-article":  "article",
+    "conference-paper": "inproceedings",
+    "book-chapter":     "incollection",
+    "book":             "book",
+    "data-set":         "misc",
+    "patent":           "misc",
+    "other":            "misc",
+}
+SCHEMA_TYPE = {
+    "journal-article":  "ScholarlyArticle",
+    "conference-paper": "ScholarlyArticle",
+    "book-chapter":     "Chapter",
+    "book":             "Book",
+    "data-set":         "Dataset",
+    "patent":           "Patent",
+    "other":            "CreativeWork",
+}
+
+
+def doi_of(p):
+    url = p.get("url") or ""
+    return url.split("doi.org/", 1)[1] if "doi.org/" in url else None
+
+
+def cite_key(p):
+    year = str(p.get("year") or "nd")
+    authors = p.get("authors")
+    surname = authors[0]["family"] if authors else "halabi"
+    surname = re.sub(r"[^a-z0-9]", "", surname.lower())
+    first_word = re.sub(r"[^a-z0-9]", "", (p.get("title") or "").split(" ")[0].lower())
+    return f"{surname}{year}{first_word}"
+
+
+def bib_escape(s):
+    s = str(s or "")
+    return s.replace("\\", r"\\").replace("{", r"\{").replace("}", r"\}").replace("&", r"\&")
+
+
+def bibtex_author_field(p):
+    authors = p.get("authors")
+    if not authors:
+        return "Halabi, Osama"
+    return " and ".join(
+        f"{bib_escape(a['family'])}, {bib_escape(a['given'])}" if a.get("given") else bib_escape(a["family"])
+        for a in authors
+    )
+
+
+def apa_initials(given):
+    parts = re.split(r"\s+", (given or "").strip())
+    return " ".join(f"{p[0].upper()}." for p in parts if p)
+
+
+def apa_author_list(p):
+    authors = p.get("authors")
+    if not authors:
+        return "Halabi, O."
+    names = [f"{a['family']}, {apa_initials(a['given'])}" if a.get("given") else a["family"] for a in authors]
+    if len(names) == 1:
+        return names[0]
+    if len(names) == 2:
+        return f"{names[0]}, & {names[1]}"
+    return ", ".join(names[:-1]) + f", & {names[-1]}"
+
+
+def bibtex_entry(p):
+    kind = BIBTEX_TYPE.get(p.get("type"), "misc")
+    fields = [
+        ("author", bibtex_author_field(p)),
+        ("title", bib_escape(p.get("title"))),
+        ("year", str(p.get("year") or "")),
+    ]
+    journal = p.get("journal")
+    if journal:
+        container = "booktitle" if kind in ("inproceedings", "incollection") else \
+                    "publisher" if kind == "book" else \
+                    "journal" if kind == "article" else "howpublished"
+        fields.append((container, bib_escape(journal)))
+    doi = doi_of(p)
+    if doi:
+        fields.append(("doi", doi))
+    if p.get("url"):
+        fields.append(("url", p["url"]))
+    body = ",\n".join(f"  {k} = {{{v}}}" for k, v in fields)
+    return f"@{kind}{{{cite_key(p)},\n{body}\n}}"
+
+
+def apa_citation(p):
+    year = e(p.get("year") or "n.d.")
+    title = e((p.get("title") or "").rstrip("."))
+    authors = e(apa_author_list(p))
+    out = f"{authors} ({year}). {title}."
+    if p.get("journal"):
+        out += f" <em>{e(p['journal'])}</em>."
+    doi = doi_of(p)
+    if doi:
+        out += f' <a href="https://doi.org/{e(doi)}">https://doi.org/{e(doi)}</a>'
+    return out
+
+
+def publications_jsonld():
+    """schema.org @graph of every publication, for Publications -- the DOI
+    (when present) is expressed as a PropertyValue identifier, which is
+    what Google's Rich Results guidance expects rather than a bare string."""
+    items = []
+    for p in pubs:
+        t = p.get("type", "other")
+        node = {
+            "@type": SCHEMA_TYPE.get(t, "CreativeWork"),
+            "name": p.get("title"),
+            "datePublished": str(p.get("year") or ""),
+            "author": [
+                {"@type": "Person", "name": f"{a['given']} {a['family']}".strip(),
+                 **({"url": f"{SITE_URL}/about.html"} if a["family"] == "Halabi" else {})}
+                for a in p["authors"]
+            ] if p.get("authors") else
+            {"@type": "Person", "name": "Osama Halabi", "url": f"{SITE_URL}/about.html"},
+        }
+        journal = p.get("journal")
+        if journal:
+            if t == "journal-article":
+                node["isPartOf"] = {"@type": "Periodical", "name": journal}
+            elif t in ("book", "data-set"):
+                node["publisher"] = {"@type": "Organization", "name": journal}
+            else:
+                node["isPartOf"] = {"@type": "CreativeWork", "name": journal}
+        doi = doi_of(p)
+        if doi:
+            node["identifier"] = {"@type": "PropertyValue", "propertyID": "DOI", "value": doi}
+        if p.get("url"):
+            node["url"] = p["url"]
+        items.append(node)
+    return {"@context": "https://schema.org", "@graph": items}
 
 
 def build_publications():
@@ -751,24 +1000,48 @@ def build_publications():
     for p in pubs:
         by_year.setdefault(str(p.get("year") or "n.d."), []).append(p)
 
+    years_sorted = sorted(by_year, reverse=True)
+    year_rail_html = "".join(
+        '<li><a href="#y-%s" data-year-link="y-%s">%s<span class="rail-n">%d</span></a></li>'
+        % (slug(year), slug(year), e(year), len(by_year[year]))
+        for year in years_sorted
+    )
+
     rows = []
-    for year in sorted(by_year, reverse=True):
+    for year in years_sorted:
         items = by_year[year]
         rows.append(
-            '<div class="year-head" data-group><h2>%s</h2><span>%d</span></div>' % (e(year), len(items))
+            '<div class="year-head" id="y-%s" data-group><h2>%s</h2><span>%d</span></div>'
+            % (slug(year), e(year), len(items))
         )
         rows.append('<ul class="entries">')
-        for p in items:
+        for i, p in enumerate(items):
             t = p.get("type", "other")
             hay = " ".join(filter(None, [p.get("title"), p.get("journal"), year])).lower()
             link = p.get("url")
             title = e(p["title"])
+            cid = f"cite-{slug(year)}-{i}"
             rows.append(f"""<li class="entry" data-row data-facet-type="{e(t)}" data-search="{e(hay)}">
               <div class="k">{e(year)}</div>
               <div class="t">
                 <span class="ptype">{e(PUB_TYPES.get(t, t))}</span>
                 <b>{('<a href="%s">%s</a>' % (e(link), title)) if link else title}</b>
                 <span class="m"><em>{e(p.get('journal') or '')}</em></span>
+                <details class="cite">
+                  <summary>Cite</summary>
+                  <div class="cite-body">
+                    <div class="cite-block">
+                      <div class="cite-row"><span class="cite-label">APA</span>
+                        <button type="button" class="copy-btn" data-copy-target="{cid}-apa">Copy</button></div>
+                      <p id="{cid}-apa" class="cite-text">{apa_citation(p)}</p>
+                    </div>
+                    <div class="cite-block">
+                      <div class="cite-row"><span class="cite-label">BibTeX</span>
+                        <button type="button" class="copy-btn" data-copy-target="{cid}-bib">Copy</button></div>
+                      <pre id="{cid}-bib" class="cite-text">{e(bibtex_entry(p))}</pre>
+                    </div>
+                  </div>
+                </details>
               </div></li>""")
         rows.append("</ul>")
 
@@ -777,6 +1050,7 @@ def build_publications():
         "%d peer-reviewed publications in virtual reality, haptics and human-computer "
         "interaction, synced from ORCID." % len(pubs),
         "publications.html",
+        jsonld=publications_jsonld(),
     )
     body += page_head(
         "%d works" % len(pubs), "Publications",
@@ -791,21 +1065,32 @@ def build_publications():
   </div>
 </nav>
 <div class="wrap">
-  <p class="result-line"><span data-count-for="pub-list"></span> shown ·
-     <button class="chip" data-clear-for="pub-list">Reset</button></p>
-  <div id="pub-list" data-filterable data-noun="publication">
-    {"".join(rows)}
-    <div class="empty-state" data-empty hidden>
-      <b>No publications match that.</b><p>Try a broader search term.</p>
+  <div class="railed pub-body">
+    <nav class="rail pub-year-rail" data-year-rail aria-label="Jump to year">
+      <h2>Years</h2>
+      <ul class="jump-nav vertical">{year_rail_html}</ul>
+    </nav>
+    <div>
+      <p class="result-line"><span data-count-for="pub-list"></span> shown ·
+         <button class="chip" data-clear-for="pub-list">Reset</button> ·
+         <a href="publications.bib" download>Download all (.bib)</a></p>
+      <div id="pub-list" data-filterable data-noun="publication">
+        {"".join(rows)}
+        <div class="empty-state" data-empty hidden>
+          <b>No publications match that.</b><p>Try a broader search term.</p>
+        </div>
+      </div>
+      <p class="section-note" style="margin-top:var(--s7)">
+        ORCID is the source of truth for this list — run <code>python scripts/sync_orcid.py</code>
+        then <code>python scripts/build.py</code> to refresh it.
+      </p>
     </div>
   </div>
-  <p class="section-note" style="margin-top:var(--s7)">
-    ORCID is the source of truth for this list — run <code>python scripts/sync_orcid.py</code>
-    then <code>python scripts/build.py</code> to refresh it.
-  </p>
 </div>"""
     body += foot()
     write("publications.html", body)
+
+    write("publications.bib", "\n\n".join(bibtex_entry(p) for p in pubs) + "\n")
 
 
 # =============================================================================
@@ -948,6 +1233,7 @@ def build_about():
         "Associate Professor at Qatar University. Ph.D. JAIST. Twenty-five years in "
         "virtual reality, haptics and human-computer interaction across Japan and Qatar.",
         "about.html",
+        jsonld=person_jsonld(),
     )
     body += page_head("Biography", "About", profile["professional_summary"], nav=f"""
     <nav class="jump-nav" aria-label="Jump to section on this page">
@@ -975,7 +1261,7 @@ def build_about():
           </div>
         </div>
         <div class="actions">
-          <a class="btn btn-primary" href="Data/cv_Osama_Halabi.pdf">Full CV (PDF)</a>
+          <a class="btn btn-primary" href="contact.html">Request full CV</a>
           <a class="btn" href="{e(profile['social']['orcid'])}">ORCID</a>
           <a class="btn" href="{e(profile['social']['google_scholar'])}">Google Scholar</a>
         </div>
@@ -1110,22 +1396,18 @@ def build_meta():
 def copy_shared_assets():
     """v2 is a real site root. Images and fonts live at the repo root in the
     current layout; copy them in if they are not here yet. Once v2/ is promoted
-    to the repo root this becomes a no-op."""
+    to the repo root this becomes a no-op.
+
+    Deliberately does NOT copy the CV PDF: Home/About link to Contact
+    instead of the file directly (see CLAUDE.md/PLAN.md), and Data/*.pdf
+    stays out of the deployed site -- .gitignore also excludes it, so it's
+    never pushed. Don't reintroduce a copy step for it here."""
     for sub in ("img", "fonts"):
         src = os.path.join(REPO_ROOT, "assets", sub)
         dst = os.path.join(SITE_DIR, "assets", sub)
         if os.path.isdir(src) and os.path.abspath(src) != os.path.abspath(dst) and not os.path.isdir(dst):
             shutil.copytree(src, dst)
             print("  copied assets/%s" % sub)
-    # the CV is linked from the home and about pages
-    src_cv = os.path.join(DATA_DIR, "cv_Osama_Halabi.pdf")
-    dst_dir = os.path.join(SITE_DIR, "Data")
-    if os.path.isfile(src_cv) and os.path.abspath(DATA_DIR) != os.path.abspath(dst_dir):
-        os.makedirs(dst_dir, exist_ok=True)
-        dst_cv = os.path.join(dst_dir, "cv_Osama_Halabi.pdf")
-        if not os.path.isfile(dst_cv):
-            shutil.copy2(src_cv, dst_cv)
-            print("  copied Data/cv_Osama_Halabi.pdf")
 
 
 # =============================================================================

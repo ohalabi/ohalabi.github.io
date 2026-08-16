@@ -171,10 +171,12 @@ year, never stored — so it can't go stale.
 
 ## 6. Known gaps — deliberately left for you
 
-1. **The headshot is composited on navy.** `build_headshot.py` put it on a
-   navy/gold background for the dark site; on paper it reads as a dark
-   rectangle. Re-run that script with a light background — the source is
-   `Data/Doc. Osama_2.png`. Highest-value single fix on the site.
+1. ~~The headshot is composited on navy.~~ — **done**, `build_headshot.py`
+   composites onto `--paper-sunk` (#f3f0ea), not navy — confirmed by
+   sampling the corner pixel of the built JPG. Also now emits three
+   downscaled widths (500/800/1200px) for the hero's `srcset`, since the
+   2060px source was shipping 4-8x more pixels than the ~260-500px hero
+   box ever renders.
 2. **Project text is objectives, not abstracts.** The harvested bullets read as
    aims ("To design and implement a haptic insole that…"). They work, but a
    two-sentence outcome paragraph per project would be much stronger. Add an
@@ -193,11 +195,13 @@ year, never stored — so it can't go stale.
 6. ~~`favicon.png` doesn't exist yet.~~ — **done**, `scripts/build_favicon.py`
    crops an icon-only mark (a favicon renders at 16-32px, so any baked-in
    wordmark is illegible regardless of which lockup it comes from —
-   icon-only is what actually reads at that size). Originally sourced from
-   `Logo/xreality-logo-clean-512.png` (transparent background); switched to
-   `Logo/xreality-logo-card-512.png` (opaque white background, the card
-   variant this note originally passed over) after the transparent version
-   turned out to disappear against a dark browser tab bar.
+   icon-only is what actually reads at that size). Sourced from
+   `Logo/xreality-logo-clean-512.png` (transparent background) — briefly
+   switched to `Logo/xreality-logo-card-512.png` (opaque white) after the
+   transparent version proved faint against a dark browser tab bar, then
+   switched back to transparent (2026-08-16) as the better general default;
+   the card variant remains the fallback if tab-bar visibility becomes a
+   real complaint again.
 7. **Image weight.** `assets/img/projects/` is ~20 MB of PNGs, several over
    700 KB. Convert to WebP with the existing Pillow pipeline before launch —
    this is the main Lighthouse item.
