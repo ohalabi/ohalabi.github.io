@@ -182,4 +182,13 @@
     el.href = "mailto:" + addr;
     el.removeAttribute("rel");
   });
+
+  /* ------------------------------------------------------- image guard
+     Blocks the right-click context menu on <img> only (never on text or
+     links) to deter casual "Save Image As" of headshots/diagrams. Does
+     nothing against anyone using dev tools, view-source, or a screenshot
+     -- it is a speed bump for casual reuse, not real protection. */
+  document.addEventListener("contextmenu", function (e) {
+    if (e.target.tagName === "IMG") e.preventDefault();
+  });
 })();

@@ -1,6 +1,7 @@
 # Machine-local state -- not meant to be shared or committed
 .claude/settings.local.json
 .impeccable/
+scripts/__pycache__/
 
 # Raw content-harvest sources: already processed into Data/*.json by the
 # one-off scripts documented in PLAN.md/HANDOVER.md. Not read by build.py,

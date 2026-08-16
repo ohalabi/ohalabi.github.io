@@ -1390,7 +1390,17 @@ def build_meta():
     write("sitemap.xml",
           '<?xml version="1.0" encoding="UTF-8"?>\n'
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n%s</urlset>\n' % urls)
-    write("robots.txt", "User-agent: *\nAllow: /\nSitemap: %s/sitemap.xml\n" % SITE_URL)
+    # Blocks the major AI-training/scraping crawlers by name (they mostly
+    # ignore Disallow: / under a wildcard User-agent, so each needs its own
+    # block) while leaving ordinary search-engine indexing untouched.
+    ai_bots = [
+        "GPTBot", "ChatGPT-User", "Google-Extended", "CCBot", "anthropic-ai",
+        "ClaudeBot", "Claude-Web", "Bytespider", "PerplexityBot",
+        "Applebot-Extended", "Meta-ExternalAgent", "Diffbot", "Omgilibot",
+    ]
+    robots = "".join("User-agent: %s\nDisallow: /\n\n" % b for b in ai_bots)
+    robots += "User-agent: *\nAllow: /\nSitemap: %s/sitemap.xml\n" % SITE_URL
+    write("robots.txt", robots)
 
 
 def copy_shared_assets():
