@@ -57,6 +57,7 @@ REPO_ROOT = os.path.dirname(DATA_DIR)
 
 SITE_URL = "https://osamahalabi.com"
 BUILT_ON = date.today().isoformat()
+GOATCOUNTER_SITE = "https://ohalabi.goatcounter.com/count"
 YEAR_NOW = date.today().year
 
 
@@ -459,7 +460,8 @@ def foot():
         College of Engineering, Qatar University, Doha.
       </p>
       <p class="colophon">Built from a JSON dataset with a 400-line Python generator.
-      No framework, no CDN, no tracking. Updated {BUILT_ON}.</p>
+      No framework. Visits are counted with <a href="https://www.goatcounter.com/">GoatCounter</a>
+      (no cookies, no personal data collected). Updated {BUILT_ON}.</p>
     </div>
     <div>
       <h3>Sections</h3>
@@ -477,6 +479,7 @@ def foot():
     </div>
   </div>
 </footer>
+<script data-goatcounter="{GOATCOUNTER_SITE}" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
 """
