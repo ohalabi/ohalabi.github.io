@@ -61,6 +61,17 @@ GOATCOUNTER_SITE = "https://ohalabi.goatcounter.com/count"
 YEAR_NOW = date.today().year
 
 
+def page_url(page):
+    """Canonical absolute URL for a page. index.html maps to the bare
+    root (https://osamahalabi.com/) rather than .../index.html -- both
+    serve identical content, so declaring two different "canonical" URLs
+    for the home page (one in <link rel="canonical">, another implied by
+    the sitemap) splits Google's indexing signal between them instead of
+    consolidating on the one URL people actually link to and see in the
+    address bar."""
+    return f"{SITE_URL}/" if page == "index.html" else f"{SITE_URL}/{page}"
+
+
 def load(name):
     with open(os.path.join(DATA_DIR, name), encoding="utf-8") as fh:
         return json.load(fh)
@@ -378,11 +389,11 @@ def head(title, desc, page, extra_css="", scripts=(), jsonld=None):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
-<link rel="canonical" href="{SITE_URL}/{page}">
+<link rel="canonical" href="{page_url(page)}">
 <meta property="og:type" content="website">
 <meta property="og:title" content="{e(title)}">
 <meta property="og:description" content="{e(desc)}">
-<meta property="og:url" content="{SITE_URL}/{page}">
+<meta property="og:url" content="{page_url(page)}">
 <meta property="og:image" content="{SITE_URL}/assets/img/headshot/osama-headshot-wide.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32">
@@ -1387,7 +1398,7 @@ def build_404():
 def build_meta():
     pages = ["index.html"] + [h for _, h in NAV]
     urls = "".join(
-        "  <url><loc>%s/%s</loc><lastmod>%s</lastmod></url>\n" % (SITE_URL, p, BUILT_ON)
+        "  <url><loc>%s</loc><lastmod>%s</lastmod></url>\n" % (page_url(p), BUILT_ON)
         for p in pages
     )
     write("sitemap.xml",
