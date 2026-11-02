@@ -2104,6 +2104,14 @@
     ]
   },
   {
+    "title": "The Grand Challenges for Engineering: Global Perspective and Local Outlook",
+    "year": "2012",
+    "type": "report",
+    "journal": null,
+    "url": null,
+    "source": "orcid"
+  },
+  {
     "title": "Enhancing 3D Scenes Using a Laser Projector in Real-time",
     "year": "2011",
     "type": "journal-article",
@@ -3786,6 +3794,14 @@
     ]
   },
   {
+    "title": "Cooperative/Collaborative Shared Haptic Virtual Environment for Training and Learning",
+    "year": "2003",
+    "type": "report",
+    "journal": null,
+    "url": null,
+    "source": "orcid"
+  },
+  {
     "title": "Network latency issue in cooperative shared haptic virtual environment",
     "year": "2003",
     "type": "conference-paper",
@@ -3850,6 +3866,38 @@
         "given": "Horiguchi"
       }
     ]
+  },
+  {
+    "title": "Cooperative Interaction in Haptic Shared Virtual Environment Using Energy Principles",
+    "year": "2001",
+    "type": "report",
+    "journal": null,
+    "url": null,
+    "source": "orcid"
+  },
+  {
+    "title": "Human Performance and Sensation in Haptic Virtual Environment",
+    "year": "2001",
+    "type": "report",
+    "journal": null,
+    "url": null,
+    "source": "orcid"
+  },
+  {
+    "title": "Magnetic Experimental Data Analyzing Program",
+    "year": "2001",
+    "type": "report",
+    "journal": null,
+    "url": null,
+    "source": "orcid"
+  },
+  {
+    "title": "Tele-Handshake: Cooperative Shared Haptic Virtual Environment",
+    "year": "2001",
+    "type": "report",
+    "journal": null,
+    "url": null,
+    "source": "orcid"
   },
   {
     "title": "Tele-handshake: a cooperative shared haptic virtual environment",
